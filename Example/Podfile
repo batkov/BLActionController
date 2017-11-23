@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'BLActionController_Example' do
+  pod 'BLActionController', :path => '../'
+
+  target 'BLActionController_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
