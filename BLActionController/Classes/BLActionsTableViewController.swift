@@ -37,17 +37,17 @@ public protocol BLActionsTableCell {
 
 public protocol BLActionViewControllerDelegate {
     
-    func actionController<T, C>(addObjectFrom: BLActionsTableViewController<T, C>!)
+    func action<T, C>(addObjectFrom controller: BLActionsTableViewController<T, C>!)
     
-    func actionController<T, C>(editObjectFrom: BLActionsTableViewController<T, C>!, object:T!)
+    func action<T, C>(editObjectFrom controller: BLActionsTableViewController<T, C>!, object:T!)
     
-    func actionController<T, C>(viewObjectFrom: BLActionsTableViewController<T, C>!, object:T!)
+    func action<T, C>(viewObjectFrom controller: BLActionsTableViewController<T, C>!, object:T!)
     
-    func actionController<T, C>(showDeleteActivity: BLActionsTableViewController<T, C>!)
+    func action<T, C>(showDeleteActivity controller: BLActionsTableViewController<T, C>!)
     
-    func actionController<T, C>(dismissDeleteSuccess: BLActionsTableViewController<T, C>!)
+    func action<T, C>(dismissDeleteSuccess controller: BLActionsTableViewController<T, C>!)
     
-    func actionController<T, C>(dismissDelete: BLActionsTableViewController<T, C>!, error:Error!)
+    func action<T, C>(dismissDelete controller: BLActionsTableViewController<T, C>!, error:Error!)
 }
 
 public let kBLErrorSourceDeleteRequest = Int32(50)
@@ -83,7 +83,7 @@ open class BLActionsTableViewController<T : BLDataObject, C : BLActionsTableCell
         guard let editDelegate = self.controllerDelegate else {
             preconditionFailure("You need to provide 'controllerDelegate' if you planning to allow user to add object")
         }
-        editDelegate.actionController(addObjectFrom: self)
+        editDelegate.action(addObjectFrom: self)
     }
     
     
@@ -91,7 +91,7 @@ open class BLActionsTableViewController<T : BLDataObject, C : BLActionsTableCell
         guard let editDelegate = self.controllerDelegate else {
             preconditionFailure("You need to provide 'controllerDelegate' if you planning to allow user to edit object")
         }
-        editDelegate.actionController(editObjectFrom: self, object: object)
+        editDelegate.action(editObjectFrom: self, object: object)
     }
     
     func deleteObject(_ object : T?) {
@@ -111,14 +111,14 @@ open class BLActionsTableViewController<T : BLDataObject, C : BLActionsTableCell
             preconditionFailure("You need to provide 'update' for 'dataSource' if you  delete")
         }
         if let editDelegate = self.controllerDelegate {
-            editDelegate.actionController(showDeleteActivity: self)
+            editDelegate.action(showDeleteActivity: self)
         }
         inProcessOfRemoving = true
         update.delete(object, callback: { [weak self] (result, error) in
             self?.inProcessOfRemoving = false
             guard let error = error else {
                 if let editDelegate = self?.controllerDelegate {
-                    editDelegate.actionController(dismissDeleteSuccess: self)
+                    editDelegate.action(showDeleteActivity: self)
                 }
                 return
             }
@@ -127,7 +127,7 @@ open class BLActionsTableViewController<T : BLDataObject, C : BLActionsTableCell
             }
             
             if let editDelegate = self?.controllerDelegate {
-                editDelegate.actionController(dismissDelete: self, error: error)
+                editDelegate.action(dismissDelete: self, error: error)
             }
         })
         guard let indexPath = self.dataSource.dataStructure?.indexPath(for: object!) else {
@@ -165,7 +165,7 @@ open class BLActionsTableViewController<T : BLDataObject, C : BLActionsTableCell
         guard let editDelegate = self.controllerDelegate else {
                 preconditionFailure("You need to provide 'controllerDelegate' if you planning to allow user to edit object")
         }
-        editDelegate.actionController(viewObjectFrom: self, object: object)
+        editDelegate.action(viewObjectFrom: self, object: object)
     }
     
     public func tableView(_ tableView: UITableView, editActionsForRowAt indexPath: IndexPath, for orientation: SwipeActionsOrientation) -> [SwipeAction]? {

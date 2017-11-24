@@ -35,9 +35,9 @@ public protocol BLSelectTableCell {
 }
 
 public protocol BLSelectTableViewControllerDelegate {
-    func selectionController<T, C>(_ : BLSelectTableViewController<T, C>!, selectionChanged: [T]!)
-    func selectionController<T, C>(_ : BLSelectTableViewController<T, C>!, doneWithSelection: [T]!)
-    func selectionController<T, C>(cancelled _ : BLSelectTableViewController<T, C>!)
+    func selection<T, C>(controller : BLSelectTableViewController<T, C>!, selectionChanged: [T]!)
+    func selection<T, C>(controller : BLSelectTableViewController<T, C>!, doneWithSelection: [T]!)
+    func selection<T, C>(cancelled controller : BLSelectTableViewController<T, C>!)
 }
 
 open class BLSelectTableViewController<T : BLDataObject, C : BLSelectTableCell> : BLListViewController  {
@@ -105,7 +105,7 @@ open class BLSelectTableViewController<T : BLDataObject, C : BLSelectTableCell> 
         } else {
             selectedObjects.append(object)
         }
-        editDelegate.selectionController(self, selectionChanged: selectedObjects)
+        editDelegate.selection(controller: self, selectionChanged: selectedObjects)
         self.tableView.reloadRows(at: [indexPath], with: .automatic)
     }
     
@@ -113,14 +113,14 @@ open class BLSelectTableViewController<T : BLDataObject, C : BLSelectTableCell> 
         guard let editDelegate = self.controllerDelegate else {
             preconditionFailure("You need to provide 'controllerDelegate' if you planning to allow user to edit object")
         }
-        editDelegate.selectionController(cancelled: self)
+        editDelegate.selection(cancelled: self)
     }
     
     @objc func doneButtonTapped() {
         guard let editDelegate = self.controllerDelegate else {
             preconditionFailure("You need to provide 'controllerDelegate' if you planning to allow user to edit object")
         }
-        editDelegate.selectionController(self, doneWithSelection: selectedObjects)
+        editDelegate.selection(controller: self, doneWithSelection: selectedObjects)
     }
     
     func selectedPositionOfObject(object : T!) -> Int? {
