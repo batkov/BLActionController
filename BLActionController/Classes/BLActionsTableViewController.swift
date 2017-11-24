@@ -43,6 +43,8 @@ public protocol BLActionViewControllerDelegate {
     
     func action<T, C>(viewObjectFrom controller: BLActionsTableViewController<T, C>!, object:T!)
     
+    func action<T, C>(promptToDelete controller: BLActionsTableViewController<T, C>!, object:T!, deleteCallback:(()->()))
+    
     func action<T, C>(showDeleteActivity controller: BLActionsTableViewController<T, C>!)
     
     func action<T, C>(dismissDeleteSuccess controller: BLActionsTableViewController<T, C>!)
@@ -95,14 +97,12 @@ open class BLActionsTableViewController<T : BLDataObject, C : BLActionsTableCell
     }
     
     func deleteObject(_ object : T?) {
-        let alert = UIAlertController(title: "Are you sure?", message: "This action cannot be undone.", preferredStyle: .actionSheet)
-        alert.addAction(UIAlertAction(title: "Delete",
-                                      style: .destructive, handler: { [weak self] (action) in
-                                        self?.performDeleteObject(object)
-        }))
-        alert.addAction(UIAlertAction(title: "Cancel",
-                                      style: .cancel, handler: nil))
-        present(alert, animated: true, completion: nil)
+        guard let editDelegate = self.controllerDelegate else {
+            preconditionFailure("You need to provide 'controllerDelegate' if you planning to allow user to edit object")
+        }
+        editDelegate.action(promptToDelete: self, object: object) { [weak self] in
+            self?.performDeleteObject(object)
+        };
     }
     
     private func performDeleteObject(_ object : T!) {
@@ -118,7 +118,7 @@ open class BLActionsTableViewController<T : BLDataObject, C : BLActionsTableCell
             self?.inProcessOfRemoving = false
             guard let error = error else {
                 if let editDelegate = self?.controllerDelegate {
-                    editDelegate.action(showDeleteActivity: self)
+                    editDelegate.action(dismissDeleteSuccess: self)
                 }
                 return
             }
