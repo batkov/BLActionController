@@ -1,0 +1,6 @@
+framework module BLListViewController {
+  umbrella header "BLListViewController-umbrella.h"
+
+  export *
+  module * { export * }
+}

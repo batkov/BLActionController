@@ -1,0 +1,6 @@
+framework module BLActionController {
+  umbrella header "BLActionController-umbrella.h"
+
+  export *
+  module * { export * }
+}

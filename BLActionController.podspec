@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'BLActionController'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of BLActionController.'
+  s.summary          = 'BLActionController is an extension to BLListViewController to provide some actions using SwipeCellKit'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -18,17 +18,17 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
-                       DESC
+BLActionController is an extension to BLListViewController to provide some actions using SwipeCellKit.
+Delete, Edit, View basic actions. Also pick from dataSource.
+                    DESC
 
   s.homepage         = 'https://github.com/batkov/BLActionController'
-  # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'batkov' => 'yanker90@gmail.com' }
+  s.author           = { 'batkov' => 'batkov@i.ua' }
   s.source           = { :git => 'https://github.com/batkov/BLActionController.git', :tag => s.version.to_s }
-  # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
+  s.social_media_url = 'https://twitter.com/batkov111'
 
-  s.ios.deployment_target = '8.0'
+  s.ios.deployment_target = '9.0'
 
   s.source_files = 'BLActionController/Classes/**/*'
   
@@ -36,7 +36,6 @@ TODO: Add long description of the pod here.
   #   'BLActionController' => ['BLActionController/Assets/*.png']
   # }
 
-  # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
+    s.dependency 'BLListViewController'
+    s.dependency 'SwipeCellKit'
 end
