@@ -43,7 +43,7 @@ public protocol BLActionViewControllerDelegate {
     
     func action<T, C>(viewObjectFrom controller: BLActionsTableViewController<T, C>!, object:T!)
     
-    func action<T, C>(promptToDelete controller: BLActionsTableViewController<T, C>!, object:T!, deleteCallback:(()->()))
+    func action<T, C>(promptToDelete controller: BLActionsTableViewController<T, C>!, object:T!, deleteCallback:@escaping (()->()))
     
     func action<T, C>(showDeleteActivity controller: BLActionsTableViewController<T, C>!)
     
