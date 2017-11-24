@@ -62,6 +62,11 @@ open class BLActionsTableViewController<T : BLDataObject, C : BLActionsTableCell
     
     public var allowEditing = true
     
+    public var editTitle = "Edit"
+    public var editImage : UIImage?
+    public var deleteTitle = "Delete"
+    public var deleteImage : UIImage?
+    
     public var controllerDelegate : BLActionViewControllerDelegate?
     
     override open func viewDidLoad() {
@@ -175,14 +180,16 @@ open class BLActionsTableViewController<T : BLDataObject, C : BLActionsTableCell
                 return []
             }
             if orientation == .right {
-                let edit = SwipeAction(style: .default, title: "Edit", handler: { [weak self] (action, indexPath) in
+                let edit = SwipeAction(style: .default, title: editTitle, handler: { [weak self] (action, indexPath) in
                     let theCell = self?.tableView.cellForRow(at: indexPath) as! SwipeTableViewCell
                     theCell.hideSwipe(animated: true);
                     self?.editObject(theObject)
                 })
-                let delete = SwipeAction(style: .destructive, title: "Delete", handler: { [weak self] (action, indexPath) in
+                edit.image = editImage
+                let delete = SwipeAction(style: .destructive, title: deleteTitle, handler: { [weak self] (action, indexPath) in
                     self?.deleteObject(theObject)
                 })
+                delete.image = deleteImage
                 return [delete, edit]
             }
         }
