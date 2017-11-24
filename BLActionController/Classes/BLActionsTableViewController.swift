@@ -26,7 +26,7 @@ import Foundation
 import BLListViewController
 import SwipeCellKit
 
-protocol BLActionsTableCell {
+public protocol BLActionsTableCell {
     
     static func nibName() -> String!
     
@@ -35,7 +35,7 @@ protocol BLActionsTableCell {
     var delegate : SwipeTableViewCellDelegate?  { get set }
 }
 
-protocol BLActionViewControllerDelegate {
+public protocol BLActionViewControllerDelegate {
     
     func actionController<T, C>(addObjectFrom: BLActionsTableViewController<T, C>!)
     
@@ -54,7 +54,7 @@ public let kBLErrorSourceDeleteRequest = Int32(50)
 
 public let kBLDefaultEstimatedCellHeight =  CGFloat(140)
 
-class BLActionsTableViewController<T : BLDataObject, C : BLActionsTableCell> : BLListViewController, SwipeTableViewCellDelegate  {
+open class BLActionsTableViewController<T : BLDataObject, C : BLActionsTableCell> : BLListViewController, SwipeTableViewCellDelegate  {
     
     private var inProcessOfRemoving = false
     
@@ -62,7 +62,7 @@ class BLActionsTableViewController<T : BLDataObject, C : BLActionsTableCell> : B
     
     public var controllerDelegate : BLActionViewControllerDelegate?
     
-    override func viewDidLoad() {
+    override open func viewDidLoad() {
         super.viewDidLoad()
         self.fetchObjectsIfNeededOnDisplay = true
         self.tableView.estimatedRowHeight = kBLDefaultEstimatedCellHeight
@@ -137,25 +137,25 @@ class BLActionsTableViewController<T : BLDataObject, C : BLActionsTableCell> : B
         self.tableView.deleteRows(at: [indexPath], with: .none)
     }
     
-    override func reloadItemsFromSource() {
+    override open func reloadItemsFromSource() {
         if inProcessOfRemoving {
             return
         }
         super.reloadItemsFromSource()
     }
     
-    override func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
+    override open func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
         return UITableViewAutomaticDimension
     }
     
-    override func customize(_ cell: UITableViewCell!, for indexPath: IndexPath!) {
+    override open func customize(_ cell: UITableViewCell!, for indexPath: IndexPath!) {
         var theCell = cell as! C
         let object = self.dataSource.dataStructure?.object(for: indexPath)
         theCell.object = object
         theCell.delegate = self
     }
     
-    override func cellSelected(at indexPath: IndexPath!) {
+    override open func cellSelected(at indexPath: IndexPath!) {
         if let object = self.dataSource.dataStructure?.object(for: indexPath) as! T! {
             viewObject(object: object)
         }
@@ -168,7 +168,7 @@ class BLActionsTableViewController<T : BLDataObject, C : BLActionsTableCell> : B
         editDelegate.actionController(viewObjectFrom: self, object: object)
     }
     
-    func tableView(_ tableView: UITableView, editActionsForRowAt indexPath: IndexPath, for orientation: SwipeActionsOrientation) -> [SwipeAction]? {
+    public func tableView(_ tableView: UITableView, editActionsForRowAt indexPath: IndexPath, for orientation: SwipeActionsOrientation) -> [SwipeAction]? {
         if self.allowEditing {
             let object = self.dataSource.dataStructure?.object(for: indexPath)
             guard let obj = object, let theObject = obj as? T else {

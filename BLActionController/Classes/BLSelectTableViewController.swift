@@ -25,7 +25,7 @@
 import Foundation
 import BLListViewController
 
-protocol BLSelectTableCell {
+public protocol BLSelectTableCell {
     
     static func nibName() -> String!
     
@@ -34,13 +34,13 @@ protocol BLSelectTableCell {
     var objectSelected : Bool  { get set }
 }
 
-protocol BLSelectTableViewControllerDelegate {
+public protocol BLSelectTableViewControllerDelegate {
     func selectionController<T, C>(_ : BLSelectTableViewController<T, C>!, selectionChanged: [T]!)
     func selectionController<T, C>(_ : BLSelectTableViewController<T, C>!, doneWithSelection: [T]!)
     func selectionController<T, C>(cancelled _ : BLSelectTableViewController<T, C>!)
 }
 
-class BLSelectTableViewController<T : BLDataObject, C : BLSelectTableCell> : BLListViewController  {
+open class BLSelectTableViewController<T : BLDataObject, C : BLSelectTableCell> : BLListViewController  {
     
     public var controllerDelegate : BLSelectTableViewControllerDelegate?
     public var allowMultiselection = true
@@ -62,7 +62,7 @@ class BLSelectTableViewController<T : BLDataObject, C : BLSelectTableCell> : BLL
         return controller
     }
     
-    override func viewDidLoad() {
+    override open func viewDidLoad() {
         super.viewDidLoad()
         self.fetchObjectsIfNeededOnDisplay = true
         self.tableView.estimatedRowHeight = kBLDefaultEstimatedCellHeight
@@ -77,7 +77,7 @@ class BLSelectTableViewController<T : BLDataObject, C : BLSelectTableCell> : BLL
                                                            action: #selector(doneButtonTapped))
     }
     
-    override func customize(_ cell: UITableViewCell!, for indexPath: IndexPath!) {
+    override open func customize(_ cell: UITableViewCell!, for indexPath: IndexPath!) {
         var theCell = cell as! C
         let object = self.dataSource.dataStructure?.object(for: indexPath)
         if let obj = object as! T! {
@@ -89,7 +89,7 @@ class BLSelectTableViewController<T : BLDataObject, C : BLSelectTableCell> : BLL
         }
     }
     
-    override func cellSelected(at indexPath: IndexPath!) {
+    override open func cellSelected(at indexPath: IndexPath!) {
         if let object = self.dataSource.dataStructure?.object(for: indexPath) as! T! {
             changeSelectionFor(object: object, indexPath: indexPath)
         }
