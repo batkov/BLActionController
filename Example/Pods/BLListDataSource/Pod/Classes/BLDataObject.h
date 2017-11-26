@@ -26,14 +26,22 @@
 
 @protocol BLDataObject <NSObject>
 
-// Unique string that differ this object from others
-- (NSString* __nullable) objectId;
+/**
+ The id of the object.
+ */
+@property (nullable, nonatomic, strong) NSString *objectId;
 
-// Creation date
-- (NSDate * __nullable) createdAt;
+/**
+ When the object was created.
+ */
+@property (nullable, nonatomic, strong, readonly) NSDate *createdAt;
 
-// Date of last update
-- (NSDate * __nullable) updatedAt;
+/**
+ When the object was last updated.
+ */
+@property (nullable, nonatomic, strong, readonly) NSDate *updatedAt;
+
+
 
 @optional
 // If this object is some kind of proxy you can
@@ -41,9 +49,13 @@
 - (id __nonnull) objectToStore;
 - (NSArray * __nonnull) objectsToStore;
 
-// Return NO if object need to be fetched before use
-// If not implemented consider 'isDataAvailable' as YES
-- (BOOL) isDataAvailable;
+/**
+ Gets whether the `BLDataObject` has been fetched.
+ Return NO if object need to be fetched before use
+ If not implemented consider 'isDataAvailable' as YES
+ @return `YES` if the BLDataObject is new or has been fetched or refreshed, otherwise `NO`.
+ */
+@property (nonatomic, assign, readonly, getter=isDataAvailable) BOOL dataAvailable;
 
 // Return NO if object(or objects for conplex class) need to be fetched before use
 // If not implemented consider 'isAllDataAvailable' as YES

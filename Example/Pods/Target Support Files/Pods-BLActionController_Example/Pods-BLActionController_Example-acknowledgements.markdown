@@ -3,7 +3,7 @@ This application makes use of the following third party libraries:
 
 ## BLActionController
 
-Copyright (c) 2017 batkov <yanker90@gmail.com>
+Copyright (c) 2017 Hariton Batkov
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
