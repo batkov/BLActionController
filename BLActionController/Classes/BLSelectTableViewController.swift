@@ -125,7 +125,7 @@ open class BLSelectTableViewController<T : BLDataObject, C : BLSelectTableCell> 
     
     func selectedPositionOfObject(object : T!) -> Int? {
         let position = selectedObjects.index { (obj) -> Bool in
-            if let id1 = obj.objectId(), let id2 = object.objectId() {
+            if let id1 = obj.objectId, let id2 = object.objectId {
                 return id1 == id2
             }
             return false
