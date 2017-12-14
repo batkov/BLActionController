@@ -33,11 +33,11 @@ public let kBLActionControllerMapNavIdentifier = "nav_map"
 public let kBLActionControllerMapIdentifier = "map"
 public let kBLActionControllerMapListIdentifier = "list"
 
-protocol BLMapObject : MKAnnotation {
+public protocol BLMapObject : MKAnnotation {
     func isAnnotationAvailable() -> Bool
 }
 
-class BLMapListController : UIViewController, MKMapViewDelegate {
+open class BLMapListController : UIViewController, MKMapViewDelegate {
     var dataSource : BLListDataSource?
     let clusteringManager = FBClusteringManager()
     
@@ -65,7 +65,7 @@ class BLMapListController : UIViewController, MKMapViewDelegate {
         return mapController
     }
     
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+    override open func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         guard segue.identifier == kBLActionControllerMapListIdentifier else {
             return
         }
@@ -83,7 +83,7 @@ class BLMapListController : UIViewController, MKMapViewDelegate {
         mapView(mapView, regionDidChangeAnimated: false)
     }
     
-    override func viewDidLoad() {
+    override open func viewDidLoad() {
         super.viewDidLoad()
         dataSource!.itemsChangedBlock = { [weak self] (items) in
             guard let dataStructure = self?.dataSource?.dataStructure else {
@@ -105,7 +105,7 @@ class BLMapListController : UIViewController, MKMapViewDelegate {
         reloadMap()
     }
     
-    func mapView(_ mapView: MKMapView, regionDidChangeAnimated animated: Bool) {
+    public func mapView(_ mapView: MKMapView, regionDidChangeAnimated animated: Bool) {
         OperationQueue().addOperation { [weak self] in
             let scale = Double(mapView.bounds.size.width) / Double(mapView.visibleMapRect.size.width)
             let annotations = self?.clusteringManager.clusteredAnnotations(within: mapView.visibleMapRect, withZoomScale: scale)
