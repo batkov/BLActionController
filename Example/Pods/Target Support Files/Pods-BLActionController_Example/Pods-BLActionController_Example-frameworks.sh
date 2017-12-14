@@ -106,6 +106,7 @@ if [[ "$CONFIGURATION" == "Debug" ]]; then
   install_framework "${BUILT_PRODUCTS_DIR}/BLListDataSource/BLListDataSource.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/BLListViewController/BLListViewController.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/DateTools/DateTools.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/FBAnnotationClustering/FBAnnotationClustering.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/MJRefresh/MJRefresh.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/SwipeCellKit/SwipeCellKit.framework"
 fi
@@ -114,6 +115,7 @@ if [[ "$CONFIGURATION" == "Release" ]]; then
   install_framework "${BUILT_PRODUCTS_DIR}/BLListDataSource/BLListDataSource.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/BLListViewController/BLListViewController.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/DateTools/DateTools.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/FBAnnotationClustering/FBAnnotationClustering.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/MJRefresh/MJRefresh.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/SwipeCellKit/SwipeCellKit.framework"
 fi

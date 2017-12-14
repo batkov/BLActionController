@@ -41,9 +41,15 @@ typedef BLBaseFetchResult*(^BLFetchResultBlock)(id object, BOOL isLocal);
 
 @property (nonatomic, strong, readonly) NSArray<id<BLDataObject>> * items;
 @property (nonatomic, strong, readonly) NSError * lastError;
+@property (nonatomic, assign, readonly, getter=isLocal) BOOL local;
 
-// Array with arrays
-// @[@[item00, item01], @[item10, item11, item12]]
+// Mark fetchResult as local object
+- (void) setLocal;
+
+/**
+ Array with arrays
+ @[@[item00, item01], @[item10, item11, item12]]
+ */
 - (NSArray *) sections;
 
 // Array with arrays

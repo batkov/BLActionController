@@ -174,6 +174,7 @@
                 [selff cleanContent];
             }
             BLBaseFetchResult * result = [selff createFetchResultForLocalObject:object];
+            [result setLocal];
             [selff processFetchResult:result];
         }
         if (goingToCallContentLoaded) {

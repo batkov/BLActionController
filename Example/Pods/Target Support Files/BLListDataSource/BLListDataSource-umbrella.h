@@ -12,6 +12,7 @@
 
 #import "BLDataKeys.h"
 #import "BLDataObject.h"
+#import "BLCompoundDataSource.h"
 #import "BLDataSource+Subclass.h"
 #import "BLDataSource.h"
 #import "BLFetchDataSource.h"

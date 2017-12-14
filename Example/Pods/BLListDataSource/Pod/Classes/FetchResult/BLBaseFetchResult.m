@@ -74,4 +74,10 @@
     self.items = [NSArray arrayWithArray:array];
 }
 
+#pragma mark -
+
+- (void) setLocal {
+    _local = YES;
+}
+
 @end

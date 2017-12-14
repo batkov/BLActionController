@@ -164,7 +164,10 @@
     if (self.itemsChangedBlock) {
         self.itemsChangedBlock (self.dataStructure);
     }
-    [self updatePagingFlagsForListSize];
+    if (!fetchResult.isLocal) {
+        // Update flags only if we fetching online data
+        [self updatePagingFlagsForListSize];
+    }
     [self loadNextPageIfAutoAdvance];
 }
 

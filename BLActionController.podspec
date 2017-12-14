@@ -11,15 +11,10 @@ Pod::Spec.new do |s|
   s.version          = '0.1.2'
   s.summary          = 'BLActionController is an extension to BLListViewController to provide some actions using SwipeCellKit'
 
-# This description is used to generate tags and improve search results.
-#   * Think: What does it do? Why did you write it? What is the focus?
-#   * Try to keep it short, snappy and to the point.
-#   * Write the description between the DESC delimiters below.
-#   * Finally, don't worry about the indent, CocoaPods strips it!
-
   s.description      = <<-DESC
 BLActionController is an extension to BLListViewController to provide some actions using SwipeCellKit.
 Delete, Edit, View basic actions. Also pick from dataSource.
+BLMapListController will display items on map and on the list.
                     DESC
 
   s.homepage         = 'https://github.com/batkov/BLActionController'
@@ -28,14 +23,14 @@ Delete, Edit, View basic actions. Also pick from dataSource.
   s.source           = { :git => 'https://github.com/batkov/BLActionController.git', :tag => s.version.to_s }
   s.social_media_url = 'https://twitter.com/batkov111'
 
-  s.ios.deployment_target = '9.0'
+  s.platform     = :ios, '9.0'
+  s.framework    = 'MapKit'
 
-  s.source_files = 'BLActionController/Classes/**/*'
-  
-  # s.resource_bundles = {
-  #   'BLActionController' => ['BLActionController/Assets/*.png']
-  # }
-
-    s.dependency 'BLListViewController'
-    s.dependency 'SwipeCellKit'
+  s.source_files = 'BLActionController/Classes/**/*.{swift}'
+  s.resource_bundles = {
+    'BLActionController' => ['Pod/Classes/**/*.{storyboard,xib}']
+  }
+  s.dependency 'BLListViewController'
+  s.dependency 'SwipeCellKit'
+  s.dependency 'FBAnnotationClustering'
 end
