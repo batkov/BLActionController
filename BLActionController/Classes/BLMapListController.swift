@@ -38,7 +38,7 @@ public protocol BLMapObject : MKAnnotation {
 }
 
 open class BLMapListController : UIViewController, MKMapViewDelegate {
-    var dataSource : BLListDataSource?
+    open var dataSource : BLListDataSource?
     let clusteringManager = FBClusteringManager()
     
     @IBOutlet var mapView: MKMapView!
@@ -85,6 +85,7 @@ open class BLMapListController : UIViewController, MKMapViewDelegate {
     
     override open func viewDidLoad() {
         super.viewDidLoad()
+        precondition(dataSource != nil)
         dataSource!.itemsChangedBlock = { [weak self] (items) in
             guard let dataStructure = self?.dataSource?.dataStructure else {
                 return
@@ -101,6 +102,11 @@ open class BLMapListController : UIViewController, MKMapViewDelegate {
             })
             self?.clusteringManager.setAnnotations(annotations)
             self?.reloadMap()
+        }
+        if dataSource?.state == .init {
+            dataSource?.startContentLoading()
+        } else {
+            dataSource?.refreshContentIfPossible()
         }
         reloadMap()
     }
