@@ -27,9 +27,7 @@ BLMapListController will display items on map and on the list.
   s.framework    = 'MapKit'
 
   s.source_files = 'BLActionController/Classes/**/*.{swift}'
-  s.resource_bundles = {
-    'BLActionControllerUI' => ['BLActionController/Classes/**/*.{storyboard,xib}']
-  }
+  s.resources = ['BLActionController/Classes/**/*.{storyboard,xib}']
   s.dependency 'BLListViewController'
   s.dependency 'SwipeCellKit'
   s.dependency 'FBAnnotationClustering'
