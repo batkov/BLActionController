@@ -28,11 +28,6 @@ import BLListViewController
 import MapKit
 import FBAnnotationClustering
 
-public let kBLActionControllerMapStoryboardName = "Map"
-public let kBLActionControllerMapNavIdentifier = "nav_map"
-public let kBLActionControllerMapIdentifier = "map"
-public let kBLActionControllerMapListIdentifier = "list"
-
 public protocol BLMapObject : MKAnnotation {
     func isAnnotationAvailable() -> Bool
 }
@@ -40,6 +35,11 @@ public protocol BLMapObject : MKAnnotation {
 open class BLMapListController : UIViewController, MKMapViewDelegate, UIViewControllerTransitioningDelegate {
     open var dataSource : BLListDataSource?
     let clusteringManager = FBClusteringManager()
+    
+    public static let kBLActionControllerMapStoryboardName = "Map"
+    public static let kBLActionControllerMapNavIdentifier = "nav_map"
+    public static let kBLActionControllerMapIdentifier = "map"
+    public static let kBLActionControllerMapListIdentifier = "list"
     
     @IBOutlet var mapView: MKMapView!
     @IBOutlet var seeListButton: UIButton!
@@ -68,7 +68,7 @@ open class BLMapListController : UIViewController, MKMapViewDelegate, UIViewCont
     }
     
     override open func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        guard segue.identifier == kBLActionControllerMapListIdentifier else {
+        guard segue.identifier == BLMapListController.kBLActionControllerMapListIdentifier else {
             return
         }
         let destination = segue.destination
@@ -82,7 +82,9 @@ open class BLMapListController : UIViewController, MKMapViewDelegate, UIViewCont
         guard let dataSource = dataSource else {
             return
         }
-        seeListButton.alpha = dataSource.hasContent() ? 1 : 0
+        let alpha = CGFloat(dataSource.hasContent() ? 1 : 0)
+        separatorView.alpha = alpha
+        seeListButton.alpha = alpha
         mapView(mapView, regionDidChangeAnimated: false)
     }
     
@@ -103,8 +105,10 @@ open class BLMapListController : UIViewController, MKMapViewDelegate, UIViewCont
                     annotations.append(mapObject)
                 }
             })
-            self?.clusteringManager.setAnnotations(annotations)
-            self?.reloadMap()
+            DispatchQueue.main.async {
+                self?.clusteringManager.setAnnotations(annotations)
+                self?.reloadMap()
+            }
         }
         if dataSource?.state == .init {
             dataSource?.startContentLoading()
