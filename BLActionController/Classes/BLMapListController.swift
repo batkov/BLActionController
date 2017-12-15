@@ -34,6 +34,8 @@ public protocol BLMapObject : MKAnnotation {
 
 open class BLMapListController : UIViewController, MKMapViewDelegate, UIViewControllerTransitioningDelegate {
     open var dataSource : BLListDataSource?
+    open var listBlock : ((BLListDataSource)->(UIViewController))?
+    
     let clusteringManager = FBClusteringManager()
     
     public static let kBLActionControllerMapStoryboardName = "Map"
@@ -67,22 +69,12 @@ open class BLMapListController : UIViewController, MKMapViewDelegate, UIViewCont
         return mapController
     }
     
-    override open func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        guard segue.identifier == BLMapListController.kBLActionControllerMapListIdentifier else {
-            return
-        }
-        let destination = segue.destination
-        if let list = destination as? BLListViewController {
-            list.dataSource = dataSource!
-            list.transitioningDelegate = self
-        }
-    }
-    
     func reloadMap() {
         guard let dataSource = dataSource else {
             return
         }
-        let alpha = CGFloat(dataSource.hasContent() ? 1 : 0)
+        let blockPresented = listBlock != nil
+        let alpha = CGFloat(blockPresented && dataSource.hasContent() ? 1 : 0)
         separatorView.alpha = alpha
         seeListButton.alpha = alpha
         mapView(mapView, regionDidChangeAnimated: false)
@@ -121,11 +113,50 @@ open class BLMapListController : UIViewController, MKMapViewDelegate, UIViewCont
     @IBAction func doneButtonTapped(_ sender: Any) {
         self.dismiss(animated: true, completion: nil)
     }
+    @IBAction func seeListTapped(_ sender: Any) {
+        precondition(dataSource != nil)
+        guard let listBlock = listBlock else {
+            print("Provide listBlock to show list")
+            return
+        }
+        let destination = listBlock(dataSource!)
+        
+        var probablyList = destination
+        
+        var push = true
+        if let navigation = probablyList as? UINavigationController {
+            if let first = navigation.viewControllers.first {
+                probablyList = first
+            }
+            push = false
+        }
+        
+        if let list = probablyList as? BLListViewController {
+            if list.dataSource == nil {
+                list.dataSource = dataSource!
+            }
+        }
+        if destination.transitioningDelegate == nil {
+            destination.transitioningDelegate = self
+        }
+        if let navigation = navigationController {
+            if push {
+                navigation.pushViewController(destination, animated: true)
+            } else {
+                navigation.present(destination, animated: true, completion: nil)
+            }
+        } else {
+            present(destination, animated: true, completion: nil)
+        }
+    }
     
     public func mapView(_ mapView: MKMapView, regionDidChangeAnimated animated: Bool) {
+        let bounds = mapView.bounds
+        let visibleMapRect = mapView.visibleMapRect
         OperationQueue().addOperation { [weak self] in
-            let scale = Double(mapView.bounds.size.width) / Double(mapView.visibleMapRect.size.width)
-            let annotations = self?.clusteringManager.clusteredAnnotations(within: mapView.visibleMapRect, withZoomScale: scale)
+            let scale = Double(bounds.size.width) / Double(visibleMapRect.size.width)
+            let annotations = self?.clusteringManager.clusteredAnnotations(within: visibleMapRect,
+                                                                           withZoomScale: scale)
             
             self?.clusteringManager.displayAnnotations(annotations, on: mapView)
         }
