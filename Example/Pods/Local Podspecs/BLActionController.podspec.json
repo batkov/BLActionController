@@ -1,6 +1,6 @@
 {
   "name": "BLActionController",
-  "version": "0.1.2",
+  "version": "0.2.0",
   "summary": "BLActionController is an extension to BLListViewController to provide some actions using SwipeCellKit",
   "description": "BLActionController is an extension to BLListViewController to provide some actions using SwipeCellKit.\nDelete, Edit, View basic actions. Also pick from dataSource.\nBLMapListController will display items on map and on the list.",
   "homepage": "https://github.com/batkov/BLActionController",
@@ -13,7 +13,7 @@
   },
   "source": {
     "git": "https://github.com/batkov/BLActionController.git",
-    "tag": "0.1.2"
+    "tag": "0.2.0"
   },
   "social_media_url": "https://twitter.com/batkov111",
   "platforms": {
@@ -21,11 +21,9 @@
   },
   "frameworks": "MapKit",
   "source_files": "BLActionController/Classes/**/*.{swift}",
-  "resource_bundles": {
-    "BLActionController": [
-      "Pod/Classes/**/*.{storyboard,xib}"
-    ]
-  },
+  "resources": [
+    "BLActionController/Classes/**/*.{storyboard,xib}"
+  ],
   "dependencies": {
     "BLListViewController": [
 

@@ -7,283 +7,276 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		00AD4E41D1033391FA39C9757D9CF552 /* MJRefreshGifHeader.h in Headers */ = {isa = PBXBuildFile; fileRef = 401B2995B506496E08DFC2FED6F60A8F /* MJRefreshGifHeader.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		01B641B66DD02A9D78393C419B72E57B /* SwipeTableViewCellDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80311F218271AFDCF9B0B3BE5C87DCF3 /* SwipeTableViewCellDelegate.swift */; };
-		024219C082DE2A5A0419FABA2949C15B /* FBAnnotationClustering-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D17317F8768E62FCDB3AD71547322666 /* FBAnnotationClustering-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		050D3C8D8F9CAFEFA42488AE45769111 /* MJRefreshBackStateFooter.m in Sources */ = {isa = PBXBuildFile; fileRef = E89C26662E1C5941D20CC50C3E9E07FB /* MJRefreshBackStateFooter.m */; };
-		05AA8B638826FCFDF99D1C3AD4195384 /* BLSelectTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C745CBF704BBB580836ED25A61CC101 /* BLSelectTableViewController.swift */; };
-		0606C5CB14A92A8C4EDD1706F5AD72D8 /* DateTools.h in Headers */ = {isa = PBXBuildFile; fileRef = 89D6D8CE2088698E0C43A242A42E54AD /* DateTools.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		07259A3500ECF972FC87DE0840E693D8 /* BLDataSource+Subclass.h in Headers */ = {isa = PBXBuildFile; fileRef = E03EC1854FFF03D866E4EC0557C3D20E /* BLDataSource+Subclass.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		074908988A520144B548AD768EE3A2FB /* MJRefreshAutoGifFooter.m in Sources */ = {isa = PBXBuildFile; fileRef = 22AA13E12428E4907FB861BC0BBFC707 /* MJRefreshAutoGifFooter.m */; };
-		09968CACF06334D0FC000BBC9541D837 /* MJRefreshConst.m in Sources */ = {isa = PBXBuildFile; fileRef = 83E0906968930FC1DA5568E4761176F2 /* MJRefreshConst.m */; };
-		09BBE7EE3BB77FC597828BE14DD3BF1C /* BLDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 35C739E931A887BE947160E7410D9CF4 /* BLDataSource.m */; };
-		0E2E951CA2475EB88C23F780DF69F176 /* BLReadableListDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = D5D8904D0A03E2591395339AA5C87845 /* BLReadableListDataSource.m */; };
-		0F0068ACA95D0A1FEDC9068082968288 /* BLDataStructure+Subclass.h in Headers */ = {isa = PBXBuildFile; fileRef = 392B7CF61400CCF694BDB24937DF6961 /* BLDataStructure+Subclass.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		11BA2A3D1DB95E81154AE4A15EFBD271 /* BLListDataSource.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7B51A0A158F588DF72DF3D488D53BDD6 /* BLListDataSource.framework */; };
-		12C7F6B9739EBB2FF644FC4476012B4D /* SwipeActionTransitioning.swift in Sources */ = {isa = PBXBuildFile; fileRef = 925F976FA9EE582469167E886A9422A2 /* SwipeActionTransitioning.swift */; };
-		12FB0376A2C4DDA858492661F2F0E169 /* UIScrollView+MJExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 1530817A22A7804A0F1B07A2FE326DAD /* UIScrollView+MJExtension.m */; };
+		01620995206E09F316AB1FA9500896E7 /* BLDataSource+Subclass.h in Headers */ = {isa = PBXBuildFile; fileRef = E03EC1854FFF03D866E4EC0557C3D20E /* BLDataSource+Subclass.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		059754D86A9803FCF533972FF34E1902 /* MJRefreshAutoNormalFooter.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A8A2D5DE34069FE89A6EC8739A4501B /* MJRefreshAutoNormalFooter.m */; };
+		05FC678FA265F79D42360FE93819E580 /* SwipeTableViewCell+Accessibility.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88D745C667918C13508F132A5CD53998 /* SwipeTableViewCell+Accessibility.swift */; };
+		0696BEA2C81F1DC62E7ADBCA5872016F /* MJRefreshStateHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = D6195C4F1A03E3A431B06488F7ACC525 /* MJRefreshStateHeader.m */; };
+		079C352EBCBDC61E5CAC1B279A2960C6 /* BLListDataSource-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6472C3A6C97ADBA99B6CAF5BA11F7D9C /* BLListDataSource-dummy.m */; };
+		08AB1855E8E6D2433684AC6AE1568CFC /* MJRefreshNormalHeader.h in Headers */ = {isa = PBXBuildFile; fileRef = 5993230F8406DFF2DCA82FEFADE9A30B /* MJRefreshNormalHeader.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0D05E56F49F3587708A419E2D58DD612 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3BF2C64FBA020BADE4CBFA13415FF7FB /* Foundation.framework */; };
+		11401C40366C7B546B08AE4BB2254C4A /* UIScrollView+MJExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 1530817A22A7804A0F1B07A2FE326DAD /* UIScrollView+MJExtension.m */; };
+		1259C9EB21145637CBFD1DCABEB8D205 /* MJRefreshGifHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CF8BC9B2F973052A2E7F5B7FD649204 /* MJRefreshGifHeader.m */; };
+		13CBCE8A446D8C5366D76CE43A8157A9 /* SwipeTableViewCell+Display.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D06333FEBEA8A5B58EEF85191C6DD14 /* SwipeTableViewCell+Display.swift */; };
 		14187CBFC3DA4153CBBB0ED5CC7935C3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3BF2C64FBA020BADE4CBFA13415FF7FB /* Foundation.framework */; };
-		179850A101FC6314CCAC49A9D267EF47 /* BLBaseFetch.h in Headers */ = {isa = PBXBuildFile; fileRef = 00090A1FE1CE40F0A83435005E4A874C /* BLBaseFetch.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		1D12CCFA90D18E78146074C14B020DCA /* BLFetchDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = AB58BFDE0366548A6A9DFEA56CC44750 /* BLFetchDataSource.m */; };
-		1F3B796D9DA71CB535C11A3C862F57B3 /* FBQuadTree.h in Headers */ = {isa = PBXBuildFile; fileRef = 433BC46CED50D7DB6F5B57E080A6D224 /* FBQuadTree.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		21A26AE197E1E6215172693C966FEC8F /* DTConstants.h in Headers */ = {isa = PBXBuildFile; fileRef = 31A6A43D7879933CF25D9258FBF64E50 /* DTConstants.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		21E247BAB7E6111E954DCC68A7FDDC27 /* MJRefreshFooter.m in Sources */ = {isa = PBXBuildFile; fileRef = 353E617FCC9BD6DBE9E9C9C215A02523 /* MJRefreshFooter.m */; };
-		23282ACB359066CEB427E7CA17377BA9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3BF2C64FBA020BADE4CBFA13415FF7FB /* Foundation.framework */; };
-		256C0D7C7F0ED86C8C16DC7B4411F9E9 /* BLCompoundDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 168E13C9955A4A1C12B280B004B20859 /* BLCompoundDataSource.m */; };
-		27134CD42CC623232C75D71A52392AA6 /* MJRefreshStateHeader.h in Headers */ = {isa = PBXBuildFile; fileRef = 8BEAC323F54EC1B2B941E425ECA7AB5A /* MJRefreshStateHeader.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		29A2A1A3B26CABECD34192C0134AB269 /* MJRefresh.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D7E13E50BEC097A0185E13315539523E /* MJRefresh.framework */; };
-		29FE140F4D7A8226834DE78D6BE71A2C /* BLCompoundDataSource.h in Headers */ = {isa = PBXBuildFile; fileRef = 288FF66187FC1A68F290280B8B6F41ED /* BLCompoundDataSource.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		2A5D2F6465596906ACE9B37F810655B9 /* DTTimePeriodGroup.m in Sources */ = {isa = PBXBuildFile; fileRef = D87531F931AD5AC06F2FA7D4A13AF721 /* DTTimePeriodGroup.m */; };
-		2F28009ED5AA4E0D316ACC6B382A6FF7 /* NSBundle+MJRefresh.h in Headers */ = {isa = PBXBuildFile; fileRef = 650EA03C3ED913606DD4A2FC54F1E6D1 /* NSBundle+MJRefresh.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		2F56F5EFDBB66E8D8289472CAF5DA34D /* BLActionsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA676EFFC6572CDC1BFF066E64EA379E /* BLActionsTableViewController.swift */; };
-		30A47B62225FE63E6D346610AB57B8C1 /* UIView+MJExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = D5BE25073483958C13B8F1C1345F02DB /* UIView+MJExtension.m */; };
-		30A7A436C039498283505E5818F8A318 /* SwipeAction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95681BFBB7265EE926C65708A663D536 /* SwipeAction.swift */; };
-		36D44A2750E2733B6E5F0FED40FF778A /* BLListDataSource.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7B51A0A158F588DF72DF3D488D53BDD6 /* BLListDataSource.framework */; };
-		3745D1EAEE564DD5A0992431A82DFDEC /* BLListDataSource-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6472C3A6C97ADBA99B6CAF5BA11F7D9C /* BLListDataSource-dummy.m */; };
-		3B2682F2EAA1061D7A57B35F87329092 /* MJRefreshBackGifFooter.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F1DDEFF90B1DABA9688F2F125E2A8A6 /* MJRefreshBackGifFooter.m */; };
-		3BF10E875EF1FB8EA4A8B9A5DB71C5CC /* BLSimpleListFetchResult.h in Headers */ = {isa = PBXBuildFile; fileRef = 907BEC8EE709016D72F1A50F3414C5C3 /* BLSimpleListFetchResult.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		3E7671D92BEB61AFBF03EFB88D11F8F9 /* SwipeTableViewCell+Display.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D06333FEBEA8A5B58EEF85191C6DD14 /* SwipeTableViewCell+Display.swift */; };
-		3F0DF1F063E6A394BF9F305F03F2BA86 /* NSBundle+MJRefresh.m in Sources */ = {isa = PBXBuildFile; fileRef = ECFA934E3BD7DFEE8C07D3A879B3C37D /* NSBundle+MJRefresh.m */; };
-		424C279D95ED4768CD01A099AFCDB77B /* BLListViewController-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 93B272B8678E1FE2148EF0BC130199AE /* BLListViewController-dummy.m */; };
-		451FB433A86A1D61D4F37A8C0A3C21D6 /* FBClusteringManager.m in Sources */ = {isa = PBXBuildFile; fileRef = A37AE31C667924656C93EF4D7DA49F69 /* FBClusteringManager.m */; };
-		461F3C6124FB7157CE3243F3E4C0BF89 /* MJRefreshAutoNormalFooter.h in Headers */ = {isa = PBXBuildFile; fileRef = D8AF2DA3A0BF992B16AFE8BC5B5697FE /* MJRefreshAutoNormalFooter.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		4750AD0E19AE6743F8EE259423862CF6 /* MJRefreshAutoStateFooter.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CD25289221F7D55386BA4632C257E5F /* MJRefreshAutoStateFooter.m */; };
-		479E72D218645B13AC10AB3EC9F2C516 /* BLDataStructure.m in Sources */ = {isa = PBXBuildFile; fileRef = E6CDFC53B840867CD6465A71E627864A /* BLDataStructure.m */; };
-		4AE559CC8489F6ABF2163FFEDC67C094 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 196D9EF49C9C7218638C57571DDDAC71 /* CoreLocation.framework */; };
-		4AFB8AA5551391D90B69499C6737DD30 /* MJRefreshAutoStateFooter.h in Headers */ = {isa = PBXBuildFile; fileRef = AB818924B7EF9C2057143AE466522F93 /* MJRefreshAutoStateFooter.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		4B8D3579A67532D0C214AD74EF51739F /* BLActionControllerKeys.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C0FB60768580FCB308F59CE7CF3B6B4 /* BLActionControllerKeys.swift */; };
-		4B9857ACF7231009B1E2A445B4FCB3E5 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 02E2AA760917A8F1302FD8BCA0FB3F67 /* MapKit.framework */; };
-		4DCCCA6A019F3F3B60832C88BC395858 /* MJRefreshBackStateFooter.h in Headers */ = {isa = PBXBuildFile; fileRef = 02289998D6E097BEC223457B2B6CC1C5 /* MJRefreshBackStateFooter.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		4F31FE80A35FC6DF54FBA831DA16C798 /* MJRefresh.h in Headers */ = {isa = PBXBuildFile; fileRef = D69A42A2D1AF2FE27DD4CE6AADAC7E9B /* MJRefresh.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		5076A4D6B9B872350730D8DD683AFD26 /* SwipeExpanding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10FC55C450F5BB75E03AF315A88EC1E5 /* SwipeExpanding.swift */; };
-		51E4156E3C8C768021618D9628570579 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3BF2C64FBA020BADE4CBFA13415FF7FB /* Foundation.framework */; };
-		53EAF635166006BD4BDAAEC24E196E90 /* SwipeActionsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A60F73A5FE5B0CDCBA6B3C118DE475D0 /* SwipeActionsView.swift */; };
-		557326A510D415CC3EE0F59DFC32DF1F /* FBAnnotationClustering.h in Headers */ = {isa = PBXBuildFile; fileRef = 87D43CECA268149896CCC4AF0A9A5E2D /* FBAnnotationClustering.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		57871D5E2483F41167886F4DBBF6BD5B /* BLFetchDataSource.h in Headers */ = {isa = PBXBuildFile; fileRef = 295826B4E4F847E5C056756975965CFD /* BLFetchDataSource.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		5AC33421A44D1B49EFD2655E1B93AFCA /* UIView+MJExtension.h in Headers */ = {isa = PBXBuildFile; fileRef = 0F251736F4BCE336F77496E82384AE68 /* UIView+MJExtension.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		5C54D1F001C465121978897C21FC2884 /* MJRefreshStateHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = D6195C4F1A03E3A431B06488F7ACC525 /* MJRefreshStateHeader.m */; };
-		5C5DCEC7269CF8AB711AAA97D589C36F /* UIScrollView+MJRefresh.h in Headers */ = {isa = PBXBuildFile; fileRef = 7EED91480C7F7D7EED8785728D154040 /* UIScrollView+MJRefresh.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		5D17CA2E11691854A4390555A6874DAE /* BLActionController.bundle in Resources */ = {isa = PBXBuildFile; fileRef = D594EB1074D6D83A099BAE69E5BBB8FE /* BLActionController.bundle */; };
+		15BCB56084D326F958F7D0BD7DC7A33C /* FBQuadTreeNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 18F8CB728072836B6CCE53A610D8F2CC /* FBQuadTreeNode.m */; };
+		16D7650ADCD06798778306683A7A4CB3 /* BLBaseFetchResult.h in Headers */ = {isa = PBXBuildFile; fileRef = 97A735D405CCEE47580D43E2D08F51C2 /* BLBaseFetchResult.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		17D37CFFB8278A0D28E7AF31157E16A0 /* NSBundle+MJRefresh.m in Sources */ = {isa = PBXBuildFile; fileRef = ECFA934E3BD7DFEE8C07D3A879B3C37D /* NSBundle+MJRefresh.m */; };
+		1881DC161FB2E1DB4B4F837F36ACF8D0 /* MJRefresh.h in Headers */ = {isa = PBXBuildFile; fileRef = D69A42A2D1AF2FE27DD4CE6AADAC7E9B /* MJRefresh.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1AE08BB83A35E3CCE681C45DE978935D /* SwipeTableOptions.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB39789D6098C95DD5FCF779ADAFF85A /* SwipeTableOptions.swift */; };
+		1E5C1F81AA1093E8A9A551D918CE292A /* BLListViewController-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 93B272B8678E1FE2148EF0BC130199AE /* BLListViewController-dummy.m */; };
+		2049A301CF24E9FCA0F59CC90DB4D2C8 /* FBAnnotationClustering-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D17317F8768E62FCDB3AD71547322666 /* FBAnnotationClustering-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2169B1217CC22833A7D810DAB8BFFBA1 /* MJRefreshBackStateFooter.m in Sources */ = {isa = PBXBuildFile; fileRef = E89C26662E1C5941D20CC50C3E9E07FB /* MJRefreshBackStateFooter.m */; };
+		217273C66DFF712117E85AD37186913E /* SwipeCellKit-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E601C6BECC0D8B1D2864A236B0753606 /* SwipeCellKit-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		21809F0579CDA40B2BCED2E08A802D86 /* MJRefreshStateHeader.h in Headers */ = {isa = PBXBuildFile; fileRef = 8BEAC323F54EC1B2B941E425ECA7AB5A /* MJRefreshStateHeader.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		21922A4E599022C4608576ADD52FA4D8 /* BLListViewController-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5D4A01752D30F6EE78AB1A9D061340BF /* BLListViewController-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		21BD7479A3383B19591985408E6E5795 /* DateTools.h in Headers */ = {isa = PBXBuildFile; fileRef = 89D6D8CE2088698E0C43A242A42E54AD /* DateTools.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		276224B720537A05874248E0BEE1E996 /* MJRefresh-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = BC602AD435327E7934C32030E7225A12 /* MJRefresh-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		294588499BA5DC401EFD8B770C4728FD /* NSBundle+MJRefresh.h in Headers */ = {isa = PBXBuildFile; fileRef = 650EA03C3ED913606DD4A2FC54F1E6D1 /* NSBundle+MJRefresh.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		294C850CF24DB813C0F95DF710FA5126 /* BLSelectTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DECCCD38CDF25F26CDFA6B780B69B1AC /* BLSelectTableViewController.swift */; };
+		29B9AAEA45CEBBAD4645D98D33F43602 /* FBAnnotationCluster.h in Headers */ = {isa = PBXBuildFile; fileRef = 47F1DD2BFC84A251FC55A2E9CA460803 /* FBAnnotationCluster.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2C5D1D3E36FEAD49C3A8890D98EEC83C /* DTTimePeriodGroup.h in Headers */ = {isa = PBXBuildFile; fileRef = EBC71309FE6DADCFA90EECDA14584E54 /* DTTimePeriodGroup.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2C88A79BFABC39040EC041D78C4F1C6B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3BF2C64FBA020BADE4CBFA13415FF7FB /* Foundation.framework */; };
+		2F1E60A28312E276355298BE419A0FF1 /* BLFetchDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = AB58BFDE0366548A6A9DFEA56CC44750 /* BLFetchDataSource.m */; };
+		30D585099487D87FE4D7697CB3A87AC8 /* MJRefreshComponent.m in Sources */ = {isa = PBXBuildFile; fileRef = FD302DB22AA123D33B046F83B829232B /* MJRefreshComponent.m */; };
+		3132F5C76D077D7FBBAAFF5C0D720014 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = B66EEBBAF030BC531F1C580F6B105E91 /* Extensions.swift */; };
+		3147BC68B98F95E2D46EFCCBD5E3D731 /* SwipeFeedback.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF4F16D9719BB35A8B3DDFC4C2903DCF /* SwipeFeedback.swift */; };
+		32067754193B3A7419A879D6C0D6E2E9 /* SwipeTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61BFB3281D00900C0C605B06565C3998 /* SwipeTableViewCell.swift */; };
+		3397E12E80C1BA6AFAA314820BDF2F8A /* MJRefreshAutoStateFooter.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CD25289221F7D55386BA4632C257E5F /* MJRefreshAutoStateFooter.m */; };
+		33A9B8A31523A278CB525828C28FFF3E /* MJRefreshBackFooter.h in Headers */ = {isa = PBXBuildFile; fileRef = 99FA0849874E9BA16B6E9863CDBF9225 /* MJRefreshBackFooter.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		354EE641E5BA0A8C365063EE59E77C7C /* UIScrollView+MJRefresh.m in Sources */ = {isa = PBXBuildFile; fileRef = A5C1674D67BC3906D621CEC43EDAFB1E /* UIScrollView+MJRefresh.m */; };
+		36831164888A07E6D4F785AACEE0F2CA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3BF2C64FBA020BADE4CBFA13415FF7FB /* Foundation.framework */; };
+		373E2061E3FE582E0A662AB7E2EB7213 /* MJRefresh-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BACFF6DA997FB1826A01C40F7CDA3B7 /* MJRefresh-dummy.m */; };
+		3AC6A4A7C4C5BBEC9132947CEB16205D /* BLDataStructure+Subclass.h in Headers */ = {isa = PBXBuildFile; fileRef = 392B7CF61400CCF694BDB24937DF6961 /* BLDataStructure+Subclass.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3D07CF676208C865AC4AD03F42D55919 /* MJRefreshBackGifFooter.h in Headers */ = {isa = PBXBuildFile; fileRef = 0B88F11327D23CF830A2419BDC44998B /* MJRefreshBackGifFooter.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3EE7F9A4338B654C2999746A2749FE33 /* MJRefreshHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = C25A0FB3304FED8D0ED7C47FC520D67A /* MJRefreshHeader.m */; };
+		3F5E769ED9EA014B6CED55CD4D2A155D /* MJRefreshConst.h in Headers */ = {isa = PBXBuildFile; fileRef = 6F71ECC578FC1ACFF408F73F9C071BEC /* MJRefreshConst.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		400CB9DB10D398267FC2F0FB83DC4C1B /* MJRefreshFooter.h in Headers */ = {isa = PBXBuildFile; fileRef = 6F1E8BAD5310F7CFCF121B97B2D119CD /* MJRefreshFooter.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4146270CAF3D3A99B873AF8FCCE789B2 /* SwipeActionButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5817640588493A97390065513915A4BE /* SwipeActionButton.swift */; };
+		423E67CC8CE3AF6E06B04FE4B94AF268 /* MJRefresh.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D7E13E50BEC097A0185E13315539523E /* MJRefresh.framework */; };
+		45318953F219DD3925EBF8E6C382EA7E /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 196D9EF49C9C7218638C57571DDDAC71 /* CoreLocation.framework */; };
+		4887EFCD143CEEA6163A4A47239C83CA /* BLListDataSource+Subclass.h in Headers */ = {isa = PBXBuildFile; fileRef = 62559F9C518FE9CF7C4A1736A93B3395 /* BLListDataSource+Subclass.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4E274BE838CA35654149DC5DBC42BC41 /* DTTimePeriodChain.h in Headers */ = {isa = PBXBuildFile; fileRef = A26DFBB7C434011B61FC8BB8836D7035 /* DTTimePeriodChain.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		50418FB769B28047FB0A4601DD6CC6AA /* MJRefreshFooter.m in Sources */ = {isa = PBXBuildFile; fileRef = 353E617FCC9BD6DBE9E9C9C215A02523 /* MJRefreshFooter.m */; };
+		50B80CA5E14E1F116C3C9283D6023DB7 /* BLListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 60AF3F762ED64FDC79DF3DA1F2AF0416 /* BLListViewController.m */; };
+		52BDD5FDB8D59B810A33D4BEC8EF1684 /* BLReadableListDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = D5D8904D0A03E2591395339AA5C87845 /* BLReadableListDataSource.m */; };
+		52DFB69F7C9C98859EE606C209C3286C /* DTError.h in Headers */ = {isa = PBXBuildFile; fileRef = 3963302B43AACED4F3757AE670A7148C /* DTError.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5ABDE65F8BD1F748DD4771AC15DB34B8 /* MJRefreshAutoGifFooter.m in Sources */ = {isa = PBXBuildFile; fileRef = 22AA13E12428E4907FB861BC0BBFC707 /* MJRefreshAutoGifFooter.m */; };
+		5C5289EBA4D801F842970AE3FA487352 /* SwipeExpansionStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0A3220F4411FBC8E0344E5826980257 /* SwipeExpansionStyle.swift */; };
+		5C6B4B832AE897508B3BA37FA7108C62 /* BLMapListController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 497CF2E6F7DBB4FD35E0F58656D818B5 /* BLMapListController.swift */; };
+		5CB3151B743A368BD829D0185118D318 /* BLDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 35C739E931A887BE947160E7410D9CF4 /* BLDataSource.m */; };
+		5D4D6E45A470E7B85C4FEBD28C4EE940 /* BLInteractiveDataSource.h in Headers */ = {isa = PBXBuildFile; fileRef = 844FA8EEEAA90364276527C7CE78B031 /* BLInteractiveDataSource.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5D8302695718347531AE7455B55C6246 /* FBAnnotationClustering.h in Headers */ = {isa = PBXBuildFile; fileRef = 87D43CECA268149896CCC4AF0A9A5E2D /* FBAnnotationClustering.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5DCF58F220AE9ED242FB8496A4895611 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3BF2C64FBA020BADE4CBFA13415FF7FB /* Foundation.framework */; };
 		5E3F186CBD84B6AF833A0184D0E7DE56 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3BF2C64FBA020BADE4CBFA13415FF7FB /* Foundation.framework */; };
-		60E7966DE5221C9019727A88FB158781 /* BLPaging.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F0A9223586415DCD45ABECE230C99C6 /* BLPaging.m */; };
-		614545478FB854A0606FB3BEBB6F3B18 /* Swipeable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44A21437DA9E78D317DF06AA82848583 /* Swipeable.swift */; };
-		621F90B5C74D9813D51F3FFDD54354D8 /* DTError.h in Headers */ = {isa = PBXBuildFile; fileRef = 3963302B43AACED4F3757AE670A7148C /* DTError.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		62C27FCFB22A51CBC15DD3C3117638F0 /* MJRefreshAutoFooter.h in Headers */ = {isa = PBXBuildFile; fileRef = 1E38C98ED057FB9EAADEBEBB41A32905 /* MJRefreshAutoFooter.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		63CEEF9126950D00059598BAFD297BC7 /* DTTimePeriodChain.h in Headers */ = {isa = PBXBuildFile; fileRef = A26DFBB7C434011B61FC8BB8836D7035 /* DTTimePeriodChain.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		63DCDD000B6375F7D924664568E44829 /* DTTimePeriodChain.m in Sources */ = {isa = PBXBuildFile; fileRef = B1FB06BDB2E4D8AD6D1609C452A9CC0C /* DTTimePeriodChain.m */; };
-		640EDB4FDE56C0CFE93ADB11DBA4CED8 /* DateTools.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 68A214EB3293AF7B15BEA3215A1CFF0F /* DateTools.framework */; };
-		674917BD503491691D4CE788FDBB651F /* MJRefreshHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = C25A0FB3304FED8D0ED7C47FC520D67A /* MJRefreshHeader.m */; };
-		6A50E18C2EEDA1F163F162740E985AE9 /* BLReadableListDataSource.h in Headers */ = {isa = PBXBuildFile; fileRef = 58B61F8AA973CD6E5FB70ED9F5BE97D9 /* BLReadableListDataSource.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		6BB0B1CF099CD247FB32424629136646 /* FBQuadTree.m in Sources */ = {isa = PBXBuildFile; fileRef = F0B7F3C766633A367C2179DA47F2F7BE /* FBQuadTree.m */; };
-		6E1C8C20666876003FDE001DD6AB80DC /* BLBaseFetchResult.h in Headers */ = {isa = PBXBuildFile; fileRef = 97A735D405CCEE47580D43E2D08F51C2 /* BLBaseFetchResult.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		6F344BECA4C8CB769855DBE295B82DC8 /* SwipeCellKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B4728885AC9A1AE47E0A78C3223A692A /* SwipeCellKit.framework */; };
-		72E4B71A6FBB78CF32558E5767A0C988 /* BLDataKeys.h in Headers */ = {isa = PBXBuildFile; fileRef = 3BAFB9DD68C4F4689203650E44870109 /* BLDataKeys.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		73BA512CA5C7609FA64E79DBBF1B3E30 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3BF2C64FBA020BADE4CBFA13415FF7FB /* Foundation.framework */; };
-		7668B57A00316CF4AC058213EDD2E919 /* UIScrollView+MJRefresh.m in Sources */ = {isa = PBXBuildFile; fileRef = A5C1674D67BC3906D621CEC43EDAFB1E /* UIScrollView+MJRefresh.m */; };
-		7957D582D89621080954C1087FF21137 /* BLInteractiveDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = F852BA84A77CC14272C4315E8952ED7A /* BLInteractiveDataSource.m */; };
-		7AFF5571660D1F073FF88760AEB6514E /* BLDataObject.h in Headers */ = {isa = PBXBuildFile; fileRef = A31E0AEA3F116B09821DF7F581AF56F2 /* BLDataObject.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		7DA837E76EAFAE9D6E4E5B7BADB0E24F /* NSDate+DateTools.h in Headers */ = {isa = PBXBuildFile; fileRef = 230E26AD631783A3890BE8E79BD39C0A /* NSDate+DateTools.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		7F0DA76E2450DF45461D8805E05188E3 /* BLDataStructure.h in Headers */ = {isa = PBXBuildFile; fileRef = 1ADFA1611C0B95604F8D1A7D1523AB8E /* BLDataStructure.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		85E55A606EF9502B3012AE8E428C9065 /* SwipeTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61BFB3281D00900C0C605B06565C3998 /* SwipeTableViewCell.swift */; };
-		861DDB77F7D77E1D6B2D4AB4C68C827F /* SwipeTableOptions.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB39789D6098C95DD5FCF779ADAFF85A /* SwipeTableOptions.swift */; };
-		88F182D0D5BB8E4601C0C0E0675B431B /* BLListViewController-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5D4A01752D30F6EE78AB1A9D061340BF /* BLListViewController-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		8BD7DAE94848D8F3A84BD8AD78F7F028 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3BF2C64FBA020BADE4CBFA13415FF7FB /* Foundation.framework */; };
-		8BE301574AA5D26A492A38216E8C2A9E /* BLInteractiveDataSource.h in Headers */ = {isa = PBXBuildFile; fileRef = 844FA8EEEAA90364276527C7CE78B031 /* BLInteractiveDataSource.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		8CFA588A30EE7466C4A57E55B5117AF0 /* BLListViewController+Subclass.h in Headers */ = {isa = PBXBuildFile; fileRef = 972E67D639ABA30B02383C4D571847A0 /* BLListViewController+Subclass.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		8D00A96CE8434DF46E94188251E63117 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 02E2AA760917A8F1302FD8BCA0FB3F67 /* MapKit.framework */; };
-		8DCD7936660BD3120CA31D59C1DD79C7 /* DTTimePeriod.m in Sources */ = {isa = PBXBuildFile; fileRef = 610D7032149C65359E5D3E2D22EB4530 /* DTTimePeriod.m */; };
-		90431162BF925956BFAF9DE2FBB9CCB9 /* BLActionController-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C54D38BD60DAE2CF961A4B5ECF78AA83 /* BLActionController-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		931B82A9B41C1CC5191023CCE67FFF24 /* SwipeCellKit-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E601C6BECC0D8B1D2864A236B0753606 /* SwipeCellKit-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		958F0F1EFE63DB52297FF7F8612FDBC9 /* BLBaseUpdate.h in Headers */ = {isa = PBXBuildFile; fileRef = EF5CE243499558F727DE173228BD1AC8 /* BLBaseUpdate.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		96181788322D9B6A71BBFD7B6F2A9E08 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3BF2C64FBA020BADE4CBFA13415FF7FB /* Foundation.framework */; };
-		9760861DB052743C38EE62B0421F8A13 /* BLListViewController.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 26C456A9DF8C23CDEFCA74FFDADEF589 /* BLListViewController.framework */; };
-		979665B590FC0F09580927226B65D1C1 /* MJRefreshBackNormalFooter.m in Sources */ = {isa = PBXBuildFile; fileRef = 07FC8D6AA4EE56719A9F56F36F7637BC /* MJRefreshBackNormalFooter.m */; };
-		9879B6A274AD8ED92FE864014520210D /* BLInteractiveDataSource+Subclass.h in Headers */ = {isa = PBXBuildFile; fileRef = DDF1CF569CB3B0B533D67B3E26B21CAE /* BLInteractiveDataSource+Subclass.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		99AFFBD28DC3F05F2EEC78B1FAD59FB9 /* SwipeFeedback.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF4F16D9719BB35A8B3DDFC4C2903DCF /* SwipeFeedback.swift */; };
-		99E080685856D9355F2457C57F5522DE /* DTTimePeriodCollection.m in Sources */ = {isa = PBXBuildFile; fileRef = 8539825D09628C930E1F83824FF2AFFD /* DTTimePeriodCollection.m */; };
-		9AB9A45FB541BDD2EF468C5F453D98AB /* MJRefreshGifHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CF8BC9B2F973052A2E7F5B7FD649204 /* MJRefreshGifHeader.m */; };
-		9EC75A9B215E5D5E6114987264E84F8A /* MJRefreshBackGifFooter.h in Headers */ = {isa = PBXBuildFile; fileRef = 0B88F11327D23CF830A2419BDC44998B /* MJRefreshBackGifFooter.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		9ECE8371E9CF39D0EDCBB7C853D802F6 /* MJRefreshAutoGifFooter.h in Headers */ = {isa = PBXBuildFile; fileRef = BE18124BE2E2A04950B0DAF57E9711D8 /* MJRefreshAutoGifFooter.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		A17FBB5558C6AE1C1DAEF05A679908D0 /* MJRefreshBackFooter.h in Headers */ = {isa = PBXBuildFile; fileRef = 99FA0849874E9BA16B6E9863CDBF9225 /* MJRefreshBackFooter.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		A2EC6D4F9C4B34530C740CAA9A889F50 /* SwipeTableViewCell+Accessibility.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88D745C667918C13508F132A5CD53998 /* SwipeTableViewCell+Accessibility.swift */; };
+		5E91CAF57EB039CDA7948DE4B78E0D2C /* BLInteractiveDataSource+Subclass.h in Headers */ = {isa = PBXBuildFile; fileRef = DDF1CF569CB3B0B533D67B3E26B21CAE /* BLInteractiveDataSource+Subclass.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		602F12A8A1DF613C77AC819503851733 /* MJRefreshHeader.h in Headers */ = {isa = PBXBuildFile; fileRef = 898696F00B760D18F2D94AE1873F8EFD /* MJRefreshHeader.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		60D3F4CB42D9629F9296D10C8D09942C /* BLSimpleListFetchResult.h in Headers */ = {isa = PBXBuildFile; fileRef = 907BEC8EE709016D72F1A50F3414C5C3 /* BLSimpleListFetchResult.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		64863B2B99D36BBC94F1FA4D4C1A310B /* Map.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B20564B5E5254B2BB343B6335233C5F0 /* Map.storyboard */; };
+		68CC489F8A182D3CD983561B62600E03 /* BLDataObject.h in Headers */ = {isa = PBXBuildFile; fileRef = A31E0AEA3F116B09821DF7F581AF56F2 /* BLDataObject.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		691F1E773B43751571275C1071F07299 /* SwipeExpanding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10FC55C450F5BB75E03AF315A88EC1E5 /* SwipeExpanding.swift */; };
+		69224F68A43A978F4324E11B788E9309 /* BLListViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = F83309F8376A6397EE9E9FC1C8290E8A /* BLListViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6A32A49A084D28E33E84141204A5364B /* BLBaseFetchResult+Subclass.h in Headers */ = {isa = PBXBuildFile; fileRef = 311B79E589DA59539935E7163B802FC4 /* BLBaseFetchResult+Subclass.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6A7ED098A8034F14600883968CB101A5 /* BLPaging.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F0A9223586415DCD45ABECE230C99C6 /* BLPaging.m */; };
+		6A8A6AD092757D8263E263CD2971C5E4 /* MJRefreshBackFooter.m in Sources */ = {isa = PBXBuildFile; fileRef = 2135215CE5C89BAB8891D94E0033E661 /* MJRefreshBackFooter.m */; };
+		6AFDFA019000CB7430F6886C80AAEEEA /* BLListViewController.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 26C456A9DF8C23CDEFCA74FFDADEF589 /* BLListViewController.framework */; };
+		6C3E5B5797C43C872D9B525367138DBA /* BLListDataSource-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 734448831DFF7A6593C2B7FE2BC39615 /* BLListDataSource-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6CBB6F751F76CEBC8D91F6B30F5B6AAA /* MJRefreshAutoFooter.h in Headers */ = {isa = PBXBuildFile; fileRef = 1E38C98ED057FB9EAADEBEBB41A32905 /* MJRefreshAutoFooter.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6EFDF2C4AD5DABF4473D269D8EC333D8 /* BLListDataSource.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7B51A0A158F588DF72DF3D488D53BDD6 /* BLListDataSource.framework */; };
+		6F4D29335EA98C06B795B071C22791E3 /* SwipeTransitionLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95014B6B37B50DA371D9CA4CFD35A6FD /* SwipeTransitionLayout.swift */; };
+		70468E1C13A1D60D832D39CCEEFEDFE7 /* DateTools.bundle in Resources */ = {isa = PBXBuildFile; fileRef = AE6F10BFC58A921C090B272B7B94EFB3 /* DateTools.bundle */; };
+		709A78D86FA2269F28CA1FEF0F6CAA9F /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 02E2AA760917A8F1302FD8BCA0FB3F67 /* MapKit.framework */; };
+		7427568DB79BC32C7449B63F339B4DDE /* BLDataSource.h in Headers */ = {isa = PBXBuildFile; fileRef = B14BE829173E295EE7F490AD09FE8676 /* BLDataSource.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		74BE886C063B465010D2A661B99A9B0D /* MJRefreshAutoStateFooter.h in Headers */ = {isa = PBXBuildFile; fileRef = AB818924B7EF9C2057143AE466522F93 /* MJRefreshAutoStateFooter.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		754F78DC8B961D7CA0E611D3EBD85C72 /* BLDataKeys.h in Headers */ = {isa = PBXBuildFile; fileRef = 3BAFB9DD68C4F4689203650E44870109 /* BLDataKeys.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		77C78CA6201E31C8D413CCBF5465DF69 /* MJRefreshConst.m in Sources */ = {isa = PBXBuildFile; fileRef = 83E0906968930FC1DA5568E4761176F2 /* MJRefreshConst.m */; };
+		78026362234D61E7F5C15F69C58EC0A7 /* BLListDataSource.h in Headers */ = {isa = PBXBuildFile; fileRef = 6293A05A94148CED36A8CD4CC6CFE6E3 /* BLListDataSource.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		794B80AC72DCD5675B553A2C4E18C9B9 /* DTConstants.h in Headers */ = {isa = PBXBuildFile; fileRef = 31A6A43D7879933CF25D9258FBF64E50 /* DTConstants.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7B1EDFD52E0B5C3086019E61CD35EFEA /* BLActionsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C537231F4A8092403D08F77AD5909644 /* BLActionsTableViewController.swift */; };
+		7D49082777CCFCA0694830E6E69F4D76 /* MJRefresh.bundle in Resources */ = {isa = PBXBuildFile; fileRef = F90117371D16B3B513FDC7FE01158FD3 /* MJRefresh.bundle */; };
+		7E1C4125A64D6D9B3B356D16D7D36C96 /* UIView+MJExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = D5BE25073483958C13B8F1C1345F02DB /* UIView+MJExtension.m */; };
+		83A0C8C744B6B7AF4455D5385BA28BE1 /* SwipeTableViewCellDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80311F218271AFDCF9B0B3BE5C87DCF3 /* SwipeTableViewCellDelegate.swift */; };
+		8662AB6A10B8D26775821765AED8FB98 /* UIScrollView+MJExtension.h in Headers */ = {isa = PBXBuildFile; fileRef = 4509D71B0671FF6D8B26E3AE8B355F91 /* UIScrollView+MJExtension.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8759BB3B9EFC02239298E178DEC4F535 /* DateTools-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 55531718800CA6E7CE2322984CDE5271 /* DateTools-dummy.m */; };
+		8812940FEAD1A943DC01240156A7342D /* MJRefreshComponent.h in Headers */ = {isa = PBXBuildFile; fileRef = 4D5AE1C89E5993BB4ED126AC588726BF /* MJRefreshComponent.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		88173616B3A61A57F4F40984AE17DBF9 /* BLBaseUpdate.h in Headers */ = {isa = PBXBuildFile; fileRef = EF5CE243499558F727DE173228BD1AC8 /* BLBaseUpdate.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8A2C1FF8130B1F169F823A2D4FF4E81B /* DTTimePeriodCollection.h in Headers */ = {isa = PBXBuildFile; fileRef = 88FAB7FB6E76E37879604B8567610491 /* DTTimePeriodCollection.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8B53F6313B192ACC25C95BD97A674023 /* SwipeAction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95681BFBB7265EE926C65708A663D536 /* SwipeAction.swift */; };
+		8BFBC39827D6A907BE1F57868E5A064B /* BLActionControllerKeys.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEC95FB608BAD367DB19855887419BD0 /* BLActionControllerKeys.swift */; };
+		932E7DC03586123CD593D17E2C6C953C /* MJRefreshBackStateFooter.h in Headers */ = {isa = PBXBuildFile; fileRef = 02289998D6E097BEC223457B2B6CC1C5 /* MJRefreshBackStateFooter.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		93BD4CDACAB547854DD5ACFC1D37FCE2 /* FBQuadTreeNode.h in Headers */ = {isa = PBXBuildFile; fileRef = DB015B060D093FF5626CAC8FB56E2B40 /* FBQuadTreeNode.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		984AC4223D503E2CB447FBC9DE7C6FF5 /* SwipeAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 338BB7C87A801FD74A2A946450C5F700 /* SwipeAnimator.swift */; };
+		9A68B19AB778F2282450AE983DE9A19B /* DTTimePeriodCollection.m in Sources */ = {isa = PBXBuildFile; fileRef = 8539825D09628C930E1F83824FF2AFFD /* DTTimePeriodCollection.m */; };
+		9B63CD5A4A1DC361ABD6786F96ED680A /* MJRefreshBackGifFooter.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F1DDEFF90B1DABA9688F2F125E2A8A6 /* MJRefreshBackGifFooter.m */; };
+		9C09C3A41245A3063FB631381FBC27CF /* DateTools.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 68A214EB3293AF7B15BEA3215A1CFF0F /* DateTools.framework */; };
 		A3E9496D4DE814C4FE8632861609A0B8 /* Pods-BLActionController_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3ECD596D97C41DED5778109642E66F55 /* Pods-BLActionController_Tests-dummy.m */; };
-		A4E0EC9D81673AE50C7C0C21FCE023DF /* DTTimePeriodCollection.h in Headers */ = {isa = PBXBuildFile; fileRef = 88FAB7FB6E76E37879604B8567610491 /* DTTimePeriodCollection.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		A562C4AB604E1629B8ECC5A9F96B9C82 /* BLPaging.h in Headers */ = {isa = PBXBuildFile; fileRef = A483C6015605D3CE769DE5D75496A8ED /* BLPaging.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		A67FF3B2A865BCC844F471CA54FD3B6A /* MJRefreshAutoFooter.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FA038A3FB2FFAB9AA86ABE6B56A901A /* MJRefreshAutoFooter.m */; };
-		A82E25E3394925590BD948AFF9CBC0BA /* DateTools.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 68A214EB3293AF7B15BEA3215A1CFF0F /* DateTools.framework */; };
-		ABCB9752C217467472118CE986DCC85E /* DateTools-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E528BBFEAAF95CABE0975CA054BD4079 /* DateTools-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		AC59AFEA568CC287FA07EB93D1BFF8BC /* MJRefreshConst.h in Headers */ = {isa = PBXBuildFile; fileRef = 6F71ECC578FC1ACFF408F73F9C071BEC /* MJRefreshConst.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		B067CBC8082583B91799A010220F7377 /* SwipeTransitionLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95014B6B37B50DA371D9CA4CFD35A6FD /* SwipeTransitionLayout.swift */; };
-		B1A4B28B6C593A60AE4144262C60CFDA /* FBAnnotationClustering-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B164B389A9BB0B52F9917F55C8F67694 /* FBAnnotationClustering-dummy.m */; };
-		B3ABF581AFF98A36C59C145E82BCFF5D /* BLDataSource.h in Headers */ = {isa = PBXBuildFile; fileRef = B14BE829173E295EE7F490AD09FE8676 /* BLDataSource.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		B3B45946CE5FBC3C8EAEBB47B7845C7B /* DateTools-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 55531718800CA6E7CE2322984CDE5271 /* DateTools-dummy.m */; };
-		B7710436743A5328E7559EDD2942918E /* SwipeExpansionStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0A3220F4411FBC8E0344E5826980257 /* SwipeExpansionStyle.swift */; };
-		B772181A79F21C7BCB62B034C163FC60 /* DateTools.bundle in Resources */ = {isa = PBXBuildFile; fileRef = AE6F10BFC58A921C090B272B7B94EFB3 /* DateTools.bundle */; };
-		BAA711D445CEDF4EB97A879B48F496CD /* MJRefreshBackNormalFooter.h in Headers */ = {isa = PBXBuildFile; fileRef = 3036C82040619254B1DC0283D14528E3 /* MJRefreshBackNormalFooter.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		BB91921D3865C9E8094BE0AD4F1E0F78 /* BLListDataSource.h in Headers */ = {isa = PBXBuildFile; fileRef = 6293A05A94148CED36A8CD4CC6CFE6E3 /* BLListDataSource.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		BE624DFDEC316DF8D3AD892435D06C28 /* FBAnnotationCluster.m in Sources */ = {isa = PBXBuildFile; fileRef = A4C2514A256135B94307851AC2E6CBD2 /* FBAnnotationCluster.m */; };
-		BEDE4A8DC912A96A1E6E21F1C73F5C98 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3BF2C64FBA020BADE4CBFA13415FF7FB /* Foundation.framework */; };
-		BFA34D575F25E2BE8F279D838F37FEA8 /* DTConstants.m in Sources */ = {isa = PBXBuildFile; fileRef = 32D0E6DA8D92B03038E0FE888F752BC7 /* DTConstants.m */; };
-		C034255264F66CF461B75FFC3A3A96D5 /* FBAnnotationCluster.h in Headers */ = {isa = PBXBuildFile; fileRef = 47F1DD2BFC84A251FC55A2E9CA460803 /* FBAnnotationCluster.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		C10D0026213F4B8603DABFDE69BECB8B /* SwipeAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 338BB7C87A801FD74A2A946450C5F700 /* SwipeAnimator.swift */; };
-		C22D5D59B4224D04C3B2D6A8DE550EEC /* BLListViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = F83309F8376A6397EE9E9FC1C8290E8A /* BLListViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AB1AE2D039DB6B60B974F4D9CA33CC8B /* MJRefreshBackNormalFooter.m in Sources */ = {isa = PBXBuildFile; fileRef = 07FC8D6AA4EE56719A9F56F36F7637BC /* MJRefreshBackNormalFooter.m */; };
+		AC621D0DD181CEAA4A52D182CA4CE26E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3BF2C64FBA020BADE4CBFA13415FF7FB /* Foundation.framework */; };
+		AC62B0CFEBCF525B534D150DB3BEC6F1 /* FBAnnotationClustering-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B164B389A9BB0B52F9917F55C8F67694 /* FBAnnotationClustering-dummy.m */; };
+		ACEF33052F2842975C47524EED6BCE59 /* SwipeActionTransitioning.swift in Sources */ = {isa = PBXBuildFile; fileRef = 925F976FA9EE582469167E886A9422A2 /* SwipeActionTransitioning.swift */; };
+		ADA24718FBFBEF83166BFD66D66251A8 /* BLListDataSource.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7B51A0A158F588DF72DF3D488D53BDD6 /* BLListDataSource.framework */; };
+		B3EC3C005DCC45F1C7DFD8E0BA9B6687 /* BLBaseFetch.h in Headers */ = {isa = PBXBuildFile; fileRef = 00090A1FE1CE40F0A83435005E4A874C /* BLBaseFetch.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B4E013007936CBED44037C90A5557F25 /* DTConstants.m in Sources */ = {isa = PBXBuildFile; fileRef = 32D0E6DA8D92B03038E0FE888F752BC7 /* DTConstants.m */; };
+		B597AF74F0FE9977A238B71FA34FD8CB /* NSDate+DateTools.m in Sources */ = {isa = PBXBuildFile; fileRef = 669F91BB1CDCA147158C4B54A384515B /* NSDate+DateTools.m */; };
+		B691676EFFB501291651C58335D4EF94 /* MJRefreshGifHeader.h in Headers */ = {isa = PBXBuildFile; fileRef = 401B2995B506496E08DFC2FED6F60A8F /* MJRefreshGifHeader.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B983382C26E5C73AE0211DD14C69D1AF /* DTTimePeriodGroup.m in Sources */ = {isa = PBXBuildFile; fileRef = D87531F931AD5AC06F2FA7D4A13AF721 /* DTTimePeriodGroup.m */; };
+		B9B3D4068422B678C07EC7B02D3890FC /* FBAnnotationClustering.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 36E17C3CECEE6AA27FE0457E78213625 /* FBAnnotationClustering.framework */; };
+		B9DF821A6C169719C76229D9609473FC /* FBAnnotationCluster.m in Sources */ = {isa = PBXBuildFile; fileRef = A4C2514A256135B94307851AC2E6CBD2 /* FBAnnotationCluster.m */; };
+		BC7B881681A4CDB03BBD9BB47CBA7ED7 /* UIScrollView+MJRefresh.h in Headers */ = {isa = PBXBuildFile; fileRef = 7EED91480C7F7D7EED8785728D154040 /* UIScrollView+MJRefresh.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BDE22FB028DFE62389B614BDD685FDC8 /* BLFetchDataSource.h in Headers */ = {isa = PBXBuildFile; fileRef = 295826B4E4F847E5C056756975965CFD /* BLFetchDataSource.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BE5C7FC5505E5C6AE79824DD0D86C569 /* BLActionController-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 49D93E4C582D81379F7CAB59FAE64B2B /* BLActionController-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BFF1113078A4B1952736FD022CE78182 /* BLDataStructure.m in Sources */ = {isa = PBXBuildFile; fileRef = E6CDFC53B840867CD6465A71E627864A /* BLDataStructure.m */; };
+		C1A97913AAA2A2A6E860965ECAFA3ABC /* MJRefresh.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D7E13E50BEC097A0185E13315539523E /* MJRefresh.framework */; };
 		C3B58046A8D277E5E3FADAA2F935583B /* Pods-BLActionController_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6496E1CF9E3C409DE0DC2676BCAC2000 /* Pods-BLActionController_Example-dummy.m */; };
-		C4D8D6A09927BDE93DB17A0653F23538 /* MJRefresh-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = BC602AD435327E7934C32030E7225A12 /* MJRefresh-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C40DDF0CFE2CC6C9B2AF8C5EE50C5732 /* DTTimePeriod.m in Sources */ = {isa = PBXBuildFile; fileRef = 610D7032149C65359E5D3E2D22EB4530 /* DTTimePeriod.m */; };
 		C69CD9B1B5ECDAEE407D8A2C90BF0583 /* Pods-BLActionController_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C4598EE6A7971BFC07ED720C42375421 /* Pods-BLActionController_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		C8909DEB27BB6296A942AF514B6EB725 /* MJRefresh-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BACFF6DA997FB1826A01C40F7CDA3B7 /* MJRefresh-dummy.m */; };
-		CA6B201BA50A2382F37BFAE92B9A0DFD /* MJRefreshAutoNormalFooter.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A8A2D5DE34069FE89A6EC8739A4501B /* MJRefreshAutoNormalFooter.m */; };
-		CAD80D67DD44C25FFA0176446B1CC52F /* MJRefreshComponent.h in Headers */ = {isa = PBXBuildFile; fileRef = 4D5AE1C89E5993BB4ED126AC588726BF /* MJRefreshComponent.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		CB63135C6B597F4A709698D81F0F9CA2 /* MJRefreshNormalHeader.h in Headers */ = {isa = PBXBuildFile; fileRef = 5993230F8406DFF2DCA82FEFADE9A30B /* MJRefreshNormalHeader.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		CD12D3466E94559899F2135D66A4FA56 /* MJRefreshHeader.h in Headers */ = {isa = PBXBuildFile; fileRef = 898696F00B760D18F2D94AE1873F8EFD /* MJRefreshHeader.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C75C9964A21B42D1EB0A5A9DFE5FF539 /* BLReadableListDataSource.h in Headers */ = {isa = PBXBuildFile; fileRef = 58B61F8AA973CD6E5FB70ED9F5BE97D9 /* BLReadableListDataSource.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C8B0980284A17E40F6A4E24E366862CE /* MJRefreshAutoNormalFooter.h in Headers */ = {isa = PBXBuildFile; fileRef = D8AF2DA3A0BF992B16AFE8BC5B5697FE /* MJRefreshAutoNormalFooter.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C952068E33D47E809007D847A0917E5B /* BLSimpleListFetchResult.m in Sources */ = {isa = PBXBuildFile; fileRef = 89276850B7C237170BABF2CABFC24FF1 /* BLSimpleListFetchResult.m */; };
+		C9EE6E905EEF77EE49B9FCED2D495B8C /* MJRefreshAutoGifFooter.h in Headers */ = {isa = PBXBuildFile; fileRef = BE18124BE2E2A04950B0DAF57E9711D8 /* MJRefreshAutoGifFooter.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CA791FE5B48442760DB12413B29189D4 /* BLListDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 863A7B436EF85CAA9B9F7F2028B15D14 /* BLListDataSource.m */; };
+		CB5FF2C50B928C7FD5C165DF42E2D79F /* SwipeCellKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B4728885AC9A1AE47E0A78C3223A692A /* SwipeCellKit.framework */; };
+		CC0B9F5949F2FB18D2EA5EEA0F8373A4 /* BLInteractiveDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = F852BA84A77CC14272C4315E8952ED7A /* BLInteractiveDataSource.m */; };
 		D0347D9A8B12B71B7472627147B596BD /* Pods-BLActionController_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F4B71AB01509D16CEC2C48DFA2C241B9 /* Pods-BLActionController_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		D1A675AFBCCFFE9FF6B5753BDE78AD6F /* BLBaseFetchResult.m in Sources */ = {isa = PBXBuildFile; fileRef = 4ED2E23F5350EAFC6F82F224099075E5 /* BLBaseFetchResult.m */; };
-		D216BA65BEBBC51F4DC7EE4ED896DF6C /* BLMapListController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 202E8AA8A5598439ED665FA8E7FDCDAE /* BLMapListController.swift */; };
-		D2C3F97D4040720E16FB6DF1E0BEC098 /* DTTimePeriod.h in Headers */ = {isa = PBXBuildFile; fileRef = 69632F716705C723F99767871030E4F3 /* DTTimePeriod.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		D5D464A923F5EE424DA1375AD38B11FF /* MJRefreshFooter.h in Headers */ = {isa = PBXBuildFile; fileRef = 6F1E8BAD5310F7CFCF121B97B2D119CD /* MJRefreshFooter.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		D64ECB5C58A197588C4C87BA08EE2B5C /* MJRefreshBackFooter.m in Sources */ = {isa = PBXBuildFile; fileRef = 2135215CE5C89BAB8891D94E0033E661 /* MJRefreshBackFooter.m */; };
-		D9AF0641C89F6AE72BF974C08F861B92 /* SwipeActionButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5817640588493A97390065513915A4BE /* SwipeActionButton.swift */; };
-		DAC726980E931A2743C9DD74414CE4D9 /* DTError.m in Sources */ = {isa = PBXBuildFile; fileRef = 219541C50795AD95383F24F93240965C /* DTError.m */; };
-		DADE47EC82486863B3EF9F96F35DA834 /* FBQuadTreeNode.h in Headers */ = {isa = PBXBuildFile; fileRef = DB015B060D093FF5626CAC8FB56E2B40 /* FBQuadTreeNode.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		DB2636BC58BD67A88A452DC51267E315 /* BLListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 60AF3F762ED64FDC79DF3DA1F2AF0416 /* BLListViewController.m */; };
-		DBF97C70C63AC099B013BE851630EE96 /* BLListDataSource-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 734448831DFF7A6593C2B7FE2BC39615 /* BLListDataSource-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		DEC6E15B24953DFC54F0E4C8AE3782F7 /* MJRefresh.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D7E13E50BEC097A0185E13315539523E /* MJRefresh.framework */; };
-		DED8011C17D2DEA5850DAAA9A21282D6 /* BLActionController-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FDADF783DA90BB9CA50A873E16447B6 /* BLActionController-dummy.m */; };
-		DF099C3389CDA7815032B696FF7DA36E /* BLListDataSource+Subclass.h in Headers */ = {isa = PBXBuildFile; fileRef = 62559F9C518FE9CF7C4A1736A93B3395 /* BLListDataSource+Subclass.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		E163593BFCE0551ADB4E89BE379D59AA /* FBQuadTreeNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 18F8CB728072836B6CCE53A610D8F2CC /* FBQuadTreeNode.m */; };
-		E20D9365B80E2D9DA294019F91476F7F /* UIScrollView+MJExtension.h in Headers */ = {isa = PBXBuildFile; fileRef = 4509D71B0671FF6D8B26E3AE8B355F91 /* UIScrollView+MJExtension.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		EA4869F73DD32A6A3C885F39CA751211 /* DTTimePeriodGroup.h in Headers */ = {isa = PBXBuildFile; fileRef = EBC71309FE6DADCFA90EECDA14584E54 /* DTTimePeriodGroup.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		EAB2D7BBE8EA9674831AE8B4E8E6C408 /* FBClusteringManager.h in Headers */ = {isa = PBXBuildFile; fileRef = A70CD8BBA8AF68D6D5A48C4B3E2F8411 /* FBClusteringManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		EC7BEFC6FAB5F9442EDCB74051991885 /* BLListDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 863A7B436EF85CAA9B9F7F2028B15D14 /* BLListDataSource.m */; };
-		EF5DF71C94A020DFA78A81F89B84F115 /* MJRefresh.bundle in Resources */ = {isa = PBXBuildFile; fileRef = F90117371D16B3B513FDC7FE01158FD3 /* MJRefresh.bundle */; };
-		F340F7041C43241099ACAACF5A2C55C2 /* MJRefreshComponent.m in Sources */ = {isa = PBXBuildFile; fileRef = FD302DB22AA123D33B046F83B829232B /* MJRefreshComponent.m */; };
-		F530153C5044FECCAD2A0E37DC133103 /* BLBaseFetchResult+Subclass.h in Headers */ = {isa = PBXBuildFile; fileRef = 311B79E589DA59539935E7163B802FC4 /* BLBaseFetchResult+Subclass.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		F5B9208121248F0425F0CD8E96B98F4E /* NSDate+DateTools.m in Sources */ = {isa = PBXBuildFile; fileRef = 669F91BB1CDCA147158C4B54A384515B /* NSDate+DateTools.m */; };
-		F5DC7A2232F088B16D05B8A8BA5156CD /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = B66EEBBAF030BC531F1C580F6B105E91 /* Extensions.swift */; };
-		F669FC79C363644E1AE5F217BFB9B920 /* SwipeCellKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 265FFCE6127DF989139531F719A76EE4 /* SwipeCellKit-dummy.m */; };
-		F8B8C243694F63EA00FC07D9E41276F5 /* FBAnnotationClustering.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 36E17C3CECEE6AA27FE0457E78213625 /* FBAnnotationClustering.framework */; };
-		FA3EEAB1041353E80FEBA9A037D409E4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3BF2C64FBA020BADE4CBFA13415FF7FB /* Foundation.framework */; };
-		FD85B969F46D1465B06EE0AD054363A0 /* BLSimpleListFetchResult.m in Sources */ = {isa = PBXBuildFile; fileRef = 89276850B7C237170BABF2CABFC24FF1 /* BLSimpleListFetchResult.m */; };
-		FEAB00FEF55DFDAEFC96267AC7C3FBCE /* MJRefreshNormalHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E853AD6A0E3CA743194413424979EAF /* MJRefreshNormalHeader.m */; };
+		D3ECD428F0BD2D45C5CD5872EAF25540 /* MJRefreshBackNormalFooter.h in Headers */ = {isa = PBXBuildFile; fileRef = 3036C82040619254B1DC0283D14528E3 /* MJRefreshBackNormalFooter.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D42C4B9C896CCC835C268266043F55B5 /* FBQuadTree.m in Sources */ = {isa = PBXBuildFile; fileRef = F0B7F3C766633A367C2179DA47F2F7BE /* FBQuadTree.m */; };
+		D4EA20006A487D1B254C02EDB083DE04 /* Swipeable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44A21437DA9E78D317DF06AA82848583 /* Swipeable.swift */; };
+		D557AE932576CCB765D24CAEBF980A19 /* BLActionController-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F0C5B2FCA38467CCBC48544BDA367656 /* BLActionController-dummy.m */; };
+		D8F3153182BF5879A142AF984E327CB4 /* BLListViewController+Subclass.h in Headers */ = {isa = PBXBuildFile; fileRef = 972E67D639ABA30B02383C4D571847A0 /* BLListViewController+Subclass.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D8F478D5E4E74C86D3D2C73AC5BE5EA3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3BF2C64FBA020BADE4CBFA13415FF7FB /* Foundation.framework */; };
+		DD06BD880880E71DF3B05B06E0D9C7D0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3BF2C64FBA020BADE4CBFA13415FF7FB /* Foundation.framework */; };
+		DD1E4667CC65E1187079CE763E5F62B4 /* FBQuadTree.h in Headers */ = {isa = PBXBuildFile; fileRef = 433BC46CED50D7DB6F5B57E080A6D224 /* FBQuadTree.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E05487B124031C654E538044E81276D6 /* DTTimePeriod.h in Headers */ = {isa = PBXBuildFile; fileRef = 69632F716705C723F99767871030E4F3 /* DTTimePeriod.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E1488F91DAD4E733F895593338A1D04D /* SwipeActionsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A60F73A5FE5B0CDCBA6B3C118DE475D0 /* SwipeActionsView.swift */; };
+		E204DC6559C5B599F3E1A1ACC5BBEEBE /* BLBaseFetchResult.m in Sources */ = {isa = PBXBuildFile; fileRef = 4ED2E23F5350EAFC6F82F224099075E5 /* BLBaseFetchResult.m */; };
+		E24C06B765B6738E7CAC2CE942310D62 /* MJRefreshNormalHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E853AD6A0E3CA743194413424979EAF /* MJRefreshNormalHeader.m */; };
+		E27AB4B0A4DA168A27451EC2935CF28F /* FBClusteringManager.h in Headers */ = {isa = PBXBuildFile; fileRef = A70CD8BBA8AF68D6D5A48C4B3E2F8411 /* FBClusteringManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E3781CC8A93C2DBA041D0D6BFACE4E40 /* FBClusteringManager.m in Sources */ = {isa = PBXBuildFile; fileRef = A37AE31C667924656C93EF4D7DA49F69 /* FBClusteringManager.m */; };
+		E55FDFF798FB3C7CDFC8B7289B28B754 /* BLCompoundDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 168E13C9955A4A1C12B280B004B20859 /* BLCompoundDataSource.m */; };
+		ECD1A6218CCE1B9B7DD458C9EAF1805F /* NSDate+DateTools.h in Headers */ = {isa = PBXBuildFile; fileRef = 230E26AD631783A3890BE8E79BD39C0A /* NSDate+DateTools.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F0480DE0B67011772832095591B0F66F /* UIView+MJExtension.h in Headers */ = {isa = PBXBuildFile; fileRef = 0F251736F4BCE336F77496E82384AE68 /* UIView+MJExtension.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F07E50A5DF9A672ACEA7AA974CA046C8 /* SwipeCellKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 265FFCE6127DF989139531F719A76EE4 /* SwipeCellKit-dummy.m */; };
+		F34B78AD272D18E9E06B1DE86E57D235 /* DTTimePeriodChain.m in Sources */ = {isa = PBXBuildFile; fileRef = B1FB06BDB2E4D8AD6D1609C452A9CC0C /* DTTimePeriodChain.m */; };
+		F494A3CB56C036C78149B698968FE3A7 /* BLDataStructure.h in Headers */ = {isa = PBXBuildFile; fileRef = 1ADFA1611C0B95604F8D1A7D1523AB8E /* BLDataStructure.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F5615EC0EFD3C432BA2CDFD6CE21B3F4 /* DateTools-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E528BBFEAAF95CABE0975CA054BD4079 /* DateTools-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F854AE90A8334771B3E587C13233206A /* BLCompoundDataSource.h in Headers */ = {isa = PBXBuildFile; fileRef = 288FF66187FC1A68F290280B8B6F41ED /* BLCompoundDataSource.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F9E78A43A57334516A730FEAEAD812DF /* BLPaging.h in Headers */ = {isa = PBXBuildFile; fileRef = A483C6015605D3CE769DE5D75496A8ED /* BLPaging.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FA533F9917CDA9FF07CE201C64A5B1A7 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 02E2AA760917A8F1302FD8BCA0FB3F67 /* MapKit.framework */; };
+		FA7BCAC0806B34832F3513889E3C7FCA /* MJRefreshAutoFooter.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FA038A3FB2FFAB9AA86ABE6B56A901A /* MJRefreshAutoFooter.m */; };
+		FC4A8AB08E340E394DA973D1A0764EAD /* DateTools.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 68A214EB3293AF7B15BEA3215A1CFF0F /* DateTools.framework */; };
+		FD39CE26C53636234EE23673D02AC5A2 /* DTError.m in Sources */ = {isa = PBXBuildFile; fileRef = 219541C50795AD95383F24F93240965C /* DTError.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		0BA7BF706D2F75500C408B033889015F /* PBXContainerItemProxy */ = {
+		181A96B60D726ED9FEDF5EA95517E7DB /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 30E7CD0DDCCE9617560F142BBA48D0FE;
+			remoteGlobalIDString = 48F3E8765B8ADB708D3976791D7E1D8E;
 			remoteInfo = FBAnnotationClustering;
 		};
-		0EBCCDFD8ECC664F13301CF23A778076 /* PBXContainerItemProxy */ = {
+		2052B160834EB91EB6C7F0A65EA5BC78 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 5AC078C761B4F9176E70B1EC947C5424;
-			remoteInfo = "BLActionController-BLActionController";
-		};
-		1493284D23D0126FAD932BF0C1A9DBAF /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = A20B5E2CEEDD2D72AAF5348C4E659399;
-			remoteInfo = MJRefresh;
-		};
-		3E027C54BE8192BB73ED2EE63C4395FB /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = ABE7D858D4AD0CB617E31464DC7FB7AC;
-			remoteInfo = BLListDataSource;
-		};
-		42C51611585EC96213629D58F9527416 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 6F1A1FACAB31C8F185B316CE1D7C171E;
-			remoteInfo = DateTools;
+			remoteGlobalIDString = 3A4160DDF979E0D381733A091A376A0E;
+			remoteInfo = SwipeCellKit;
 		};
 		45AA84E154035AB1D4CF61D4410DC422 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 6F1A1FACAB31C8F185B316CE1D7C171E;
+			remoteGlobalIDString = 0C2ECD3401CCDE77FA918278DFC0DCB5;
 			remoteInfo = DateTools;
 		};
-		503DD70A9D86DFB3248B9FC814A40CC7 /* PBXContainerItemProxy */ = {
+		4AEB3E42245BA2E6CBF232B2DC4BBEEC /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = A20B5E2CEEDD2D72AAF5348C4E659399;
-			remoteInfo = MJRefresh;
+			remoteGlobalIDString = 928839C9366FE6A07F570AE5F333D01E;
+			remoteInfo = BLListDataSource;
+		};
+		53714DD382C5722296EE862E67C8E324 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 928839C9366FE6A07F570AE5F333D01E;
+			remoteInfo = BLListDataSource;
 		};
 		5FEE579E94F2087874EC0A029310A625 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = A20B5E2CEEDD2D72AAF5348C4E659399;
+			remoteGlobalIDString = 3E77B8468B871F2092F94F4731838D96;
 			remoteInfo = MJRefresh;
 		};
-		6359C523FB338D869B6FF03190FECC81 /* PBXContainerItemProxy */ = {
+		68A899CF324949352A808DBB5B12EB66 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 6F1A1FACAB31C8F185B316CE1D7C171E;
-			remoteInfo = DateTools;
+			remoteGlobalIDString = 20994F029B2ED2738DAF57491F3D62F4;
+			remoteInfo = BLListViewController;
 		};
 		7E1E7D009C59ADC69556E995C07E65ED /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 1FFBD36E98C66BA79187DBBB871DBCB0;
+			remoteGlobalIDString = 3A4160DDF979E0D381733A091A376A0E;
 			remoteInfo = SwipeCellKit;
 		};
 		871A7F86970786D6F5FB97077CD11270 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 64C80A1DBCD597E3E4DE736EA029131E;
+			remoteGlobalIDString = CF647725F3D2CB52A01C997972819F82;
 			remoteInfo = BLActionController;
+		};
+		95BF03A2D2EE50AE5C75196B2C025F0E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3E77B8468B871F2092F94F4731838D96;
+			remoteInfo = MJRefresh;
+		};
+		9EF5E1789A610FA6A815ED417D8EA699 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0C2ECD3401CCDE77FA918278DFC0DCB5;
+			remoteInfo = DateTools;
 		};
 		A6458A86E1E436F982F79D4AEB2631BF /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = A65793994B323A4D9BC1ACFC51ED351C;
+			remoteGlobalIDString = 20994F029B2ED2738DAF57491F3D62F4;
 			remoteInfo = BLListViewController;
-		};
-		A7B3896A23BEDA31AD540DF14255E69F /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = A65793994B323A4D9BC1ACFC51ED351C;
-			remoteInfo = BLListViewController;
-		};
-		B5D2773CF8C06B5CCC4ADCC08291D615 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = ABE7D858D4AD0CB617E31464DC7FB7AC;
-			remoteInfo = BLListDataSource;
 		};
 		C1176F6AD3275DA03381E75BC23FFD83 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = ABE7D858D4AD0CB617E31464DC7FB7AC;
+			remoteGlobalIDString = 928839C9366FE6A07F570AE5F333D01E;
 			remoteInfo = BLListDataSource;
 		};
-		E1AB3B80C5C5386BA601E738D1C75EFA /* PBXContainerItemProxy */ = {
+		C92DD0A855EC935DEB56A296256CBB51 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 1FFBD36E98C66BA79187DBBB871DBCB0;
-			remoteInfo = SwipeCellKit;
+			remoteGlobalIDString = 3E77B8468B871F2092F94F4731838D96;
+			remoteInfo = MJRefresh;
+		};
+		D02E5C4F09CA100200401888DB3AB0C1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0C2ECD3401CCDE77FA918278DFC0DCB5;
+			remoteInfo = DateTools;
 		};
 		FD3B73D8041378DFEDD16BCBFC776F03 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 30E7CD0DDCCE9617560F142BBA48D0FE;
+			remoteGlobalIDString = 48F3E8765B8ADB708D3976791D7E1D8E;
 			remoteInfo = FBAnnotationClustering;
 		};
 /* End PBXContainerItemProxy section */
@@ -291,6 +284,7 @@
 /* Begin PBXFileReference section */
 		00090A1FE1CE40F0A83435005E4A874C /* BLBaseFetch.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BLBaseFetch.h; path = Pod/Classes/Fetch/BLBaseFetch.h; sourceTree = "<group>"; };
 		02289998D6E097BEC223457B2B6CC1C5 /* MJRefreshBackStateFooter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MJRefreshBackStateFooter.h; path = MJRefresh/Custom/Footer/Back/MJRefreshBackStateFooter.h; sourceTree = "<group>"; };
+		0257520E89D5FCAE4D75C467A5B4C1F2 /* DateTools.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = DateTools.framework; path = DateTools.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		02E2AA760917A8F1302FD8BCA0FB3F67 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/MapKit.framework; sourceTree = DEVELOPER_DIR; };
 		07FC8D6AA4EE56719A9F56F36F7637BC /* MJRefreshBackNormalFooter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MJRefreshBackNormalFooter.m; path = MJRefresh/Custom/Footer/Back/MJRefreshBackNormalFooter.m; sourceTree = "<group>"; };
 		0B88F11327D23CF830A2419BDC44998B /* MJRefreshBackGifFooter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MJRefreshBackGifFooter.h; path = MJRefresh/Custom/Footer/Back/MJRefreshBackGifFooter.h; sourceTree = "<group>"; };
@@ -305,14 +299,11 @@
 		1AC5DCF9E819944D381B0A5A6C8BB0DF /* DateTools-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DateTools-prefix.pch"; sourceTree = "<group>"; };
 		1ADFA1611C0B95604F8D1A7D1523AB8E /* BLDataStructure.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BLDataStructure.h; path = Pod/Classes/DataStructure/BLDataStructure.h; sourceTree = "<group>"; };
 		1DBECD4B88E586403254A50A3510B7AA /* FBAnnotationClustering.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = FBAnnotationClustering.modulemap; sourceTree = "<group>"; };
-		1DEAD782EC65E28D8257616CAD0403B8 /* BLListDataSource.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = BLListDataSource.framework; path = BLListDataSource.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		1E38C98ED057FB9EAADEBEBB41A32905 /* MJRefreshAutoFooter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MJRefreshAutoFooter.h; path = MJRefresh/Base/MJRefreshAutoFooter.h; sourceTree = "<group>"; };
-		202E8AA8A5598439ED665FA8E7FDCDAE /* BLMapListController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BLMapListController.swift; path = BLActionController/Classes/BLMapListController.swift; sourceTree = "<group>"; };
 		2135215CE5C89BAB8891D94E0033E661 /* MJRefreshBackFooter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MJRefreshBackFooter.m; path = MJRefresh/Base/MJRefreshBackFooter.m; sourceTree = "<group>"; };
 		219541C50795AD95383F24F93240965C /* DTError.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DTError.m; path = DateTools/DateTools/DTError.m; sourceTree = "<group>"; };
 		22AA13E12428E4907FB861BC0BBFC707 /* MJRefreshAutoGifFooter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MJRefreshAutoGifFooter.m; path = MJRefresh/Custom/Footer/Auto/MJRefreshAutoGifFooter.m; sourceTree = "<group>"; };
 		230E26AD631783A3890BE8E79BD39C0A /* NSDate+DateTools.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSDate+DateTools.h"; path = "DateTools/DateTools/NSDate+DateTools.h"; sourceTree = "<group>"; };
-		2377C4D5DDB8A840427CC963E46B6FBC /* BLActionController.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = BLActionController.xcconfig; sourceTree = "<group>"; };
 		265FFCE6127DF989139531F719A76EE4 /* SwipeCellKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SwipeCellKit-dummy.m"; sourceTree = "<group>"; };
 		26C24397B0AA7EBCF85C4DA523795CA5 /* SwipeCellKit.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = SwipeCellKit.modulemap; sourceTree = "<group>"; };
 		26C456A9DF8C23CDEFCA74FFDADEF589 /* BLListViewController.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = BLListViewController.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -329,11 +320,11 @@
 		31A6A43D7879933CF25D9258FBF64E50 /* DTConstants.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DTConstants.h; path = DateTools/DateTools/DTConstants.h; sourceTree = "<group>"; };
 		32D0E6DA8D92B03038E0FE888F752BC7 /* DTConstants.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DTConstants.m; path = DateTools/DateTools/DTConstants.m; sourceTree = "<group>"; };
 		338BB7C87A801FD74A2A946450C5F700 /* SwipeAnimator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwipeAnimator.swift; path = Source/SwipeAnimator.swift; sourceTree = "<group>"; };
+		35104578F302ADB3B14926FDE142AA98 /* BLActionController.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = BLActionController.modulemap; sourceTree = "<group>"; };
 		353E617FCC9BD6DBE9E9C9C215A02523 /* MJRefreshFooter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MJRefreshFooter.m; path = MJRefresh/Base/MJRefreshFooter.m; sourceTree = "<group>"; };
 		35C739E931A887BE947160E7410D9CF4 /* BLDataSource.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BLDataSource.m; path = Pod/Classes/DataSource/BLDataSource.m; sourceTree = "<group>"; };
 		36E17C3CECEE6AA27FE0457E78213625 /* FBAnnotationClustering.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = FBAnnotationClustering.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		388DB73005A4D4EA2B528965AE309AAA /* SwipeCellKit.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SwipeCellKit.xcconfig; sourceTree = "<group>"; };
-		38ADCBB80695A616903D6EA82291E9B9 /* DateTools.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = DateTools.framework; path = DateTools.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		392B7CF61400CCF694BDB24937DF6961 /* BLDataStructure+Subclass.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "BLDataStructure+Subclass.h"; path = "Pod/Classes/DataStructure/BLDataStructure+Subclass.h"; sourceTree = "<group>"; };
 		3963302B43AACED4F3757AE670A7148C /* DTError.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DTError.h; path = DateTools/DateTools/DTError.h; sourceTree = "<group>"; };
 		3BAFB9DD68C4F4689203650E44870109 /* BLDataKeys.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BLDataKeys.h; path = Pod/Classes/BLDataKeys.h; sourceTree = "<group>"; };
@@ -341,32 +332,29 @@
 		3D549D33582709CFCD88FE46E45FE134 /* BLListViewController.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = BLListViewController.xcconfig; sourceTree = "<group>"; };
 		3E4295BB8128A3F761B50A24C25C20FA /* MJRefresh.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MJRefresh.xcconfig; sourceTree = "<group>"; };
 		3ECD596D97C41DED5778109642E66F55 /* Pods-BLActionController_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-BLActionController_Tests-dummy.m"; sourceTree = "<group>"; };
-		3F7AFE8EB972B45DD4304827E8675B95 /* Pods_BLActionController_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_BLActionController_Example.framework; path = "Pods-BLActionController_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		401B2995B506496E08DFC2FED6F60A8F /* MJRefreshGifHeader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MJRefreshGifHeader.h; path = MJRefresh/Custom/Header/MJRefreshGifHeader.h; sourceTree = "<group>"; };
 		4169A713A204A7C74EB0F71E557E593D /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		433BC46CED50D7DB6F5B57E080A6D224 /* FBQuadTree.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBQuadTree.h; path = FBAnnotationClustering/FBQuadTree.h; sourceTree = "<group>"; };
-		439D487FE5D8C6C860690A31EE82DBA4 /* FBAnnotationClustering.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = FBAnnotationClustering.framework; path = FBAnnotationClustering.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		44A21437DA9E78D317DF06AA82848583 /* Swipeable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Swipeable.swift; path = Source/Swipeable.swift; sourceTree = "<group>"; };
 		4509D71B0671FF6D8B26E3AE8B355F91 /* UIScrollView+MJExtension.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIScrollView+MJExtension.h"; path = "MJRefresh/UIScrollView+MJExtension.h"; sourceTree = "<group>"; };
 		47F1DD2BFC84A251FC55A2E9CA460803 /* FBAnnotationCluster.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBAnnotationCluster.h; path = FBAnnotationClustering/FBAnnotationCluster.h; sourceTree = "<group>"; };
+		497CF2E6F7DBB4FD35E0F58656D818B5 /* BLMapListController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BLMapListController.swift; path = BLActionController/Classes/BLMapListController.swift; sourceTree = "<group>"; };
+		49D93E4C582D81379F7CAB59FAE64B2B /* BLActionController-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "BLActionController-umbrella.h"; sourceTree = "<group>"; };
+		49E779D88B0A1B2DF7627D9A0F4B01BF /* FBAnnotationClustering.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = FBAnnotationClustering.framework; path = FBAnnotationClustering.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4A8A2D5DE34069FE89A6EC8739A4501B /* MJRefreshAutoNormalFooter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MJRefreshAutoNormalFooter.m; path = MJRefresh/Custom/Footer/Auto/MJRefreshAutoNormalFooter.m; sourceTree = "<group>"; };
-		4C0FB60768580FCB308F59CE7CF3B6B4 /* BLActionControllerKeys.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BLActionControllerKeys.swift; path = BLActionController/Classes/BLActionControllerKeys.swift; sourceTree = "<group>"; };
-		4C745CBF704BBB580836ED25A61CC101 /* BLSelectTableViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BLSelectTableViewController.swift; path = BLActionController/Classes/BLSelectTableViewController.swift; sourceTree = "<group>"; };
 		4CF8BC9B2F973052A2E7F5B7FD649204 /* MJRefreshGifHeader.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MJRefreshGifHeader.m; path = MJRefresh/Custom/Header/MJRefreshGifHeader.m; sourceTree = "<group>"; };
 		4D06333FEBEA8A5B58EEF85191C6DD14 /* SwipeTableViewCell+Display.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "SwipeTableViewCell+Display.swift"; path = "Source/SwipeTableViewCell+Display.swift"; sourceTree = "<group>"; };
-		4D35CFD7E57DDF40FDCEC5A3EF6572E0 /* SwipeCellKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SwipeCellKit.framework; path = SwipeCellKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4D5AE1C89E5993BB4ED126AC588726BF /* MJRefreshComponent.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MJRefreshComponent.h; path = MJRefresh/Base/MJRefreshComponent.h; sourceTree = "<group>"; };
 		4E019EE7BA97CD2FAD09C579AB29C6A8 /* DateTools.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = DateTools.xcconfig; sourceTree = "<group>"; };
 		4ED2E23F5350EAFC6F82F224099075E5 /* BLBaseFetchResult.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BLBaseFetchResult.m; path = Pod/Classes/FetchResult/BLBaseFetchResult.m; sourceTree = "<group>"; };
 		4F1DDEFF90B1DABA9688F2F125E2A8A6 /* MJRefreshBackGifFooter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MJRefreshBackGifFooter.m; path = MJRefresh/Custom/Footer/Back/MJRefreshBackGifFooter.m; sourceTree = "<group>"; };
-		4F715583C3BC9E0285CAB31D7E034D72 /* ResourceBundle-BLActionController-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-BLActionController-Info.plist"; sourceTree = "<group>"; };
+		54A1761847F1FE6207A486920CBE66DA /* Pods_BLActionController_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_BLActionController_Example.framework; path = "Pods-BLActionController_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		55531718800CA6E7CE2322984CDE5271 /* DateTools-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "DateTools-dummy.m"; sourceTree = "<group>"; };
 		5610F5D329A327E85EA40ECA18070350 /* BLListDataSource.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = BLListDataSource.modulemap; sourceTree = "<group>"; };
 		5749D7ADDCF242B2B532F53230319544 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5817640588493A97390065513915A4BE /* SwipeActionButton.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwipeActionButton.swift; path = Source/SwipeActionButton.swift; sourceTree = "<group>"; };
 		58B61F8AA973CD6E5FB70ED9F5BE97D9 /* BLReadableListDataSource.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BLReadableListDataSource.h; path = Pod/Classes/DataSource/BLReadableListDataSource.h; sourceTree = "<group>"; };
 		5993230F8406DFF2DCA82FEFADE9A30B /* MJRefreshNormalHeader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MJRefreshNormalHeader.h; path = MJRefresh/Custom/Header/MJRefreshNormalHeader.h; sourceTree = "<group>"; };
-		5A1C015C2C9EE93F32F84DB64D91E49A /* Pods_BLActionController_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_BLActionController_Tests.framework; path = "Pods-BLActionController_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5C037A834A7136AC724C950A0B27C827 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5D4A01752D30F6EE78AB1A9D061340BF /* BLListViewController-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "BLListViewController-umbrella.h"; sourceTree = "<group>"; };
 		60AF3F762ED64FDC79DF3DA1F2AF0416 /* BLListViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BLListViewController.m; path = Pod/Classes/BLListViewController.m; sourceTree = "<group>"; };
@@ -374,6 +362,7 @@
 		61BFB3281D00900C0C605B06565C3998 /* SwipeTableViewCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwipeTableViewCell.swift; path = Source/SwipeTableViewCell.swift; sourceTree = "<group>"; };
 		62559F9C518FE9CF7C4A1736A93B3395 /* BLListDataSource+Subclass.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "BLListDataSource+Subclass.h"; path = "Pod/Classes/DataSource/BLListDataSource+Subclass.h"; sourceTree = "<group>"; };
 		6293A05A94148CED36A8CD4CC6CFE6E3 /* BLListDataSource.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BLListDataSource.h; path = Pod/Classes/DataSource/BLListDataSource.h; sourceTree = "<group>"; };
+		632DB724420B39A4FE955642C08448D9 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		63695D148A068C1DFC74E7704B4DD110 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6472C3A6C97ADBA99B6CAF5BA11F7D9C /* BLListDataSource-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "BLListDataSource-dummy.m"; sourceTree = "<group>"; };
 		6496E1CF9E3C409DE0DC2676BCAC2000 /* Pods-BLActionController_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-BLActionController_Example-dummy.m"; sourceTree = "<group>"; };
@@ -389,6 +378,7 @@
 		6F71ECC578FC1ACFF408F73F9C071BEC /* MJRefreshConst.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MJRefreshConst.h; path = MJRefresh/MJRefreshConst.h; sourceTree = "<group>"; };
 		6FA038A3FB2FFAB9AA86ABE6B56A901A /* MJRefreshAutoFooter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MJRefreshAutoFooter.m; path = MJRefresh/Base/MJRefreshAutoFooter.m; sourceTree = "<group>"; };
 		734448831DFF7A6593C2B7FE2BC39615 /* BLListDataSource-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "BLListDataSource-umbrella.h"; sourceTree = "<group>"; };
+		741022C520907CB8ADC6CB74CB2D20E9 /* BLActionController.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = BLActionController.framework; path = BLActionController.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		75C07F161310ADF35C961F190807B744 /* Pods-BLActionController_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-BLActionController_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		7B51A0A158F588DF72DF3D488D53BDD6 /* BLListDataSource.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = BLListDataSource.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		7BACFF6DA997FB1826A01C40F7CDA3B7 /* MJRefresh-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MJRefresh-dummy.m"; sourceTree = "<group>"; };
@@ -404,22 +394,21 @@
 		89276850B7C237170BABF2CABFC24FF1 /* BLSimpleListFetchResult.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BLSimpleListFetchResult.m; path = Pod/Classes/FetchResult/BLSimpleListFetchResult.m; sourceTree = "<group>"; };
 		898696F00B760D18F2D94AE1873F8EFD /* MJRefreshHeader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MJRefreshHeader.h; path = MJRefresh/Base/MJRefreshHeader.h; sourceTree = "<group>"; };
 		89D6D8CE2088698E0C43A242A42E54AD /* DateTools.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DateTools.h; path = DateTools/DateTools/DateTools.h; sourceTree = "<group>"; };
-		8B97FAFC16A2C593EF50C5C03B44B696 /* BLActionController.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = BLActionController.modulemap; sourceTree = "<group>"; };
 		8BEAC323F54EC1B2B941E425ECA7AB5A /* MJRefreshStateHeader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MJRefreshStateHeader.h; path = MJRefresh/Custom/Header/MJRefreshStateHeader.h; sourceTree = "<group>"; };
+		8E0F945F087035D0A9A409207A92B344 /* BLListDataSource.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = BLListDataSource.framework; path = BLListDataSource.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		907BEC8EE709016D72F1A50F3414C5C3 /* BLSimpleListFetchResult.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BLSimpleListFetchResult.h; path = Pod/Classes/FetchResult/BLSimpleListFetchResult.h; sourceTree = "<group>"; };
 		925F976FA9EE582469167E886A9422A2 /* SwipeActionTransitioning.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwipeActionTransitioning.swift; path = Source/SwipeActionTransitioning.swift; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		93B272B8678E1FE2148EF0BC130199AE /* BLListViewController-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "BLListViewController-dummy.m"; sourceTree = "<group>"; };
 		95014B6B37B50DA371D9CA4CFD35A6FD /* SwipeTransitionLayout.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwipeTransitionLayout.swift; path = Source/SwipeTransitionLayout.swift; sourceTree = "<group>"; };
 		95681BFBB7265EE926C65708A663D536 /* SwipeAction.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwipeAction.swift; path = Source/SwipeAction.swift; sourceTree = "<group>"; };
+		95BC10912BB783A5AEF7E2C7717A5B8D /* SwipeCellKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SwipeCellKit.framework; path = SwipeCellKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		972E67D639ABA30B02383C4D571847A0 /* BLListViewController+Subclass.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "BLListViewController+Subclass.h"; path = "Pod/Classes/BLListViewController+Subclass.h"; sourceTree = "<group>"; };
 		97963AA04C30FE0214FDFD576B31CBC2 /* BLListViewController.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = BLListViewController.modulemap; sourceTree = "<group>"; };
 		97A735D405CCEE47580D43E2D08F51C2 /* BLBaseFetchResult.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BLBaseFetchResult.h; path = Pod/Classes/FetchResult/BLBaseFetchResult.h; sourceTree = "<group>"; };
-		997C087CF87B13D46A6A9ED095643485 /* BLListViewController.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = BLListViewController.framework; path = BLListViewController.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		99FA0849874E9BA16B6E9863CDBF9225 /* MJRefreshBackFooter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MJRefreshBackFooter.h; path = MJRefresh/Base/MJRefreshBackFooter.h; sourceTree = "<group>"; };
 		9D7DD6329294FD89C87E455E28C254EA /* Pods-BLActionController_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BLActionController_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		9D9EB2E544F3F341DB46DDFD3978F8AC /* Pods-BLActionController_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BLActionController_Example.release.xcconfig"; sourceTree = "<group>"; };
-		9FDADF783DA90BB9CA50A873E16447B6 /* BLActionController-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "BLActionController-dummy.m"; sourceTree = "<group>"; };
 		A26DFBB7C434011B61FC8BB8836D7035 /* DTTimePeriodChain.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DTTimePeriodChain.h; path = DateTools/DateTools/DTTimePeriodChain.h; sourceTree = "<group>"; };
 		A31E0AEA3F116B09821DF7F581AF56F2 /* BLDataObject.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BLDataObject.h; path = Pod/Classes/BLDataObject.h; sourceTree = "<group>"; };
 		A37AE31C667924656C93EF4D7DA49F69 /* FBClusteringManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBClusteringManager.m; path = FBAnnotationClustering/FBClusteringManager.m; sourceTree = "<group>"; };
@@ -432,30 +421,29 @@
 		AB58BFDE0366548A6A9DFEA56CC44750 /* BLFetchDataSource.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BLFetchDataSource.m; path = Pod/Classes/DataSource/BLFetchDataSource.m; sourceTree = "<group>"; };
 		AB67880CB14B8AD2F7D5BA7D6FAB2D97 /* Pods-BLActionController_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-BLActionController_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		AB818924B7EF9C2057143AE466522F93 /* MJRefreshAutoStateFooter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MJRefreshAutoStateFooter.h; path = MJRefresh/Custom/Footer/Auto/MJRefreshAutoStateFooter.h; sourceTree = "<group>"; };
+		AC926D7EDFDE044EFE129AF7A8FE666A /* BLListViewController.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = BLListViewController.framework; path = BLListViewController.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		AE6F10BFC58A921C090B272B7B94EFB3 /* DateTools.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = DateTools.bundle; path = DateTools/DateTools/DateTools.bundle; sourceTree = "<group>"; };
 		B14BE829173E295EE7F490AD09FE8676 /* BLDataSource.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BLDataSource.h; path = Pod/Classes/DataSource/BLDataSource.h; sourceTree = "<group>"; };
 		B164B389A9BB0B52F9917F55C8F67694 /* FBAnnotationClustering-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "FBAnnotationClustering-dummy.m"; sourceTree = "<group>"; };
 		B1FB06BDB2E4D8AD6D1609C452A9CC0C /* DTTimePeriodChain.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DTTimePeriodChain.m; path = DateTools/DateTools/DTTimePeriodChain.m; sourceTree = "<group>"; };
-		B328BC8120D93A37A365DD2FEE7BBF8C /* MJRefresh.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = MJRefresh.framework; path = MJRefresh.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B20564B5E5254B2BB343B6335233C5F0 /* Map.storyboard */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.storyboard; name = Map.storyboard; path = BLActionController/Classes/Map.storyboard; sourceTree = "<group>"; };
 		B4728885AC9A1AE47E0A78C3223A692A /* SwipeCellKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SwipeCellKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B66EEBBAF030BC531F1C580F6B105E91 /* Extensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Extensions.swift; path = Source/Extensions.swift; sourceTree = "<group>"; };
-		B970018E83879319DE2962347DD4FF73 /* BLActionController.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = BLActionController.framework; path = BLActionController.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		BB1141BFCC0A28C0E55F1C92A0B09918 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BC602AD435327E7934C32030E7225A12 /* MJRefresh-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MJRefresh-umbrella.h"; sourceTree = "<group>"; };
 		BCA15947A34B5E6E599E43BA31420389 /* Pods-BLActionController_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-BLActionController_Tests-frameworks.sh"; sourceTree = "<group>"; };
 		BD72A748674C85E9AB5032E3B355F727 /* BLListViewController-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "BLListViewController-prefix.pch"; sourceTree = "<group>"; };
 		BE18124BE2E2A04950B0DAF57E9711D8 /* MJRefreshAutoGifFooter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MJRefreshAutoGifFooter.h; path = MJRefresh/Custom/Footer/Auto/MJRefreshAutoGifFooter.h; sourceTree = "<group>"; };
+		BEC95FB608BAD367DB19855887419BD0 /* BLActionControllerKeys.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BLActionControllerKeys.swift; path = BLActionController/Classes/BLActionControllerKeys.swift; sourceTree = "<group>"; };
 		BF4F16D9719BB35A8B3DDFC4C2903DCF /* SwipeFeedback.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwipeFeedback.swift; path = Source/SwipeFeedback.swift; sourceTree = "<group>"; };
 		C25A0FB3304FED8D0ED7C47FC520D67A /* MJRefreshHeader.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MJRefreshHeader.m; path = MJRefresh/Base/MJRefreshHeader.m; sourceTree = "<group>"; };
 		C4598EE6A7971BFC07ED720C42375421 /* Pods-BLActionController_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-BLActionController_Example-umbrella.h"; sourceTree = "<group>"; };
-		C54D38BD60DAE2CF961A4B5ECF78AA83 /* BLActionController-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "BLActionController-umbrella.h"; sourceTree = "<group>"; };
-		CA676EFFC6572CDC1BFF066E64EA379E /* BLActionsTableViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BLActionsTableViewController.swift; path = BLActionController/Classes/BLActionsTableViewController.swift; sourceTree = "<group>"; };
+		C537231F4A8092403D08F77AD5909644 /* BLActionsTableViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BLActionsTableViewController.swift; path = BLActionController/Classes/BLActionsTableViewController.swift; sourceTree = "<group>"; };
 		CE7815C2610C9D1494C80F38D111C7DF /* Pods-BLActionController_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-BLActionController_Tests.modulemap"; sourceTree = "<group>"; };
 		D100E137FCEE099A86EDCA8291248F5E /* Pods-BLActionController_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-BLActionController_Example-resources.sh"; sourceTree = "<group>"; };
 		D17317F8768E62FCDB3AD71547322666 /* FBAnnotationClustering-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FBAnnotationClustering-umbrella.h"; sourceTree = "<group>"; };
 		D1F0B668EE6ADD4C020F8C065B8C1892 /* Pods-BLActionController_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-BLActionController_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		D23FA580F5B2EF2C35F9283FD83E3CF0 /* Pods-BLActionController_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-BLActionController_Example.modulemap"; sourceTree = "<group>"; };
-		D594EB1074D6D83A099BAE69E5BBB8FE /* BLActionController.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = BLActionController.bundle; path = BLActionController.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		D25F39CBF446082C599669CC46A89C71 /* MJRefresh.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = MJRefresh.framework; path = MJRefresh.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D5BE25073483958C13B8F1C1345F02DB /* UIView+MJExtension.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIView+MJExtension.m"; path = "MJRefresh/UIView+MJExtension.m"; sourceTree = "<group>"; };
 		D5D8904D0A03E2591395339AA5C87845 /* BLReadableListDataSource.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BLReadableListDataSource.m; path = Pod/Classes/DataSource/BLReadableListDataSource.m; sourceTree = "<group>"; };
 		D6195C4F1A03E3A431B06488F7ACC525 /* MJRefreshStateHeader.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MJRefreshStateHeader.m; path = MJRefresh/Custom/Header/MJRefreshStateHeader.m; sourceTree = "<group>"; };
@@ -464,11 +452,13 @@
 		D7E13E50BEC097A0185E13315539523E /* MJRefresh.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MJRefresh.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D87531F931AD5AC06F2FA7D4A13AF721 /* DTTimePeriodGroup.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DTTimePeriodGroup.m; path = DateTools/DateTools/DTTimePeriodGroup.m; sourceTree = "<group>"; };
 		D8AF2DA3A0BF992B16AFE8BC5B5697FE /* MJRefreshAutoNormalFooter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MJRefreshAutoNormalFooter.h; path = MJRefresh/Custom/Footer/Auto/MJRefreshAutoNormalFooter.h; sourceTree = "<group>"; };
+		D9A5900F3BD6E73CD9DDD9B46A1C3CB6 /* BLActionController.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = BLActionController.xcconfig; sourceTree = "<group>"; };
 		D9E97110A46C1F6AA567CC6409DE3034 /* Pods-BLActionController_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-BLActionController_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		DB015B060D093FF5626CAC8FB56E2B40 /* FBQuadTreeNode.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBQuadTreeNode.h; path = FBAnnotationClustering/FBQuadTreeNode.h; sourceTree = "<group>"; };
 		DB39789D6098C95DD5FCF779ADAFF85A /* SwipeTableOptions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwipeTableOptions.swift; path = Source/SwipeTableOptions.swift; sourceTree = "<group>"; };
 		DD56825C6EC1A335D70AB3EE6AF3728D /* Pods-BLActionController_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BLActionController_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		DDF1CF569CB3B0B533D67B3E26B21CAE /* BLInteractiveDataSource+Subclass.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "BLInteractiveDataSource+Subclass.h"; path = "Pod/Classes/DataSource/BLInteractiveDataSource+Subclass.h"; sourceTree = "<group>"; };
+		DECCCD38CDF25F26CDFA6B780B69B1AC /* BLSelectTableViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BLSelectTableViewController.swift; path = BLActionController/Classes/BLSelectTableViewController.swift; sourceTree = "<group>"; };
 		DF0036EF8EECCFFAFEE7B3497884A07A /* MJRefresh.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = MJRefresh.modulemap; sourceTree = "<group>"; };
 		E03EC1854FFF03D866E4EC0557C3D20E /* BLDataSource+Subclass.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "BLDataSource+Subclass.h"; path = "Pod/Classes/DataSource/BLDataSource+Subclass.h"; sourceTree = "<group>"; };
 		E0A3220F4411FBC8E0344E5826980257 /* SwipeExpansionStyle.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwipeExpansionStyle.swift; path = Source/SwipeExpansionStyle.swift; sourceTree = "<group>"; };
@@ -478,12 +468,14 @@
 		E89C26662E1C5941D20CC50C3E9E07FB /* MJRefreshBackStateFooter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MJRefreshBackStateFooter.m; path = MJRefresh/Custom/Footer/Back/MJRefreshBackStateFooter.m; sourceTree = "<group>"; };
 		E8D2F3E88599B7FBCB771AE71A9CCD5A /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EBC71309FE6DADCFA90EECDA14584E54 /* DTTimePeriodGroup.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DTTimePeriodGroup.h; path = DateTools/DateTools/DTTimePeriodGroup.h; sourceTree = "<group>"; };
+		EBFFECBBE7EB0BDBBCA69EB7522A95C2 /* BLActionController-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "BLActionController-prefix.pch"; sourceTree = "<group>"; };
 		ECFA934E3BD7DFEE8C07D3A879B3C37D /* NSBundle+MJRefresh.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSBundle+MJRefresh.m"; path = "MJRefresh/NSBundle+MJRefresh.m"; sourceTree = "<group>"; };
-		EE14B22F54739E8A2215378974F192A2 /* BLActionController-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "BLActionController-prefix.pch"; sourceTree = "<group>"; };
 		EF5CE243499558F727DE173228BD1AC8 /* BLBaseUpdate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BLBaseUpdate.h; path = Pod/Classes/Update/BLBaseUpdate.h; sourceTree = "<group>"; };
 		EFC34C2AB0EB402E315D4614C0E653EC /* Pods-BLActionController_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-BLActionController_Example-frameworks.sh"; sourceTree = "<group>"; };
 		F0B7F3C766633A367C2179DA47F2F7BE /* FBQuadTree.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBQuadTree.m; path = FBAnnotationClustering/FBQuadTree.m; sourceTree = "<group>"; };
+		F0C5B2FCA38467CCBC48544BDA367656 /* BLActionController-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "BLActionController-dummy.m"; sourceTree = "<group>"; };
 		F4B71AB01509D16CEC2C48DFA2C241B9 /* Pods-BLActionController_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-BLActionController_Tests-umbrella.h"; sourceTree = "<group>"; };
+		F62E61855A6927790F1B42CE53C74173 /* Pods_BLActionController_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_BLActionController_Tests.framework; path = "Pods-BLActionController_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F73F76AB1EEB9345F3E3A9C325C49D32 /* Pods-BLActionController_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-BLActionController_Tests-resources.sh"; sourceTree = "<group>"; };
 		F83309F8376A6397EE9E9FC1C8290E8A /* BLListViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BLListViewController.h; path = Pod/Classes/BLListViewController.h; sourceTree = "<group>"; };
 		F852BA84A77CC14272C4315E8952ED7A /* BLInteractiveDataSource.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BLInteractiveDataSource.m; path = Pod/Classes/DataSource/BLInteractiveDataSource.m; sourceTree = "<group>"; };
@@ -500,78 +492,63 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		0E60E06FA505A01710E5135D8926BA41 /* Frameworks */ = {
+		12C9CBD8DFF134A25E8D991D4E8AEFA4 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				51E4156E3C8C768021618D9628570579 /* Foundation.framework in Frameworks */,
+				DD06BD880880E71DF3B05B06E0D9C7D0 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		35CFFB4F3C335D22FDD097C8CE1594E7 /* Frameworks */ = {
+		372E57C6206BD48922D6C129917378B4 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4AE559CC8489F6ABF2163FFEDC67C094 /* CoreLocation.framework in Frameworks */,
-				FA3EEAB1041353E80FEBA9A037D409E4 /* Foundation.framework in Frameworks */,
-				4B9857ACF7231009B1E2A445B4FCB3E5 /* MapKit.framework in Frameworks */,
+				ADA24718FBFBEF83166BFD66D66251A8 /* BLListDataSource.framework in Frameworks */,
+				6AFDFA019000CB7430F6886C80AAEEEA /* BLListViewController.framework in Frameworks */,
+				9C09C3A41245A3063FB631381FBC27CF /* DateTools.framework in Frameworks */,
+				B9B3D4068422B678C07EC7B02D3890FC /* FBAnnotationClustering.framework in Frameworks */,
+				5DCF58F220AE9ED242FB8496A4895611 /* Foundation.framework in Frameworks */,
+				FA533F9917CDA9FF07CE201C64A5B1A7 /* MapKit.framework in Frameworks */,
+				423E67CC8CE3AF6E06B04FE4B94AF268 /* MJRefresh.framework in Frameworks */,
+				CB5FF2C50B928C7FD5C165DF42E2D79F /* SwipeCellKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		40BD50074466050223ED9FEC678C1C16 /* Frameworks */ = {
+		59D118DE98EF3260D6A0F94539F18E74 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				96181788322D9B6A71BBFD7B6F2A9E08 /* Foundation.framework in Frameworks */,
+				2C88A79BFABC39040EC041D78C4F1C6B /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		5D106545A44CDD3D9F2A5D8E96DBB397 /* Frameworks */ = {
+		7D42046113B7B1030A50A780691859A1 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BEDE4A8DC912A96A1E6E21F1C73F5C98 /* Foundation.framework in Frameworks */,
+				45318953F219DD3925EBF8E6C382EA7E /* CoreLocation.framework in Frameworks */,
+				D8F478D5E4E74C86D3D2C73AC5BE5EA3 /* Foundation.framework in Frameworks */,
+				709A78D86FA2269F28CA1FEF0F6CAA9F /* MapKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		5F355534D86C3AE5E19EF6D372DC1DAF /* Frameworks */ = {
+		7ECD9F7FAD1BF1B4E31DD3FEBD480291 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6EFDF2C4AD5DABF4473D269D8EC333D8 /* BLListDataSource.framework in Frameworks */,
+				FC4A8AB08E340E394DA973D1A0764EAD /* DateTools.framework in Frameworks */,
+				0D05E56F49F3587708A419E2D58DD612 /* Foundation.framework in Frameworks */,
+				C1A97913AAA2A2A6E860965ECAFA3ABC /* MJRefresh.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		61A565B1B41B46175CB9B4AC0411EF19 /* Frameworks */ = {
+		B9D6A96ACAE6CE8B0F6462120C21CE32 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				36D44A2750E2733B6E5F0FED40FF778A /* BLListDataSource.framework in Frameworks */,
-				9760861DB052743C38EE62B0421F8A13 /* BLListViewController.framework in Frameworks */,
-				640EDB4FDE56C0CFE93ADB11DBA4CED8 /* DateTools.framework in Frameworks */,
-				F8B8C243694F63EA00FC07D9E41276F5 /* FBAnnotationClustering.framework in Frameworks */,
-				73BA512CA5C7609FA64E79DBBF1B3E30 /* Foundation.framework in Frameworks */,
-				8D00A96CE8434DF46E94188251E63117 /* MapKit.framework in Frameworks */,
-				DEC6E15B24953DFC54F0E4C8AE3782F7 /* MJRefresh.framework in Frameworks */,
-				6F344BECA4C8CB769855DBE295B82DC8 /* SwipeCellKit.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		69AAC43B81AC595FFC2A6AC7099184CA /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				8BD7DAE94848D8F3A84BD8AD78F7F028 /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		C405947FADD622DEFCDF7161B5387ABF /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				11BA2A3D1DB95E81154AE4A15EFBD271 /* BLListDataSource.framework in Frameworks */,
-				A82E25E3394925590BD948AFF9CBC0BA /* DateTools.framework in Frameworks */,
-				23282ACB359066CEB427E7CA17377BA9 /* Foundation.framework in Frameworks */,
-				29A2A1A3B26CABECD34192C0134AB269 /* MJRefresh.framework in Frameworks */,
+				36831164888A07E6D4F785AACEE0F2CA /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -580,6 +557,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				5E3F186CBD84B6AF833A0184D0E7DE56 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FAF89395D5CAC3AC68A05FE5C2C25368 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC621D0DD181CEAA4A52D182CA4CE26E /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -604,17 +589,12 @@
 			path = FBAnnotationClustering;
 			sourceTree = "<group>";
 		};
-		0E55C3AE1B67A7ADC8D1933A374BDEBB /* BLActionController */ = {
+		1CBE3BE7CA6A88C27D5699F1242D5859 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				4C0FB60768580FCB308F59CE7CF3B6B4 /* BLActionControllerKeys.swift */,
-				CA676EFFC6572CDC1BFF066E64EA379E /* BLActionsTableViewController.swift */,
-				202E8AA8A5598439ED665FA8E7FDCDAE /* BLMapListController.swift */,
-				4C745CBF704BBB580836ED25A61CC101 /* BLSelectTableViewController.swift */,
-				7C3E48BFB0D2101E00B101BED86C6206 /* Support Files */,
+				B20564B5E5254B2BB343B6335233C5F0 /* Map.storyboard */,
 			);
-			name = BLActionController;
-			path = ../..;
+			name = Resources;
 			sourceTree = "<group>";
 		};
 		2C581E219CE9D6F4093C2637D5E649A3 /* Support Files */ = {
@@ -631,21 +611,18 @@
 			path = "../Target Support Files/DateTools";
 			sourceTree = "<group>";
 		};
-		2DD0B3AD4A21BB784EB811D26E69F057 /* Products */ = {
+		2F28B363030453D6E27C010A97A5FA31 /* BLActionController */ = {
 			isa = PBXGroup;
 			children = (
-				D594EB1074D6D83A099BAE69E5BBB8FE /* BLActionController.bundle */,
-				B970018E83879319DE2962347DD4FF73 /* BLActionController.framework */,
-				1DEAD782EC65E28D8257616CAD0403B8 /* BLListDataSource.framework */,
-				997C087CF87B13D46A6A9ED095643485 /* BLListViewController.framework */,
-				38ADCBB80695A616903D6EA82291E9B9 /* DateTools.framework */,
-				439D487FE5D8C6C860690A31EE82DBA4 /* FBAnnotationClustering.framework */,
-				B328BC8120D93A37A365DD2FEE7BBF8C /* MJRefresh.framework */,
-				3F7AFE8EB972B45DD4304827E8675B95 /* Pods_BLActionController_Example.framework */,
-				5A1C015C2C9EE93F32F84DB64D91E49A /* Pods_BLActionController_Tests.framework */,
-				4D35CFD7E57DDF40FDCEC5A3EF6572E0 /* SwipeCellKit.framework */,
+				BEC95FB608BAD367DB19855887419BD0 /* BLActionControllerKeys.swift */,
+				C537231F4A8092403D08F77AD5909644 /* BLActionsTableViewController.swift */,
+				497CF2E6F7DBB4FD35E0F58656D818B5 /* BLMapListController.swift */,
+				DECCCD38CDF25F26CDFA6B780B69B1AC /* BLSelectTableViewController.swift */,
+				1CBE3BE7CA6A88C27D5699F1242D5859 /* Resources */,
+				D8D4A29671FEC3F088F35F463EF58FCF /* Support Files */,
 			);
-			name = Products;
+			name = BLActionController;
+			path = ../..;
 			sourceTree = "<group>";
 		};
 		31E27FB7B51ED09A243DAE9C061B1A9C /* SwipeCellKit */ = {
@@ -813,21 +790,6 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		7C3E48BFB0D2101E00B101BED86C6206 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				8B97FAFC16A2C593EF50C5C03B44B696 /* BLActionController.modulemap */,
-				2377C4D5DDB8A840427CC963E46B6FBC /* BLActionController.xcconfig */,
-				9FDADF783DA90BB9CA50A873E16447B6 /* BLActionController-dummy.m */,
-				EE14B22F54739E8A2215378974F192A2 /* BLActionController-prefix.pch */,
-				C54D38BD60DAE2CF961A4B5ECF78AA83 /* BLActionController-umbrella.h */,
-				BB1141BFCC0A28C0E55F1C92A0B09918 /* Info.plist */,
-				4F715583C3BC9E0285CAB31D7E034D72 /* ResourceBundle-BLActionController-Info.plist */,
-			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/BLActionController";
-			sourceTree = "<group>";
-		};
 		7D659298333A2B6C8649CAF4B87AE61E /* Resources */ = {
 			isa = PBXGroup;
 			children = (
@@ -840,10 +802,10 @@
 			isa = PBXGroup;
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
-				A9E55D08D4CCC9757AB30ADF91A8A047 /* Development Pods */,
+				DFB76727251BEC1D28439A9BF38A7AA6 /* Development Pods */,
 				706D47D7C458D2959CFA231DB198B767 /* Frameworks */,
 				420AAD18E61543A4C03FA186B3B3247A /* Pods */,
-				2DD0B3AD4A21BB784EB811D26E69F057 /* Products */,
+				EE3032F570D7DA42DDD692EB210EA5A7 /* Products */,
 				935F0E081EA1D673DA4289E87F8C5686 /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
@@ -855,14 +817,6 @@
 				B01888F2A2B360FCF5B599D84277331B /* Pods-BLActionController_Tests */,
 			);
 			name = "Targets Support Files";
-			sourceTree = "<group>";
-		};
-		A9E55D08D4CCC9757AB30ADF91A8A047 /* Development Pods */ = {
-			isa = PBXGroup;
-			children = (
-				0E55C3AE1B67A7ADC8D1933A374BDEBB /* BLActionController */,
-			);
-			name = "Development Pods";
 			sourceTree = "<group>";
 		};
 		AEBC4F04943DB120F90E6118A5A0A56B /* Support Files */ = {
@@ -936,6 +890,20 @@
 			path = DateTools;
 			sourceTree = "<group>";
 		};
+		D8D4A29671FEC3F088F35F463EF58FCF /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				35104578F302ADB3B14926FDE142AA98 /* BLActionController.modulemap */,
+				D9A5900F3BD6E73CD9DDD9B46A1C3CB6 /* BLActionController.xcconfig */,
+				F0C5B2FCA38467CCBC48544BDA367656 /* BLActionController-dummy.m */,
+				EBFFECBBE7EB0BDBBCA69EB7522A95C2 /* BLActionController-prefix.pch */,
+				49D93E4C582D81379F7CAB59FAE64B2B /* BLActionController-umbrella.h */,
+				632DB724420B39A4FE955642C08448D9 /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/BLActionController";
+			sourceTree = "<group>";
+		};
 		DF202BD071DA597A438C2127AD316960 /* BLListDataSource */ = {
 			isa = PBXGroup;
 			children = (
@@ -974,6 +942,14 @@
 			path = BLListDataSource;
 			sourceTree = "<group>";
 		};
+		DFB76727251BEC1D28439A9BF38A7AA6 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2F28B363030453D6E27C010A97A5FA31 /* BLActionController */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
 		E611EC3809737C902BBD1DCEAC91A190 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -1000,80 +976,25 @@
 			path = BLListViewController;
 			sourceTree = "<group>";
 		};
+		EE3032F570D7DA42DDD692EB210EA5A7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				741022C520907CB8ADC6CB74CB2D20E9 /* BLActionController.framework */,
+				8E0F945F087035D0A9A409207A92B344 /* BLListDataSource.framework */,
+				AC926D7EDFDE044EFE129AF7A8FE666A /* BLListViewController.framework */,
+				0257520E89D5FCAE4D75C467A5B4C1F2 /* DateTools.framework */,
+				49E779D88B0A1B2DF7627D9A0F4B01BF /* FBAnnotationClustering.framework */,
+				D25F39CBF446082C599669CC46A89C71 /* MJRefresh.framework */,
+				54A1761847F1FE6207A486920CBE66DA /* Pods_BLActionController_Example.framework */,
+				F62E61855A6927790F1B42CE53C74173 /* Pods_BLActionController_Tests.framework */,
+				95BC10912BB783A5AEF7E2C7717A5B8D /* SwipeCellKit.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		03871F124579F83307DE8A443DE29C8B /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				ABCB9752C217467472118CE986DCC85E /* DateTools-umbrella.h in Headers */,
-				0606C5CB14A92A8C4EDD1706F5AD72D8 /* DateTools.h in Headers */,
-				21A26AE197E1E6215172693C966FEC8F /* DTConstants.h in Headers */,
-				621F90B5C74D9813D51F3FFDD54354D8 /* DTError.h in Headers */,
-				D2C3F97D4040720E16FB6DF1E0BEC098 /* DTTimePeriod.h in Headers */,
-				63CEEF9126950D00059598BAFD297BC7 /* DTTimePeriodChain.h in Headers */,
-				A4E0EC9D81673AE50C7C0C21FCE023DF /* DTTimePeriodCollection.h in Headers */,
-				EA4869F73DD32A6A3C885F39CA751211 /* DTTimePeriodGroup.h in Headers */,
-				7DA837E76EAFAE9D6E4E5B7BADB0E24F /* NSDate+DateTools.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		0ED1059303E0345B3E81185E9F6B9A48 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				179850A101FC6314CCAC49A9D267EF47 /* BLBaseFetch.h in Headers */,
-				F530153C5044FECCAD2A0E37DC133103 /* BLBaseFetchResult+Subclass.h in Headers */,
-				6E1C8C20666876003FDE001DD6AB80DC /* BLBaseFetchResult.h in Headers */,
-				958F0F1EFE63DB52297FF7F8612FDBC9 /* BLBaseUpdate.h in Headers */,
-				29FE140F4D7A8226834DE78D6BE71A2C /* BLCompoundDataSource.h in Headers */,
-				72E4B71A6FBB78CF32558E5767A0C988 /* BLDataKeys.h in Headers */,
-				7AFF5571660D1F073FF88760AEB6514E /* BLDataObject.h in Headers */,
-				07259A3500ECF972FC87DE0840E693D8 /* BLDataSource+Subclass.h in Headers */,
-				B3ABF581AFF98A36C59C145E82BCFF5D /* BLDataSource.h in Headers */,
-				0F0068ACA95D0A1FEDC9068082968288 /* BLDataStructure+Subclass.h in Headers */,
-				7F0DA76E2450DF45461D8805E05188E3 /* BLDataStructure.h in Headers */,
-				57871D5E2483F41167886F4DBBF6BD5B /* BLFetchDataSource.h in Headers */,
-				9879B6A274AD8ED92FE864014520210D /* BLInteractiveDataSource+Subclass.h in Headers */,
-				8BE301574AA5D26A492A38216E8C2A9E /* BLInteractiveDataSource.h in Headers */,
-				DF099C3389CDA7815032B696FF7DA36E /* BLListDataSource+Subclass.h in Headers */,
-				DBF97C70C63AC099B013BE851630EE96 /* BLListDataSource-umbrella.h in Headers */,
-				BB91921D3865C9E8094BE0AD4F1E0F78 /* BLListDataSource.h in Headers */,
-				A562C4AB604E1629B8ECC5A9F96B9C82 /* BLPaging.h in Headers */,
-				6A50E18C2EEDA1F163F162740E985AE9 /* BLReadableListDataSource.h in Headers */,
-				3BF10E875EF1FB8EA4A8B9A5DB71C5CC /* BLSimpleListFetchResult.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		1530C1E594898008D70ECA470962BF6D /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				C4D8D6A09927BDE93DB17A0653F23538 /* MJRefresh-umbrella.h in Headers */,
-				4F31FE80A35FC6DF54FBA831DA16C798 /* MJRefresh.h in Headers */,
-				62C27FCFB22A51CBC15DD3C3117638F0 /* MJRefreshAutoFooter.h in Headers */,
-				9ECE8371E9CF39D0EDCBB7C853D802F6 /* MJRefreshAutoGifFooter.h in Headers */,
-				461F3C6124FB7157CE3243F3E4C0BF89 /* MJRefreshAutoNormalFooter.h in Headers */,
-				4AFB8AA5551391D90B69499C6737DD30 /* MJRefreshAutoStateFooter.h in Headers */,
-				A17FBB5558C6AE1C1DAEF05A679908D0 /* MJRefreshBackFooter.h in Headers */,
-				9EC75A9B215E5D5E6114987264E84F8A /* MJRefreshBackGifFooter.h in Headers */,
-				BAA711D445CEDF4EB97A879B48F496CD /* MJRefreshBackNormalFooter.h in Headers */,
-				4DCCCA6A019F3F3B60832C88BC395858 /* MJRefreshBackStateFooter.h in Headers */,
-				CAD80D67DD44C25FFA0176446B1CC52F /* MJRefreshComponent.h in Headers */,
-				AC59AFEA568CC287FA07EB93D1BFF8BC /* MJRefreshConst.h in Headers */,
-				D5D464A923F5EE424DA1375AD38B11FF /* MJRefreshFooter.h in Headers */,
-				00AD4E41D1033391FA39C9757D9CF552 /* MJRefreshGifHeader.h in Headers */,
-				CD12D3466E94559899F2135D66A4FA56 /* MJRefreshHeader.h in Headers */,
-				CB63135C6B597F4A709698D81F0F9CA2 /* MJRefreshNormalHeader.h in Headers */,
-				27134CD42CC623232C75D71A52392AA6 /* MJRefreshStateHeader.h in Headers */,
-				2F28009ED5AA4E0D316ACC6B382A6FF7 /* NSBundle+MJRefresh.h in Headers */,
-				E20D9365B80E2D9DA294019F91476F7F /* UIScrollView+MJExtension.h in Headers */,
-				5C5DCEC7269CF8AB711AAA97D589C36F /* UIScrollView+MJRefresh.h in Headers */,
-				5AC33421A44D1B49EFD2655E1B93AFCA /* UIView+MJExtension.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		23A451AED63194FD4636F6D6640F9B0A /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
@@ -1082,42 +1003,113 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		2C1ED38C7121B33459B2161BD5C52D22 /* Headers */ = {
+		625CC93512C5BB92F64961C2C565063D /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C034255264F66CF461B75FFC3A3A96D5 /* FBAnnotationCluster.h in Headers */,
-				024219C082DE2A5A0419FABA2949C15B /* FBAnnotationClustering-umbrella.h in Headers */,
-				557326A510D415CC3EE0F59DFC32DF1F /* FBAnnotationClustering.h in Headers */,
-				EAB2D7BBE8EA9674831AE8B4E8E6C408 /* FBClusteringManager.h in Headers */,
-				1F3B796D9DA71CB535C11A3C862F57B3 /* FBQuadTree.h in Headers */,
-				DADE47EC82486863B3EF9F96F35DA834 /* FBQuadTreeNode.h in Headers */,
+				29B9AAEA45CEBBAD4645D98D33F43602 /* FBAnnotationCluster.h in Headers */,
+				2049A301CF24E9FCA0F59CC90DB4D2C8 /* FBAnnotationClustering-umbrella.h in Headers */,
+				5D8302695718347531AE7455B55C6246 /* FBAnnotationClustering.h in Headers */,
+				E27AB4B0A4DA168A27451EC2935CF28F /* FBClusteringManager.h in Headers */,
+				DD1E4667CC65E1187079CE763E5F62B4 /* FBQuadTree.h in Headers */,
+				93BD4CDACAB547854DD5ACFC1D37FCE2 /* FBQuadTreeNode.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		6671EB9BD829B346DA44EC2D94E453F0 /* Headers */ = {
+		7123802A6D99E54B5E03D5EFC43DDD0D /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				90431162BF925956BFAF9DE2FBB9CCB9 /* BLActionController-umbrella.h in Headers */,
+				B3EC3C005DCC45F1C7DFD8E0BA9B6687 /* BLBaseFetch.h in Headers */,
+				6A32A49A084D28E33E84141204A5364B /* BLBaseFetchResult+Subclass.h in Headers */,
+				16D7650ADCD06798778306683A7A4CB3 /* BLBaseFetchResult.h in Headers */,
+				88173616B3A61A57F4F40984AE17DBF9 /* BLBaseUpdate.h in Headers */,
+				F854AE90A8334771B3E587C13233206A /* BLCompoundDataSource.h in Headers */,
+				754F78DC8B961D7CA0E611D3EBD85C72 /* BLDataKeys.h in Headers */,
+				68CC489F8A182D3CD983561B62600E03 /* BLDataObject.h in Headers */,
+				01620995206E09F316AB1FA9500896E7 /* BLDataSource+Subclass.h in Headers */,
+				7427568DB79BC32C7449B63F339B4DDE /* BLDataSource.h in Headers */,
+				3AC6A4A7C4C5BBEC9132947CEB16205D /* BLDataStructure+Subclass.h in Headers */,
+				F494A3CB56C036C78149B698968FE3A7 /* BLDataStructure.h in Headers */,
+				BDE22FB028DFE62389B614BDD685FDC8 /* BLFetchDataSource.h in Headers */,
+				5E91CAF57EB039CDA7948DE4B78E0D2C /* BLInteractiveDataSource+Subclass.h in Headers */,
+				5D4D6E45A470E7B85C4FEBD28C4EE940 /* BLInteractiveDataSource.h in Headers */,
+				4887EFCD143CEEA6163A4A47239C83CA /* BLListDataSource+Subclass.h in Headers */,
+				6C3E5B5797C43C872D9B525367138DBA /* BLListDataSource-umbrella.h in Headers */,
+				78026362234D61E7F5C15F69C58EC0A7 /* BLListDataSource.h in Headers */,
+				F9E78A43A57334516A730FEAEAD812DF /* BLPaging.h in Headers */,
+				C75C9964A21B42D1EB0A5A9DFE5FF539 /* BLReadableListDataSource.h in Headers */,
+				60D3F4CB42D9629F9296D10C8D09942C /* BLSimpleListFetchResult.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		753DC79E009CB877B524ED6DF161B8E9 /* Headers */ = {
+		7A1F45BE8513899F5147A8D456D47542 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				931B82A9B41C1CC5191023CCE67FFF24 /* SwipeCellKit-umbrella.h in Headers */,
+				BE5C7FC5505E5C6AE79824DD0D86C569 /* BLActionController-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		E1DDF2A12A8E4080D7B006FC80E1F266 /* Headers */ = {
+		94EFFC819AA82A0EC770257819657769 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8CFA588A30EE7466C4A57E55B5117AF0 /* BLListViewController+Subclass.h in Headers */,
-				88F182D0D5BB8E4601C0C0E0675B431B /* BLListViewController-umbrella.h in Headers */,
-				C22D5D59B4224D04C3B2D6A8DE550EEC /* BLListViewController.h in Headers */,
+				217273C66DFF712117E85AD37186913E /* SwipeCellKit-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9783426DB87BEE3DEEE7F73BBA3D5D12 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				276224B720537A05874248E0BEE1E996 /* MJRefresh-umbrella.h in Headers */,
+				1881DC161FB2E1DB4B4F837F36ACF8D0 /* MJRefresh.h in Headers */,
+				6CBB6F751F76CEBC8D91F6B30F5B6AAA /* MJRefreshAutoFooter.h in Headers */,
+				C9EE6E905EEF77EE49B9FCED2D495B8C /* MJRefreshAutoGifFooter.h in Headers */,
+				C8B0980284A17E40F6A4E24E366862CE /* MJRefreshAutoNormalFooter.h in Headers */,
+				74BE886C063B465010D2A661B99A9B0D /* MJRefreshAutoStateFooter.h in Headers */,
+				33A9B8A31523A278CB525828C28FFF3E /* MJRefreshBackFooter.h in Headers */,
+				3D07CF676208C865AC4AD03F42D55919 /* MJRefreshBackGifFooter.h in Headers */,
+				D3ECD428F0BD2D45C5CD5872EAF25540 /* MJRefreshBackNormalFooter.h in Headers */,
+				932E7DC03586123CD593D17E2C6C953C /* MJRefreshBackStateFooter.h in Headers */,
+				8812940FEAD1A943DC01240156A7342D /* MJRefreshComponent.h in Headers */,
+				3F5E769ED9EA014B6CED55CD4D2A155D /* MJRefreshConst.h in Headers */,
+				400CB9DB10D398267FC2F0FB83DC4C1B /* MJRefreshFooter.h in Headers */,
+				B691676EFFB501291651C58335D4EF94 /* MJRefreshGifHeader.h in Headers */,
+				602F12A8A1DF613C77AC819503851733 /* MJRefreshHeader.h in Headers */,
+				08AB1855E8E6D2433684AC6AE1568CFC /* MJRefreshNormalHeader.h in Headers */,
+				21809F0579CDA40B2BCED2E08A802D86 /* MJRefreshStateHeader.h in Headers */,
+				294588499BA5DC401EFD8B770C4728FD /* NSBundle+MJRefresh.h in Headers */,
+				8662AB6A10B8D26775821765AED8FB98 /* UIScrollView+MJExtension.h in Headers */,
+				BC7B881681A4CDB03BBD9BB47CBA7ED7 /* UIScrollView+MJRefresh.h in Headers */,
+				F0480DE0B67011772832095591B0F66F /* UIView+MJExtension.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C45D90193B2E39933AEBB5202AD3A392 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D8F3153182BF5879A142AF984E327CB4 /* BLListViewController+Subclass.h in Headers */,
+				21922A4E599022C4608576ADD52FA4D8 /* BLListViewController-umbrella.h in Headers */,
+				69224F68A43A978F4324E11B788E9309 /* BLListViewController.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F5D57FA9AFF5F73961F6AC2718E2AB3F /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F5615EC0EFD3C432BA2CDFD6CE21B3F4 /* DateTools-umbrella.h in Headers */,
+				21BD7479A3383B19591985408E6E5795 /* DateTools.h in Headers */,
+				794B80AC72DCD5675B553A2C4E18C9B9 /* DTConstants.h in Headers */,
+				52DFB69F7C9C98859EE606C209C3286C /* DTError.h in Headers */,
+				E05487B124031C654E538044E81276D6 /* DTTimePeriod.h in Headers */,
+				4E274BE838CA35654149DC5DBC42BC41 /* DTTimePeriodChain.h in Headers */,
+				8A2C1FF8130B1F169F823A2D4FF4E81B /* DTTimePeriodCollection.h in Headers */,
+				2C5D1D3E36FEAD49C3A8890D98EEC83C /* DTTimePeriodGroup.h in Headers */,
+				ECD1A6218CCE1B9B7DD458C9EAF1805F /* NSDate+DateTools.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1132,90 +1124,14 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		1FFBD36E98C66BA79187DBBB871DBCB0 /* SwipeCellKit */ = {
+		0C2ECD3401CCDE77FA918278DFC0DCB5 /* DateTools */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 47A4BC5849D9794159C7AA4D8F88423B /* Build configuration list for PBXNativeTarget "SwipeCellKit" */;
+			buildConfigurationList = 219054A1C3876612255F08F6CA074F49 /* Build configuration list for PBXNativeTarget "DateTools" */;
 			buildPhases = (
-				0DDB0EC96E2A63AE876BE6CA9CE43D28 /* Sources */,
-				40BD50074466050223ED9FEC678C1C16 /* Frameworks */,
-				753DC79E009CB877B524ED6DF161B8E9 /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = SwipeCellKit;
-			productName = SwipeCellKit;
-			productReference = 4D35CFD7E57DDF40FDCEC5A3EF6572E0 /* SwipeCellKit.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		30E7CD0DDCCE9617560F142BBA48D0FE /* FBAnnotationClustering */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 66A37A2BFAE892C4058F617FA7E9D315 /* Build configuration list for PBXNativeTarget "FBAnnotationClustering" */;
-			buildPhases = (
-				41B20F2FB43B6B6E6168191E5A35F064 /* Sources */,
-				35CFFB4F3C335D22FDD097C8CE1594E7 /* Frameworks */,
-				2C1ED38C7121B33459B2161BD5C52D22 /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = FBAnnotationClustering;
-			productName = FBAnnotationClustering;
-			productReference = 439D487FE5D8C6C860690A31EE82DBA4 /* FBAnnotationClustering.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		5AC078C761B4F9176E70B1EC947C5424 /* BLActionController-BLActionController */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 3F5C53DE1BBA5323270B05D30B78D63A /* Build configuration list for PBXNativeTarget "BLActionController-BLActionController" */;
-			buildPhases = (
-				406C682CC6A47EA48E7486CC71CD49BC /* Sources */,
-				5F355534D86C3AE5E19EF6D372DC1DAF /* Frameworks */,
-				79B77DD57E4619B59C8B47F90537BCFE /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = "BLActionController-BLActionController";
-			productName = "BLActionController-BLActionController";
-			productReference = D594EB1074D6D83A099BAE69E5BBB8FE /* BLActionController.bundle */;
-			productType = "com.apple.product-type.bundle";
-		};
-		64C80A1DBCD597E3E4DE736EA029131E /* BLActionController */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = ED3065C012FD98823E803EEC449217E9 /* Build configuration list for PBXNativeTarget "BLActionController" */;
-			buildPhases = (
-				D6164AC028B3FC58EC6A04626BB51D56 /* Sources */,
-				61A565B1B41B46175CB9B4AC0411EF19 /* Frameworks */,
-				11206689C779AC95CC80C660BE2D4359 /* Resources */,
-				6671EB9BD829B346DA44EC2D94E453F0 /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				EF75E1ADAE9E33660DF6955D87631D20 /* PBXTargetDependency */,
-				B9A41AECAE9F12E77B5C0FF30AF8D8BF /* PBXTargetDependency */,
-				AA89BAF87998A8FF01B968387C90C397 /* PBXTargetDependency */,
-				B5FA140487D2E7A8459EF5CAF81617F9 /* PBXTargetDependency */,
-				2DB8F5D9CD0BE4AF5D8A7E4276802588 /* PBXTargetDependency */,
-				92C4228219480049616815173F2BD859 /* PBXTargetDependency */,
-				8F6A3F43ED76E94E7B31889DD588BF2F /* PBXTargetDependency */,
-			);
-			name = BLActionController;
-			productName = BLActionController;
-			productReference = B970018E83879319DE2962347DD4FF73 /* BLActionController.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		6F1A1FACAB31C8F185B316CE1D7C171E /* DateTools */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = B56002AB2FDD30251E166B67F01A237A /* Build configuration list for PBXNativeTarget "DateTools" */;
-			buildPhases = (
-				85A308EF09D6130347C343B6657C7E56 /* Sources */,
-				5D106545A44CDD3D9F2A5D8E96DBB397 /* Frameworks */,
-				03871F124579F83307DE8A443DE29C8B /* Headers */,
-				3866BA37D097E57414C29FF6A99CA3CF /* Resources */,
+				6C0F22DB75200F6800ED682AB45D2582 /* Sources */,
+				B9D6A96ACAE6CE8B0F6462120C21CE32 /* Frameworks */,
+				F5D57FA9AFF5F73961F6AC2718E2AB3F /* Headers */,
+				5E6FA426A0779787A77888AE56978E98 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -1223,7 +1139,96 @@
 			);
 			name = DateTools;
 			productName = DateTools;
-			productReference = 38ADCBB80695A616903D6EA82291E9B9 /* DateTools.framework */;
+			productReference = 0257520E89D5FCAE4D75C467A5B4C1F2 /* DateTools.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		20994F029B2ED2738DAF57491F3D62F4 /* BLListViewController */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BD8DE02B5DEC68E976A4D99A6443218B /* Build configuration list for PBXNativeTarget "BLListViewController" */;
+			buildPhases = (
+				4C35275401A4F3370276C8E52B800B22 /* Sources */,
+				7ECD9F7FAD1BF1B4E31DD3FEBD480291 /* Frameworks */,
+				C45D90193B2E39933AEBB5202AD3A392 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C8686B2AB1BAD5B8B0CFBB476D1B96E7 /* PBXTargetDependency */,
+				48ADE63150CE82505D2DA563D67BE791 /* PBXTargetDependency */,
+				D70FD1175C73618ABA0A10304B51FD18 /* PBXTargetDependency */,
+			);
+			name = BLListViewController;
+			productName = BLListViewController;
+			productReference = AC926D7EDFDE044EFE129AF7A8FE666A /* BLListViewController.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		3A4160DDF979E0D381733A091A376A0E /* SwipeCellKit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 203973E62664B11B1D2C13862360FB18 /* Build configuration list for PBXNativeTarget "SwipeCellKit" */;
+			buildPhases = (
+				985A8D2538BEE93E8A43E5C0CE6DC404 /* Sources */,
+				FAF89395D5CAC3AC68A05FE5C2C25368 /* Frameworks */,
+				94EFFC819AA82A0EC770257819657769 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SwipeCellKit;
+			productName = SwipeCellKit;
+			productReference = 95BC10912BB783A5AEF7E2C7717A5B8D /* SwipeCellKit.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		3E77B8468B871F2092F94F4731838D96 /* MJRefresh */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5E5BD4BC4286C357719ED87B24C18936 /* Build configuration list for PBXNativeTarget "MJRefresh" */;
+			buildPhases = (
+				67E309F42AA2DD57EE2689A2D6B3CFE8 /* Sources */,
+				12C9CBD8DFF134A25E8D991D4E8AEFA4 /* Frameworks */,
+				9783426DB87BEE3DEEE7F73BBA3D5D12 /* Headers */,
+				0CC125DCD7E3135F409D8580C0CFC87A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MJRefresh;
+			productName = MJRefresh;
+			productReference = D25F39CBF446082C599669CC46A89C71 /* MJRefresh.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		48F3E8765B8ADB708D3976791D7E1D8E /* FBAnnotationClustering */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FAD1CB6524837DA014416E1B922EF867 /* Build configuration list for PBXNativeTarget "FBAnnotationClustering" */;
+			buildPhases = (
+				BED175F0500F2C497DBD4E3B154DA803 /* Sources */,
+				7D42046113B7B1030A50A780691859A1 /* Frameworks */,
+				625CC93512C5BB92F64961C2C565063D /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FBAnnotationClustering;
+			productName = FBAnnotationClustering;
+			productReference = 49E779D88B0A1B2DF7627D9A0F4B01BF /* FBAnnotationClustering.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		928839C9366FE6A07F570AE5F333D01E /* BLListDataSource */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2B05F16B1C8846D7A3CE0211035E5B0B /* Build configuration list for PBXNativeTarget "BLListDataSource" */;
+			buildPhases = (
+				99C731E2C702A6C386EB0A5C98B63501 /* Sources */,
+				59D118DE98EF3260D6A0F94539F18E74 /* Frameworks */,
+				7123802A6D99E54B5E03D5EFC43DDD0D /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BLListDataSource;
+			productName = BLListDataSource;
+			productReference = 8E0F945F087035D0A9A409207A92B344 /* BLListDataSource.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		A14661CD1C237FC6E0026712FC5119C2 /* Pods-BLActionController_Example */ = {
@@ -1247,62 +1252,7 @@
 			);
 			name = "Pods-BLActionController_Example";
 			productName = "Pods-BLActionController_Example";
-			productReference = 3F7AFE8EB972B45DD4304827E8675B95 /* Pods_BLActionController_Example.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		A20B5E2CEEDD2D72AAF5348C4E659399 /* MJRefresh */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = E06D1CC2A8BE8437CC2452C202C1A14D /* Build configuration list for PBXNativeTarget "MJRefresh" */;
-			buildPhases = (
-				094FBA6097072F86EDFFD26C578407E2 /* Sources */,
-				0E60E06FA505A01710E5135D8926BA41 /* Frameworks */,
-				1530C1E594898008D70ECA470962BF6D /* Headers */,
-				994113102F59A4E36F29A24C76D2B7D0 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = MJRefresh;
-			productName = MJRefresh;
-			productReference = B328BC8120D93A37A365DD2FEE7BBF8C /* MJRefresh.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		A65793994B323A4D9BC1ACFC51ED351C /* BLListViewController */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = FAA48318A13DD6B594B44035331E2957 /* Build configuration list for PBXNativeTarget "BLListViewController" */;
-			buildPhases = (
-				BCDFAD53E4A26831F99CD6F25B3C244F /* Sources */,
-				C405947FADD622DEFCDF7161B5387ABF /* Frameworks */,
-				E1DDF2A12A8E4080D7B006FC80E1F266 /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				C1B0F8A60EFEEEFAF03983F29C96AC93 /* PBXTargetDependency */,
-				4930CF3071120F31328B9A93C5F6A97B /* PBXTargetDependency */,
-				7B323A7DC9B7F7928093771822883981 /* PBXTargetDependency */,
-			);
-			name = BLListViewController;
-			productName = BLListViewController;
-			productReference = 997C087CF87B13D46A6A9ED095643485 /* BLListViewController.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		ABE7D858D4AD0CB617E31464DC7FB7AC /* BLListDataSource */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 1FEDA03777E37AF1921C99EA637E6A1D /* Build configuration list for PBXNativeTarget "BLListDataSource" */;
-			buildPhases = (
-				3FC26E6C2389B3CFD0CB5F3DFF9E2539 /* Sources */,
-				69AAC43B81AC595FFC2A6AC7099184CA /* Frameworks */,
-				0ED1059303E0345B3E81185E9F6B9A48 /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = BLListDataSource;
-			productName = BLListDataSource;
-			productReference = 1DEAD782EC65E28D8257616CAD0403B8 /* BLListDataSource.framework */;
+			productReference = 54A1761847F1FE6207A486920CBE66DA /* Pods_BLActionController_Example.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		CF349D87593DFB3519B53DB86DDEBF09 /* Pods-BLActionController_Tests */ = {
@@ -1319,7 +1269,31 @@
 			);
 			name = "Pods-BLActionController_Tests";
 			productName = "Pods-BLActionController_Tests";
-			productReference = 5A1C015C2C9EE93F32F84DB64D91E49A /* Pods_BLActionController_Tests.framework */;
+			productReference = F62E61855A6927790F1B42CE53C74173 /* Pods_BLActionController_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		CF647725F3D2CB52A01C997972819F82 /* BLActionController */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2DE9A2E50A24C498A4A0B12D6AE9153B /* Build configuration list for PBXNativeTarget "BLActionController" */;
+			buildPhases = (
+				E498A75A84D53963E00DCD9A079C479D /* Sources */,
+				372E57C6206BD48922D6C129917378B4 /* Frameworks */,
+				40E419D548E21A1F410290E1EBAF97DC /* Resources */,
+				7A1F45BE8513899F5147A8D456D47542 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				325E9D3230AC6BE5BB664317009B5818 /* PBXTargetDependency */,
+				00EC5B73DBBE4B86F48ED55E329982BD /* PBXTargetDependency */,
+				8B1D1F5133726E3E70DB7C272C94F27A /* PBXTargetDependency */,
+				F10D84957FFB398C8F406F0F754E714E /* PBXTargetDependency */,
+				53027F0C5C78FC1C9774EDBF2943A1FD /* PBXTargetDependency */,
+				CA1E5CF2327F7F090AA65FEE76D1FD90 /* PBXTargetDependency */,
+			);
+			name = BLActionController;
+			productName = BLActionController;
+			productReference = 741022C520907CB8ADC6CB74CB2D20E9 /* BLActionController.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -1339,110 +1313,51 @@
 				en,
 			);
 			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
-			productRefGroup = 2DD0B3AD4A21BB784EB811D26E69F057 /* Products */;
+			productRefGroup = EE3032F570D7DA42DDD692EB210EA5A7 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				64C80A1DBCD597E3E4DE736EA029131E /* BLActionController */,
-				5AC078C761B4F9176E70B1EC947C5424 /* BLActionController-BLActionController */,
-				ABE7D858D4AD0CB617E31464DC7FB7AC /* BLListDataSource */,
-				A65793994B323A4D9BC1ACFC51ED351C /* BLListViewController */,
-				6F1A1FACAB31C8F185B316CE1D7C171E /* DateTools */,
-				30E7CD0DDCCE9617560F142BBA48D0FE /* FBAnnotationClustering */,
-				A20B5E2CEEDD2D72AAF5348C4E659399 /* MJRefresh */,
+				CF647725F3D2CB52A01C997972819F82 /* BLActionController */,
+				928839C9366FE6A07F570AE5F333D01E /* BLListDataSource */,
+				20994F029B2ED2738DAF57491F3D62F4 /* BLListViewController */,
+				0C2ECD3401CCDE77FA918278DFC0DCB5 /* DateTools */,
+				48F3E8765B8ADB708D3976791D7E1D8E /* FBAnnotationClustering */,
+				3E77B8468B871F2092F94F4731838D96 /* MJRefresh */,
 				A14661CD1C237FC6E0026712FC5119C2 /* Pods-BLActionController_Example */,
 				CF349D87593DFB3519B53DB86DDEBF09 /* Pods-BLActionController_Tests */,
-				1FFBD36E98C66BA79187DBBB871DBCB0 /* SwipeCellKit */,
+				3A4160DDF979E0D381733A091A376A0E /* SwipeCellKit */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		11206689C779AC95CC80C660BE2D4359 /* Resources */ = {
+		0CC125DCD7E3135F409D8580C0CFC87A /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5D17CA2E11691854A4390555A6874DAE /* BLActionController.bundle in Resources */,
+				7D49082777CCFCA0694830E6E69F4D76 /* MJRefresh.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		3866BA37D097E57414C29FF6A99CA3CF /* Resources */ = {
+		40E419D548E21A1F410290E1EBAF97DC /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B772181A79F21C7BCB62B034C163FC60 /* DateTools.bundle in Resources */,
+				64863B2B99D36BBC94F1FA4D4C1A310B /* Map.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		79B77DD57E4619B59C8B47F90537BCFE /* Resources */ = {
+		5E6FA426A0779787A77888AE56978E98 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		994113102F59A4E36F29A24C76D2B7D0 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				EF5DF71C94A020DFA78A81F89B84F115 /* MJRefresh.bundle in Resources */,
+				70468E1C13A1D60D832D39CCEEFEDFE7 /* DateTools.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		094FBA6097072F86EDFFD26C578407E2 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				C8909DEB27BB6296A942AF514B6EB725 /* MJRefresh-dummy.m in Sources */,
-				A67FF3B2A865BCC844F471CA54FD3B6A /* MJRefreshAutoFooter.m in Sources */,
-				074908988A520144B548AD768EE3A2FB /* MJRefreshAutoGifFooter.m in Sources */,
-				CA6B201BA50A2382F37BFAE92B9A0DFD /* MJRefreshAutoNormalFooter.m in Sources */,
-				4750AD0E19AE6743F8EE259423862CF6 /* MJRefreshAutoStateFooter.m in Sources */,
-				D64ECB5C58A197588C4C87BA08EE2B5C /* MJRefreshBackFooter.m in Sources */,
-				3B2682F2EAA1061D7A57B35F87329092 /* MJRefreshBackGifFooter.m in Sources */,
-				979665B590FC0F09580927226B65D1C1 /* MJRefreshBackNormalFooter.m in Sources */,
-				050D3C8D8F9CAFEFA42488AE45769111 /* MJRefreshBackStateFooter.m in Sources */,
-				F340F7041C43241099ACAACF5A2C55C2 /* MJRefreshComponent.m in Sources */,
-				09968CACF06334D0FC000BBC9541D837 /* MJRefreshConst.m in Sources */,
-				21E247BAB7E6111E954DCC68A7FDDC27 /* MJRefreshFooter.m in Sources */,
-				9AB9A45FB541BDD2EF468C5F453D98AB /* MJRefreshGifHeader.m in Sources */,
-				674917BD503491691D4CE788FDBB651F /* MJRefreshHeader.m in Sources */,
-				FEAB00FEF55DFDAEFC96267AC7C3FBCE /* MJRefreshNormalHeader.m in Sources */,
-				5C54D1F001C465121978897C21FC2884 /* MJRefreshStateHeader.m in Sources */,
-				3F0DF1F063E6A394BF9F305F03F2BA86 /* NSBundle+MJRefresh.m in Sources */,
-				12FB0376A2C4DDA858492661F2F0E169 /* UIScrollView+MJExtension.m in Sources */,
-				7668B57A00316CF4AC058213EDD2E919 /* UIScrollView+MJRefresh.m in Sources */,
-				30A47B62225FE63E6D346610AB57B8C1 /* UIView+MJExtension.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		0DDB0EC96E2A63AE876BE6CA9CE43D28 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				F5DC7A2232F088B16D05B8A8BA5156CD /* Extensions.swift in Sources */,
-				614545478FB854A0606FB3BEBB6F3B18 /* Swipeable.swift in Sources */,
-				30A7A436C039498283505E5818F8A318 /* SwipeAction.swift in Sources */,
-				D9AF0641C89F6AE72BF974C08F861B92 /* SwipeActionButton.swift in Sources */,
-				53EAF635166006BD4BDAAEC24E196E90 /* SwipeActionsView.swift in Sources */,
-				12C7F6B9739EBB2FF644FC4476012B4D /* SwipeActionTransitioning.swift in Sources */,
-				C10D0026213F4B8603DABFDE69BECB8B /* SwipeAnimator.swift in Sources */,
-				F669FC79C363644E1AE5F217BFB9B920 /* SwipeCellKit-dummy.m in Sources */,
-				5076A4D6B9B872350730D8DD683AFD26 /* SwipeExpanding.swift in Sources */,
-				B7710436743A5328E7559EDD2942918E /* SwipeExpansionStyle.swift in Sources */,
-				99AFFBD28DC3F05F2EEC78B1FAD59FB9 /* SwipeFeedback.swift in Sources */,
-				861DDB77F7D77E1D6B2D4AB4C68C827F /* SwipeTableOptions.swift in Sources */,
-				A2EC6D4F9C4B34530C740CAA9A889F50 /* SwipeTableViewCell+Accessibility.swift in Sources */,
-				3E7671D92BEB61AFBF03EFB88D11F8F9 /* SwipeTableViewCell+Display.swift in Sources */,
-				85E55A606EF9502B3012AE8E428C9065 /* SwipeTableViewCell.swift in Sources */,
-				01B641B66DD02A9D78393C419B72E57B /* SwipeTableViewCellDelegate.swift in Sources */,
-				B067CBC8082583B91799A010220F7377 /* SwipeTransitionLayout.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		14E76637A72E3DBFFB4D37C842D6D61A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -1451,76 +1366,120 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		3FC26E6C2389B3CFD0CB5F3DFF9E2539 /* Sources */ = {
+		4C35275401A4F3370276C8E52B800B22 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D1A675AFBCCFFE9FF6B5753BDE78AD6F /* BLBaseFetchResult.m in Sources */,
-				256C0D7C7F0ED86C8C16DC7B4411F9E9 /* BLCompoundDataSource.m in Sources */,
-				09BBE7EE3BB77FC597828BE14DD3BF1C /* BLDataSource.m in Sources */,
-				479E72D218645B13AC10AB3EC9F2C516 /* BLDataStructure.m in Sources */,
-				1D12CCFA90D18E78146074C14B020DCA /* BLFetchDataSource.m in Sources */,
-				7957D582D89621080954C1087FF21137 /* BLInteractiveDataSource.m in Sources */,
-				3745D1EAEE564DD5A0992431A82DFDEC /* BLListDataSource-dummy.m in Sources */,
-				EC7BEFC6FAB5F9442EDCB74051991885 /* BLListDataSource.m in Sources */,
-				60E7966DE5221C9019727A88FB158781 /* BLPaging.m in Sources */,
-				0E2E951CA2475EB88C23F780DF69F176 /* BLReadableListDataSource.m in Sources */,
-				FD85B969F46D1465B06EE0AD054363A0 /* BLSimpleListFetchResult.m in Sources */,
+				1E5C1F81AA1093E8A9A551D918CE292A /* BLListViewController-dummy.m in Sources */,
+				50B80CA5E14E1F116C3C9283D6023DB7 /* BLListViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		406C682CC6A47EA48E7486CC71CD49BC /* Sources */ = {
+		67E309F42AA2DD57EE2689A2D6B3CFE8 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				373E2061E3FE582E0A662AB7E2EB7213 /* MJRefresh-dummy.m in Sources */,
+				FA7BCAC0806B34832F3513889E3C7FCA /* MJRefreshAutoFooter.m in Sources */,
+				5ABDE65F8BD1F748DD4771AC15DB34B8 /* MJRefreshAutoGifFooter.m in Sources */,
+				059754D86A9803FCF533972FF34E1902 /* MJRefreshAutoNormalFooter.m in Sources */,
+				3397E12E80C1BA6AFAA314820BDF2F8A /* MJRefreshAutoStateFooter.m in Sources */,
+				6A8A6AD092757D8263E263CD2971C5E4 /* MJRefreshBackFooter.m in Sources */,
+				9B63CD5A4A1DC361ABD6786F96ED680A /* MJRefreshBackGifFooter.m in Sources */,
+				AB1AE2D039DB6B60B974F4D9CA33CC8B /* MJRefreshBackNormalFooter.m in Sources */,
+				2169B1217CC22833A7D810DAB8BFFBA1 /* MJRefreshBackStateFooter.m in Sources */,
+				30D585099487D87FE4D7697CB3A87AC8 /* MJRefreshComponent.m in Sources */,
+				77C78CA6201E31C8D413CCBF5465DF69 /* MJRefreshConst.m in Sources */,
+				50418FB769B28047FB0A4601DD6CC6AA /* MJRefreshFooter.m in Sources */,
+				1259C9EB21145637CBFD1DCABEB8D205 /* MJRefreshGifHeader.m in Sources */,
+				3EE7F9A4338B654C2999746A2749FE33 /* MJRefreshHeader.m in Sources */,
+				E24C06B765B6738E7CAC2CE942310D62 /* MJRefreshNormalHeader.m in Sources */,
+				0696BEA2C81F1DC62E7ADBCA5872016F /* MJRefreshStateHeader.m in Sources */,
+				17D37CFFB8278A0D28E7AF31157E16A0 /* NSBundle+MJRefresh.m in Sources */,
+				11401C40366C7B546B08AE4BB2254C4A /* UIScrollView+MJExtension.m in Sources */,
+				354EE641E5BA0A8C365063EE59E77C7C /* UIScrollView+MJRefresh.m in Sources */,
+				7E1C4125A64D6D9B3B356D16D7D36C96 /* UIView+MJExtension.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		41B20F2FB43B6B6E6168191E5A35F064 /* Sources */ = {
+		6C0F22DB75200F6800ED682AB45D2582 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BE624DFDEC316DF8D3AD892435D06C28 /* FBAnnotationCluster.m in Sources */,
-				B1A4B28B6C593A60AE4144262C60CFDA /* FBAnnotationClustering-dummy.m in Sources */,
-				451FB433A86A1D61D4F37A8C0A3C21D6 /* FBClusteringManager.m in Sources */,
-				6BB0B1CF099CD247FB32424629136646 /* FBQuadTree.m in Sources */,
-				E163593BFCE0551ADB4E89BE379D59AA /* FBQuadTreeNode.m in Sources */,
+				8759BB3B9EFC02239298E178DEC4F535 /* DateTools-dummy.m in Sources */,
+				B4E013007936CBED44037C90A5557F25 /* DTConstants.m in Sources */,
+				FD39CE26C53636234EE23673D02AC5A2 /* DTError.m in Sources */,
+				C40DDF0CFE2CC6C9B2AF8C5EE50C5732 /* DTTimePeriod.m in Sources */,
+				F34B78AD272D18E9E06B1DE86E57D235 /* DTTimePeriodChain.m in Sources */,
+				9A68B19AB778F2282450AE983DE9A19B /* DTTimePeriodCollection.m in Sources */,
+				B983382C26E5C73AE0211DD14C69D1AF /* DTTimePeriodGroup.m in Sources */,
+				B597AF74F0FE9977A238B71FA34FD8CB /* NSDate+DateTools.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		85A308EF09D6130347C343B6657C7E56 /* Sources */ = {
+		985A8D2538BEE93E8A43E5C0CE6DC404 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B3B45946CE5FBC3C8EAEBB47B7845C7B /* DateTools-dummy.m in Sources */,
-				BFA34D575F25E2BE8F279D838F37FEA8 /* DTConstants.m in Sources */,
-				DAC726980E931A2743C9DD74414CE4D9 /* DTError.m in Sources */,
-				8DCD7936660BD3120CA31D59C1DD79C7 /* DTTimePeriod.m in Sources */,
-				63DCDD000B6375F7D924664568E44829 /* DTTimePeriodChain.m in Sources */,
-				99E080685856D9355F2457C57F5522DE /* DTTimePeriodCollection.m in Sources */,
-				2A5D2F6465596906ACE9B37F810655B9 /* DTTimePeriodGroup.m in Sources */,
-				F5B9208121248F0425F0CD8E96B98F4E /* NSDate+DateTools.m in Sources */,
+				3132F5C76D077D7FBBAAFF5C0D720014 /* Extensions.swift in Sources */,
+				D4EA20006A487D1B254C02EDB083DE04 /* Swipeable.swift in Sources */,
+				8B53F6313B192ACC25C95BD97A674023 /* SwipeAction.swift in Sources */,
+				4146270CAF3D3A99B873AF8FCCE789B2 /* SwipeActionButton.swift in Sources */,
+				E1488F91DAD4E733F895593338A1D04D /* SwipeActionsView.swift in Sources */,
+				ACEF33052F2842975C47524EED6BCE59 /* SwipeActionTransitioning.swift in Sources */,
+				984AC4223D503E2CB447FBC9DE7C6FF5 /* SwipeAnimator.swift in Sources */,
+				F07E50A5DF9A672ACEA7AA974CA046C8 /* SwipeCellKit-dummy.m in Sources */,
+				691F1E773B43751571275C1071F07299 /* SwipeExpanding.swift in Sources */,
+				5C5289EBA4D801F842970AE3FA487352 /* SwipeExpansionStyle.swift in Sources */,
+				3147BC68B98F95E2D46EFCCBD5E3D731 /* SwipeFeedback.swift in Sources */,
+				1AE08BB83A35E3CCE681C45DE978935D /* SwipeTableOptions.swift in Sources */,
+				05FC678FA265F79D42360FE93819E580 /* SwipeTableViewCell+Accessibility.swift in Sources */,
+				13CBCE8A446D8C5366D76CE43A8157A9 /* SwipeTableViewCell+Display.swift in Sources */,
+				32067754193B3A7419A879D6C0D6E2E9 /* SwipeTableViewCell.swift in Sources */,
+				83A0C8C744B6B7AF4455D5385BA28BE1 /* SwipeTableViewCellDelegate.swift in Sources */,
+				6F4D29335EA98C06B795B071C22791E3 /* SwipeTransitionLayout.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		BCDFAD53E4A26831F99CD6F25B3C244F /* Sources */ = {
+		99C731E2C702A6C386EB0A5C98B63501 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				424C279D95ED4768CD01A099AFCDB77B /* BLListViewController-dummy.m in Sources */,
-				DB2636BC58BD67A88A452DC51267E315 /* BLListViewController.m in Sources */,
+				E204DC6559C5B599F3E1A1ACC5BBEEBE /* BLBaseFetchResult.m in Sources */,
+				E55FDFF798FB3C7CDFC8B7289B28B754 /* BLCompoundDataSource.m in Sources */,
+				5CB3151B743A368BD829D0185118D318 /* BLDataSource.m in Sources */,
+				BFF1113078A4B1952736FD022CE78182 /* BLDataStructure.m in Sources */,
+				2F1E60A28312E276355298BE419A0FF1 /* BLFetchDataSource.m in Sources */,
+				CC0B9F5949F2FB18D2EA5EEA0F8373A4 /* BLInteractiveDataSource.m in Sources */,
+				079C352EBCBDC61E5CAC1B279A2960C6 /* BLListDataSource-dummy.m in Sources */,
+				CA791FE5B48442760DB12413B29189D4 /* BLListDataSource.m in Sources */,
+				6A7ED098A8034F14600883968CB101A5 /* BLPaging.m in Sources */,
+				52BDD5FDB8D59B810A33D4BEC8EF1684 /* BLReadableListDataSource.m in Sources */,
+				C952068E33D47E809007D847A0917E5B /* BLSimpleListFetchResult.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		D6164AC028B3FC58EC6A04626BB51D56 /* Sources */ = {
+		BED175F0500F2C497DBD4E3B154DA803 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DED8011C17D2DEA5850DAAA9A21282D6 /* BLActionController-dummy.m in Sources */,
-				4B8D3579A67532D0C214AD74EF51739F /* BLActionControllerKeys.swift in Sources */,
-				2F56F5EFDBB66E8D8289472CAF5DA34D /* BLActionsTableViewController.swift in Sources */,
-				D216BA65BEBBC51F4DC7EE4ED896DF6C /* BLMapListController.swift in Sources */,
-				05AA8B638826FCFDF99D1C3AD4195384 /* BLSelectTableViewController.swift in Sources */,
+				B9DF821A6C169719C76229D9609473FC /* FBAnnotationCluster.m in Sources */,
+				AC62B0CFEBCF525B534D150DB3BEC6F1 /* FBAnnotationClustering-dummy.m in Sources */,
+				E3781CC8A93C2DBA041D0D6BFACE4E40 /* FBClusteringManager.m in Sources */,
+				D42C4B9C896CCC835C268266043F55B5 /* FBQuadTree.m in Sources */,
+				15BCB56084D326F958F7D0BD7DC7A33C /* FBQuadTreeNode.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E498A75A84D53963E00DCD9A079C479D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D557AE932576CCB765D24CAEBF980A19 /* BLActionController-dummy.m in Sources */,
+				8BFBC39827D6A907BE1F57868E5A064B /* BLActionControllerKeys.swift in Sources */,
+				7B1EDFD52E0B5C3086019E61CD35EFEA /* BLActionsTableViewController.swift in Sources */,
+				5C6B4B832AE897508B3BA37FA7108C62 /* BLMapListController.swift in Sources */,
+				294C850CF24DB813C0F95DF710FA5126 /* BLSelectTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1535,112 +1494,137 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		00EC5B73DBBE4B86F48ED55E329982BD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = BLListViewController;
+			target = 20994F029B2ED2738DAF57491F3D62F4 /* BLListViewController */;
+			targetProxy = 68A899CF324949352A808DBB5B12EB66 /* PBXContainerItemProxy */;
+		};
 		0451DB1068B6EB14272A1E454E5FA4DC /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = BLListDataSource;
-			target = ABE7D858D4AD0CB617E31464DC7FB7AC /* BLListDataSource */;
+			target = 928839C9366FE6A07F570AE5F333D01E /* BLListDataSource */;
 			targetProxy = C1176F6AD3275DA03381E75BC23FFD83 /* PBXContainerItemProxy */;
 		};
 		0F8AF08F94116E6F21002D059AA551D2 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = FBAnnotationClustering;
-			target = 30E7CD0DDCCE9617560F142BBA48D0FE /* FBAnnotationClustering */;
+			target = 48F3E8765B8ADB708D3976791D7E1D8E /* FBAnnotationClustering */;
 			targetProxy = FD3B73D8041378DFEDD16BCBFC776F03 /* PBXContainerItemProxy */;
 		};
-		2DB8F5D9CD0BE4AF5D8A7E4276802588 /* PBXTargetDependency */ = {
+		325E9D3230AC6BE5BB664317009B5818 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			name = FBAnnotationClustering;
-			target = 30E7CD0DDCCE9617560F142BBA48D0FE /* FBAnnotationClustering */;
-			targetProxy = 0BA7BF706D2F75500C408B033889015F /* PBXContainerItemProxy */;
+			name = BLListDataSource;
+			target = 928839C9366FE6A07F570AE5F333D01E /* BLListDataSource */;
+			targetProxy = 53714DD382C5722296EE862E67C8E324 /* PBXContainerItemProxy */;
 		};
 		34DACEE79B408208E11B683F0C0BC3DA /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = SwipeCellKit;
-			target = 1FFBD36E98C66BA79187DBBB871DBCB0 /* SwipeCellKit */;
+			target = 3A4160DDF979E0D381733A091A376A0E /* SwipeCellKit */;
 			targetProxy = 7E1E7D009C59ADC69556E995C07E65ED /* PBXContainerItemProxy */;
 		};
-		4930CF3071120F31328B9A93C5F6A97B /* PBXTargetDependency */ = {
+		48ADE63150CE82505D2DA563D67BE791 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = DateTools;
-			target = 6F1A1FACAB31C8F185B316CE1D7C171E /* DateTools */;
-			targetProxy = 42C51611585EC96213629D58F9527416 /* PBXContainerItemProxy */;
+			target = 0C2ECD3401CCDE77FA918278DFC0DCB5 /* DateTools */;
+			targetProxy = D02E5C4F09CA100200401888DB3AB0C1 /* PBXContainerItemProxy */;
 		};
-		7B323A7DC9B7F7928093771822883981 /* PBXTargetDependency */ = {
+		53027F0C5C78FC1C9774EDBF2943A1FD /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = MJRefresh;
-			target = A20B5E2CEEDD2D72AAF5348C4E659399 /* MJRefresh */;
-			targetProxy = 503DD70A9D86DFB3248B9FC814A40CC7 /* PBXContainerItemProxy */;
+			target = 3E77B8468B871F2092F94F4731838D96 /* MJRefresh */;
+			targetProxy = C92DD0A855EC935DEB56A296256CBB51 /* PBXContainerItemProxy */;
 		};
-		8F6A3F43ED76E94E7B31889DD588BF2F /* PBXTargetDependency */ = {
+		8B1D1F5133726E3E70DB7C272C94F27A /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			name = SwipeCellKit;
-			target = 1FFBD36E98C66BA79187DBBB871DBCB0 /* SwipeCellKit */;
-			targetProxy = E1AB3B80C5C5386BA601E738D1C75EFA /* PBXContainerItemProxy */;
-		};
-		92C4228219480049616815173F2BD859 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = MJRefresh;
-			target = A20B5E2CEEDD2D72AAF5348C4E659399 /* MJRefresh */;
-			targetProxy = 1493284D23D0126FAD932BF0C1A9DBAF /* PBXContainerItemProxy */;
+			name = DateTools;
+			target = 0C2ECD3401CCDE77FA918278DFC0DCB5 /* DateTools */;
+			targetProxy = 9EF5E1789A610FA6A815ED417D8EA699 /* PBXContainerItemProxy */;
 		};
 		A0F99E3B7C127A5DD64834E57D9074E1 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = BLListViewController;
-			target = A65793994B323A4D9BC1ACFC51ED351C /* BLListViewController */;
+			target = 20994F029B2ED2738DAF57491F3D62F4 /* BLListViewController */;
 			targetProxy = A6458A86E1E436F982F79D4AEB2631BF /* PBXContainerItemProxy */;
-		};
-		AA89BAF87998A8FF01B968387C90C397 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = BLListViewController;
-			target = A65793994B323A4D9BC1ACFC51ED351C /* BLListViewController */;
-			targetProxy = A7B3896A23BEDA31AD540DF14255E69F /* PBXContainerItemProxy */;
 		};
 		AD9E262C8FED6C462C718FAC97338827 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = BLActionController;
-			target = 64C80A1DBCD597E3E4DE736EA029131E /* BLActionController */;
+			target = CF647725F3D2CB52A01C997972819F82 /* BLActionController */;
 			targetProxy = 871A7F86970786D6F5FB97077CD11270 /* PBXContainerItemProxy */;
-		};
-		B5FA140487D2E7A8459EF5CAF81617F9 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = DateTools;
-			target = 6F1A1FACAB31C8F185B316CE1D7C171E /* DateTools */;
-			targetProxy = 6359C523FB338D869B6FF03190FECC81 /* PBXContainerItemProxy */;
 		};
 		B90C8D83AE53F232442AC8A782E7010B /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = DateTools;
-			target = 6F1A1FACAB31C8F185B316CE1D7C171E /* DateTools */;
+			target = 0C2ECD3401CCDE77FA918278DFC0DCB5 /* DateTools */;
 			targetProxy = 45AA84E154035AB1D4CF61D4410DC422 /* PBXContainerItemProxy */;
 		};
-		B9A41AECAE9F12E77B5C0FF30AF8D8BF /* PBXTargetDependency */ = {
+		C8686B2AB1BAD5B8B0CFBB476D1B96E7 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = BLListDataSource;
-			target = ABE7D858D4AD0CB617E31464DC7FB7AC /* BLListDataSource */;
-			targetProxy = 3E027C54BE8192BB73ED2EE63C4395FB /* PBXContainerItemProxy */;
+			target = 928839C9366FE6A07F570AE5F333D01E /* BLListDataSource */;
+			targetProxy = 4AEB3E42245BA2E6CBF232B2DC4BBEEC /* PBXContainerItemProxy */;
 		};
-		C1B0F8A60EFEEEFAF03983F29C96AC93 /* PBXTargetDependency */ = {
+		CA1E5CF2327F7F090AA65FEE76D1FD90 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			name = BLListDataSource;
-			target = ABE7D858D4AD0CB617E31464DC7FB7AC /* BLListDataSource */;
-			targetProxy = B5D2773CF8C06B5CCC4ADCC08291D615 /* PBXContainerItemProxy */;
+			name = SwipeCellKit;
+			target = 3A4160DDF979E0D381733A091A376A0E /* SwipeCellKit */;
+			targetProxy = 2052B160834EB91EB6C7F0A65EA5BC78 /* PBXContainerItemProxy */;
 		};
-		EF75E1ADAE9E33660DF6955D87631D20 /* PBXTargetDependency */ = {
+		D70FD1175C73618ABA0A10304B51FD18 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			name = "BLActionController-BLActionController";
-			target = 5AC078C761B4F9176E70B1EC947C5424 /* BLActionController-BLActionController */;
-			targetProxy = 0EBCCDFD8ECC664F13301CF23A778076 /* PBXContainerItemProxy */;
+			name = MJRefresh;
+			target = 3E77B8468B871F2092F94F4731838D96 /* MJRefresh */;
+			targetProxy = 95BF03A2D2EE50AE5C75196B2C025F0E /* PBXContainerItemProxy */;
+		};
+		F10D84957FFB398C8F406F0F754E714E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = FBAnnotationClustering;
+			target = 48F3E8765B8ADB708D3976791D7E1D8E /* FBAnnotationClustering */;
+			targetProxy = 181A96B60D726ED9FEDF5EA95517E7DB /* PBXContainerItemProxy */;
 		};
 		FA63472B96B795EEB189437F5B4DF1F1 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = MJRefresh;
-			target = A20B5E2CEEDD2D72AAF5348C4E659399 /* MJRefresh */;
+			target = 3E77B8468B871F2092F94F4731838D96 /* MJRefresh */;
 			targetProxy = 5FEE579E94F2087874EC0A029310A625 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		0353228970B2F4B02469214300E9B365 /* Debug */ = {
+		0FBFE9A78B7877342CC614A9989FC9B9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3D549D33582709CFCD88FE46E45FE134 /* BLListViewController.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/BLListViewController/BLListViewController-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/BLListViewController/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/BLListViewController/BLListViewController.modulemap";
+				PRODUCT_NAME = BLListViewController;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		13A76676D6CFE4433BE9F9C0AC27A25A /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 2A6A129F273FBC4A488BAB81738E26A6 /* FBAnnotationClustering.xcconfig */;
 			buildSettings = {
@@ -1665,12 +1649,45 @@
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Debug;
+			name = Release;
 		};
-		2752353C9E0C5B673713CA3DE49D1030 /* Debug */ = {
+		232ABBD96AD6B582AD3F37A0B5724B00 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D9A5900F3BD6E73CD9DDD9B46A1C3CB6 /* BLActionController.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/BLActionController/BLActionController-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/BLActionController/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/BLActionController/BLActionController.modulemap";
+				PRODUCT_NAME = BLActionController;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		348D8880BBEF43FB3B521D8D8AAD109D /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 1160B5C3FCEB0E7BE4D0B3A18099E689 /* BLListDataSource.xcconfig */;
 			buildSettings = {
@@ -1695,30 +1712,15 @@
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Debug;
-		};
-		3824BBA4B1C3537EB95FF24A089E4D4D /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 2377C4D5DDB8A840427CC963E46B6FBC /* BLActionController.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/BLActionController";
-				INFOPLIST_FILE = "Target Support Files/BLActionController/ResourceBundle-BLActionController-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				PRODUCT_NAME = BLActionController;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				WRAPPER_EXTENSION = bundle;
-			};
 			name = Release;
 		};
-		4429E8823A077A56534B3807C63C173E /* Debug */ = {
+		3E31D487D20D8E164813103AC8CFEE97 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 4E019EE7BA97CD2FAD09C579AB29C6A8 /* DateTools.xcconfig */;
+			baseConfigurationReference = 3E4295BB8128A3F761B50A24C25C20FA /* MJRefresh.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -1729,22 +1731,23 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/DateTools/DateTools-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/DateTools/Info.plist";
+				GCC_PREFIX_HEADER = "Target Support Files/MJRefresh/MJRefresh-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/MJRefresh/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/DateTools/DateTools.modulemap";
-				PRODUCT_NAME = DateTools;
+				MODULEMAP_FILE = "Target Support Files/MJRefresh/MJRefresh.modulemap";
+				PRODUCT_NAME = MJRefresh;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Debug;
+			name = Release;
 		};
 		55D8CAC6DD3982F9FA5899806223B652 /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -1846,69 +1849,6 @@
 			};
 			name = Release;
 		};
-		5F0587204B772D05DEC9EE6B58AE77A9 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 2377C4D5DDB8A840427CC963E46B6FBC /* BLActionController.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/BLActionController/BLActionController-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/BLActionController/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/BLActionController/BLActionController.modulemap";
-				PRODUCT_NAME = BLActionController;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		639E09B8D2A0A17734F200AE485DDC97 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3D549D33582709CFCD88FE46E45FE134 /* BLListViewController.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/BLListViewController/BLListViewController-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/BLListViewController/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/BLListViewController/BLListViewController.modulemap";
-				PRODUCT_NAME = BLListViewController;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
 		6F9224530522DD3C735EC96CF142642E /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -1964,23 +1904,37 @@
 			};
 			name = Release;
 		};
-		73D5BF5B550C12A95EEA9E33FFBDD5F7 /* Debug */ = {
+		877696928A74A56751DA2CE6F68BB5F4 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 2377C4D5DDB8A840427CC963E46B6FBC /* BLActionController.xcconfig */;
+			baseConfigurationReference = 1160B5C3FCEB0E7BE4D0B3A18099E689 /* BLListDataSource.xcconfig */;
 			buildSettings = {
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/BLActionController";
-				INFOPLIST_FILE = "Target Support Files/BLActionController/ResourceBundle-BLActionController-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				PRODUCT_NAME = BLActionController;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/BLListDataSource/BLListDataSource-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/BLListDataSource/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/BLListDataSource/BLListDataSource.modulemap";
+				PRODUCT_NAME = BLListDataSource;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				WRAPPER_EXTENSION = bundle;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
 		};
-		768502D1DAE6DF2E7DD71AE269A8E46F /* Release */ = {
+		8C089A05A662107BFD114CBCA0A04243 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 388DB73005A4D4EA2B528965AE309AAA /* SwipeCellKit.xcconfig */;
 			buildSettings = {
@@ -2003,18 +1957,17 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Release;
+			name = Debug;
 		};
-		7FE24CD734A3A5CF56B270E967C160DB /* Release */ = {
+		99B69E110D639AEE545D84AD9A368B48 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3E4295BB8128A3F761B50A24C25C20FA /* MJRefresh.xcconfig */;
+			baseConfigurationReference = D9A5900F3BD6E73CD9DDD9B46A1C3CB6 /* BLActionController.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -2025,25 +1978,25 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/MJRefresh/MJRefresh-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/MJRefresh/Info.plist";
+				GCC_PREFIX_HEADER = "Target Support Files/BLActionController/BLActionController-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/BLActionController/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/MJRefresh/MJRefresh.modulemap";
-				PRODUCT_NAME = MJRefresh;
+				MODULEMAP_FILE = "Target Support Files/BLActionController/BLActionController.modulemap";
+				PRODUCT_NAME = BLActionController;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Release;
+			name = Debug;
 		};
-		8E0F68452428B33E7E951B1C2D05ABD4 /* Release */ = {
+		A0FB68C601D2317790FBD19229AC0D45 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 4E019EE7BA97CD2FAD09C579AB29C6A8 /* DateTools.xcconfig */;
 			buildSettings = {
@@ -2068,13 +2021,42 @@
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Release;
+			name = Debug;
 		};
-		8E9DB20198F4C2ABED2C90809446BD4C /* Debug */ = {
+		A125E4F925A4753B6B8D20BB1D0FB3BB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2A6A129F273FBC4A488BAB81738E26A6 /* FBAnnotationClustering.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/FBAnnotationClustering/FBAnnotationClustering-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/FBAnnotationClustering/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/FBAnnotationClustering/FBAnnotationClustering.modulemap";
+				PRODUCT_NAME = FBAnnotationClustering;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		A6928BFCA9F19E0620F05A379CC085FA /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 3D549D33582709CFCD88FE46E45FE134 /* BLListViewController.xcconfig */;
 			buildSettings = {
@@ -2103,37 +2085,6 @@
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
-		};
-		988E02FAABBF60742ECD7FD40F23509F /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 1160B5C3FCEB0E7BE4D0B3A18099E689 /* BLListDataSource.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/BLListDataSource/BLListDataSource-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/BLListDataSource/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/BLListDataSource/BLListDataSource.modulemap";
-				PRODUCT_NAME = BLListDataSource;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
 		};
 		B57951D085A1B98A97F8A1062A5E5C5B /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -2195,9 +2146,9 @@
 			};
 			name = Debug;
 		};
-		D55FE96935806F5579C4588553DEA0DC /* Release */ = {
+		B7C0D09304C9BA6C986138577955AFD0 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 2A6A129F273FBC4A488BAB81738E26A6 /* FBAnnotationClustering.xcconfig */;
+			baseConfigurationReference = 4E019EE7BA97CD2FAD09C579AB29C6A8 /* DateTools.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -2208,13 +2159,13 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/FBAnnotationClustering/FBAnnotationClustering-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/FBAnnotationClustering/Info.plist";
+				GCC_PREFIX_HEADER = "Target Support Files/DateTools/DateTools-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/DateTools/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/FBAnnotationClustering/FBAnnotationClustering.modulemap";
-				PRODUCT_NAME = FBAnnotationClustering;
+				MODULEMAP_FILE = "Target Support Files/DateTools/DateTools.modulemap";
+				PRODUCT_NAME = DateTools;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
@@ -2226,9 +2177,9 @@
 			};
 			name = Release;
 		};
-		D6E65EEC2843D788D450DC65771C29F8 /* Debug */ = {
+		D39E56BE2D4CF70BDB35F414300F1D11 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 2377C4D5DDB8A840427CC963E46B6FBC /* BLActionController.xcconfig */;
+			baseConfigurationReference = 388DB73005A4D4EA2B528965AE309AAA /* SwipeCellKit.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -2239,23 +2190,24 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/BLActionController/BLActionController-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/BLActionController/Info.plist";
+				GCC_PREFIX_HEADER = "Target Support Files/SwipeCellKit/SwipeCellKit-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SwipeCellKit/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/BLActionController/BLActionController.modulemap";
-				PRODUCT_NAME = BLActionController;
+				MODULEMAP_FILE = "Target Support Files/SwipeCellKit/SwipeCellKit.modulemap";
+				PRODUCT_NAME = SwipeCellKit;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Debug;
+			name = Release;
 		};
 		DDFB1D0D8B9B669835750F970FBB3448 /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -2290,38 +2242,7 @@
 			};
 			name = Release;
 		};
-		E2F957B8D2E77EBD282B03F740C3AA3D /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 388DB73005A4D4EA2B528965AE309AAA /* SwipeCellKit.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/SwipeCellKit/SwipeCellKit-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/SwipeCellKit/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/SwipeCellKit/SwipeCellKit.modulemap";
-				PRODUCT_NAME = SwipeCellKit;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		F8AF4CF57149A9F5C2C95ECC66BB0A2C /* Debug */ = {
+		FB245DE315098839A42122E3E1ACEB50 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 3E4295BB8128A3F761B50A24C25C20FA /* MJRefresh.xcconfig */;
 			buildSettings = {
@@ -2354,11 +2275,29 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		1FEDA03777E37AF1921C99EA637E6A1D /* Build configuration list for PBXNativeTarget "BLListDataSource" */ = {
+		203973E62664B11B1D2C13862360FB18 /* Build configuration list for PBXNativeTarget "SwipeCellKit" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				2752353C9E0C5B673713CA3DE49D1030 /* Debug */,
-				988E02FAABBF60742ECD7FD40F23509F /* Release */,
+				8C089A05A662107BFD114CBCA0A04243 /* Debug */,
+				D39E56BE2D4CF70BDB35F414300F1D11 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		219054A1C3876612255F08F6CA074F49 /* Build configuration list for PBXNativeTarget "DateTools" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A0FB68C601D2317790FBD19229AC0D45 /* Debug */,
+				B7C0D09304C9BA6C986138577955AFD0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2B05F16B1C8846D7A3CE0211035E5B0B /* Build configuration list for PBXNativeTarget "BLListDataSource" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				877696928A74A56751DA2CE6F68BB5F4 /* Debug */,
+				348D8880BBEF43FB3B521D8D8AAD109D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -2372,20 +2311,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		3F5C53DE1BBA5323270B05D30B78D63A /* Build configuration list for PBXNativeTarget "BLActionController-BLActionController" */ = {
+		2DE9A2E50A24C498A4A0B12D6AE9153B /* Build configuration list for PBXNativeTarget "BLActionController" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				73D5BF5B550C12A95EEA9E33FFBDD5F7 /* Debug */,
-				3824BBA4B1C3537EB95FF24A089E4D4D /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		47A4BC5849D9794159C7AA4D8F88423B /* Build configuration list for PBXNativeTarget "SwipeCellKit" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				E2F957B8D2E77EBD282B03F740C3AA3D /* Debug */,
-				768502D1DAE6DF2E7DD71AE269A8E46F /* Release */,
+				99B69E110D639AEE545D84AD9A368B48 /* Debug */,
+				232ABBD96AD6B582AD3F37A0B5724B00 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -2399,11 +2329,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		66A37A2BFAE892C4058F617FA7E9D315 /* Build configuration list for PBXNativeTarget "FBAnnotationClustering" */ = {
+		5E5BD4BC4286C357719ED87B24C18936 /* Build configuration list for PBXNativeTarget "MJRefresh" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				0353228970B2F4B02469214300E9B365 /* Debug */,
-				D55FE96935806F5579C4588553DEA0DC /* Release */,
+				FB245DE315098839A42122E3E1ACEB50 /* Debug */,
+				3E31D487D20D8E164813103AC8CFEE97 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -2417,38 +2347,20 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		B56002AB2FDD30251E166B67F01A237A /* Build configuration list for PBXNativeTarget "DateTools" */ = {
+		BD8DE02B5DEC68E976A4D99A6443218B /* Build configuration list for PBXNativeTarget "BLListViewController" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				4429E8823A077A56534B3807C63C173E /* Debug */,
-				8E0F68452428B33E7E951B1C2D05ABD4 /* Release */,
+				A6928BFCA9F19E0620F05A379CC085FA /* Debug */,
+				0FBFE9A78B7877342CC614A9989FC9B9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		E06D1CC2A8BE8437CC2452C202C1A14D /* Build configuration list for PBXNativeTarget "MJRefresh" */ = {
+		FAD1CB6524837DA014416E1B922EF867 /* Build configuration list for PBXNativeTarget "FBAnnotationClustering" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				F8AF4CF57149A9F5C2C95ECC66BB0A2C /* Debug */,
-				7FE24CD734A3A5CF56B270E967C160DB /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		ED3065C012FD98823E803EEC449217E9 /* Build configuration list for PBXNativeTarget "BLActionController" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				D6E65EEC2843D788D450DC65771C29F8 /* Debug */,
-				5F0587204B772D05DEC9EE6B58AE77A9 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		FAA48318A13DD6B594B44035331E2957 /* Build configuration list for PBXNativeTarget "BLListViewController" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				8E9DB20198F4C2ABED2C90809446BD4C /* Debug */,
-				639E09B8D2A0A17734F200AE485DDC97 /* Release */,
+				A125E4F925A4753B6B8D20BB1D0FB3BB /* Debug */,
+				13A76676D6CFE4433BE9F9C0AC27A25A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

@@ -37,13 +37,15 @@ public protocol BLMapObject : MKAnnotation {
     func isAnnotationAvailable() -> Bool
 }
 
-open class BLMapListController : UIViewController, MKMapViewDelegate {
+open class BLMapListController : UIViewController, MKMapViewDelegate, UIViewControllerTransitioningDelegate {
     open var dataSource : BLListDataSource?
     let clusteringManager = FBClusteringManager()
     
     @IBOutlet var mapView: MKMapView!
     @IBOutlet var seeListButton: UIButton!
+    @IBOutlet weak var separatorView: UIView!
     
+    @IBOutlet weak var doneButton: UIBarButtonItem!
     static func navigationControllerWith(dataSource : BLListDataSource) -> UINavigationController {
         precondition(BLActionControllerBundle != nil)
         
@@ -72,6 +74,7 @@ open class BLMapListController : UIViewController, MKMapViewDelegate {
         let destination = segue.destination
         if let list = destination as? BLListViewController {
             list.dataSource = dataSource!
+            list.transitioningDelegate = self
         }
     }
     
@@ -111,6 +114,10 @@ open class BLMapListController : UIViewController, MKMapViewDelegate {
         reloadMap()
     }
     
+    @IBAction func doneButtonTapped(_ sender: Any) {
+        self.dismiss(animated: true, completion: nil)
+    }
+    
     public func mapView(_ mapView: MKMapView, regionDidChangeAnimated animated: Bool) {
         OperationQueue().addOperation { [weak self] in
             let scale = Double(mapView.bounds.size.width) / Double(mapView.visibleMapRect.size.width)
@@ -120,4 +127,60 @@ open class BLMapListController : UIViewController, MKMapViewDelegate {
         }
     }
     
+    public func animationController(forPresented presented: UIViewController, presenting: UIViewController, source: UIViewController) -> UIViewControllerAnimatedTransitioning? {
+        return BLFromBottomAnimationController(false)
+    }
+    
+
+    public func animationController(forDismissed dismissed: UIViewController) -> UIViewControllerAnimatedTransitioning? {
+        return BLFromBottomAnimationController(true)
+    }
+    
+}
+
+class BLFromBottomAnimationController : NSObject, UIViewControllerAnimatedTransitioning {
+    var reverse = false
+    var length = 0.5
+    
+    init(_ reverse : Bool) {
+        self.reverse = reverse
+    }
+    
+    func transitionDuration(using transitionContext: UIViewControllerContextTransitioning?) -> TimeInterval {
+        return length
+    }
+    
+    func animateTransition(using transitionContext: UIViewControllerContextTransitioning) {
+        let inView = transitionContext.containerView
+        let fromVC = transitionContext.viewController(forKey: .from)
+        let fromViewOp = fromVC?.view
+        let toVC = transitionContext.viewController(forKey: .to)
+        let toViewOp = toVC?.view
+        
+        guard let fromView = fromViewOp, let toView = toViewOp  else {
+            transitionContext.completeTransition(false)
+            return
+        }
+        
+        let frame = toView.frame;
+        
+        if reverse {
+            inView.insertSubview(toView, belowSubview: fromView)
+        } else {
+            inView.addSubview(toView);
+            toView.frame = CGRect(x: 0, y: frame.maxY, width: frame.maxX, height: frame.maxY)
+            
+        }
+        UIView.animate(withDuration: transitionDuration(using: transitionContext),
+                       animations: {
+                        if self.reverse {
+                            fromView.frame = CGRect(x: 0, y: 0, width: frame.maxX, height: frame.maxY)
+                        } else {
+                            toView.frame = CGRect(x: 0, y: frame.maxY, width: frame.maxX, height: frame.maxY)
+                        }
+        }) { (finished) in
+            transitionContext.completeTransition(finished)
+        }
+    }
+
 }

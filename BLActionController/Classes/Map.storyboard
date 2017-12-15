@@ -4,6 +4,7 @@
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
+        <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13173"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
@@ -74,17 +75,25 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="BjP-cO-SYa"/>
                     </view>
-                    <navigationItem key="navigationItem" id="aYC-4C-9ol"/>
+                    <navigationItem key="navigationItem" id="aYC-4C-9ol">
+                        <barButtonItem key="leftBarButtonItem" systemItem="done" id="lxH-MS-1iE">
+                            <connections>
+                                <action selector="doneButtonTapped:" destination="t8r-vp-fYn" id="pwy-HB-Hkf"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
                     <connections>
+                        <outlet property="doneButton" destination="lxH-MS-1iE" id="XWJ-85-9bl"/>
                         <outlet property="mapView" destination="cFr-7L-Gmu" id="YBa-7e-KwV"/>
                         <outlet property="seeListButton" destination="f9R-ZE-yzF" id="Js9-eL-Ibt"/>
+                        <outlet property="separatorView" destination="ooZ-Ih-MDM" id="BIX-5D-fyn"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="wJf-8r-zzt" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="76" y="131.78410794602701"/>
         </scene>
-        <!--List-->
+        <!--List View Controller-->
         <scene sceneID="xYT-qL-csb">
             <objects>
                 <viewController storyboardIdentifier="list" id="7TI-2V-DFP" customClass="BLListViewController" sceneMemberID="viewController">
@@ -102,9 +111,6 @@
                         <viewLayoutGuide key="safeArea" id="ENL-9H-etn"/>
                     </view>
                     <toolbarItems/>
-                    <navigationItem key="navigationItem" title="List" id="Nan-Rq-iC7">
-                        <barButtonItem key="leftBarButtonItem" systemItem="done" id="JIg-4n-OM6"/>
-                    </navigationItem>
                     <simulatedToolbarMetrics key="simulatedBottomBarMetrics"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="pUs-sN-afi" userLabel="First Responder" sceneMemberID="firstResponder"/>

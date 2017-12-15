@@ -1,5 +1,5 @@
 PODS:
-  - BLActionController (0.1.2):
+  - BLActionController (0.2.0):
     - BLListViewController
     - FBAnnotationClustering
     - SwipeCellKit
@@ -21,7 +21,7 @@ EXTERNAL SOURCES:
     :path: ../
 
 SPEC CHECKSUMS:
-  BLActionController: 854274bd3e8029add3a185c119c2033c121797f8
+  BLActionController: c725dfcedb9373651bb144888971f5da3a7f61ef
   BLListDataSource: 576b7c9229d434311d9aa7ca81729fb57f9024c7
   BLListViewController: be65b0529b4dd96c3cd1746b8f9bbf547e5d0f99
   DateTools: 933ac9c490f21f92127cf690ccd8c397e0126caf
@@ -31,4 +31,4 @@ SPEC CHECKSUMS:
 
 PODFILE CHECKSUM: 467e8f2e896b15f7816db0f4984a0a7bd41c57ad
 
-COCOAPODS: 1.3.1
+COCOAPODS: 1.4.0.beta.2
