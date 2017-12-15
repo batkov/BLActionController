@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'BLActionController'
-  s.version          = '0.1.2'
+  s.version          = '0.2.0'
   s.summary          = 'BLActionController is an extension to BLListViewController to provide some actions using SwipeCellKit'
 
   s.description      = <<-DESC
